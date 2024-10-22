@@ -1,0 +1,36 @@
+//* IMPORTS
+
+@use '../global/animations' as *;
+
+//* FOOTER
+
+.containerFooterDiv {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  height: 250px;
+
+  background-image: url('./assets/bgImages/Animated footer bg.gif');
+
+  background-size: cover;
+  overflow-y: hidden;
+  clip-path: polygon(0% 50%, 100% 15%, 100% 100%, 0 100%);
+}
+
+.pyramidImg {
+  height: 400px;
+  margin-top: -7rem;
+  margin-left: -4rem;
+  z-index: 3;
+  filter: brightness(67%) blur(1px);
+  rotate: -5deg;
+}
+
+.zombieImg {
+  position: absolute;
+  height: 200px;
+  right: 4rem;
+  bottom: -10px;
+  animation: xtranslate 10s infinite;
+}
