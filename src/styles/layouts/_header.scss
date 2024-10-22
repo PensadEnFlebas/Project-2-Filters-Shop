@@ -1,0 +1,46 @@
+//* IMPORTS
+
+@use '../global/animations' as *;
+
+//* HEADER
+
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  height: 250px;
+
+  background-image: url(https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729012391/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/BG%20images/Hbg_clear_vkyhwy.png);
+
+  background-size: cover;
+  overflow-y: hidden;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+  z-index: 5;
+}
+
+header > div > img {
+  position: relative;
+  height: 130px;
+  margin-top: 5rem;
+  margin-left: 4rem;
+  z-index: 3;
+
+  filter: drop-shadow(0 0 5px coral) drop-shadow(0 0 10px coral);
+  animation: glow 8s infinite;
+}
+
+.skeletonImg {
+  position: absolute;
+  height: 320px;
+  right: 4em;
+  bottom: -100px;
+  animation: pulse 8s infinite;
+}
+
+.explosionGifDiv {
+  position: absolute;
+  bottom: 42%;
+  opacity: 0.7;
+  z-index: 2;
+}
