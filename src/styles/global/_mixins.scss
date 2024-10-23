@@ -1,0 +1,29 @@
+@mixin fixed-tag(
+  $fixed-tag-top: null,
+  $fixed-tag-bottom: null,
+  $fixed-tag-bgImage,
+  $fixed-tag-clipPath,
+  $fixed-tag-zIndex: null
+) {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  position: fixed;
+  @if $fixed-tag-top != null {
+    top: $fixed-tag-top;
+  }
+  @if $fixed-tag-bottom != null {
+    bottom: $fixed-tag-bottom;
+  }
+
+  background-image: url($fixed-tag-bgImage);
+
+  background-size: cover;
+  overflow-y: hidden;
+  @if $fixed-tag-clipPath != null {
+    clip-path: $fixed-tag-clipPath;
+  }
+  @if $fixed-tag-clipPath != null {
+    clip-path: $fixed-tag-clipPath;
+  }
+}
