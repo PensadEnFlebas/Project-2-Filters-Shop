@@ -8,30 +8,31 @@
 
 .containerFooterDiv {
   @include mixins.fixed-tag(
-    null,
-    0,
-    './assets/bgImages/Animated footer bg.gif',
-    polygon(0% 50%, 100% 15%, 100% 100%, 0 100%),
-    null
+    $fixed-tag-bottom: 0,
+    $fixed-tag-bgImage: './assets/bgImages/Animated footer bg.gif',
+    $fixed-tag-clipPath: polygon(0% 50%, 100% 15%, 100% 100%, 0 100%)
   );
 }
 
 .pyramidImg {
   @include mixins.header-footer-images(
-    400px,
-    null,
-    null,
-    null,
-    null,
-    brightness(67%) blur(1px) drop-shadow(0 0 3px vars.$primary-light-color)
+    $height: 400px,
+    $filter: brightness(67%) blur(1px)
+      drop-shadow(0 0 3px vars.$primary-light-color)
       drop-shadow(0 0 1px vars.$primary-light-color),
-    none,
-    3
+    $animation: none,
+    $zIndex: 3
   );
 
   margin-top: -7rem;
   margin-left: -4rem;
   rotate: -5deg;
+
+  @media (max-width: 500px) {
+    height: 300px;
+    margin-top: -2rem;
+    rotate: -3deg;
+  }
 }
 
 .zombieImg {
@@ -54,4 +55,10 @@
   filter: drop-shadow(0 0 3px vars.$primary-light-color)
     drop-shadow(0 0 1px vars.$primary-light-color);
   animation: xtranslate 10s infinite;
+
+  @media (max-width: 500px) {
+    height: 160px;
+    right: 0.5rem;
+    bottom: -5px;
+  }
 }

@@ -6,10 +6,15 @@
 //* MAIN-TITLE
 
 .titleContainer {
-  @include mixins.fixed-tag(150px, null, null, null, 1);
+  @include mixins.fixed-tag(
+    $fixed-tag-top: 150px,
+    $fixed-tag-bgImage: null,
+    $fixed-tag-zIndex: 1
+  );
   height: auto;
-  background-color: transparent;
+  background-color: vars.$secondary-color;
   margin-top: 5px;
+  clip-path: polygon(0 41%, 100% 68%, 100% 100%, 0% 100%);
 
   &::after {
     content: '';
@@ -39,11 +44,17 @@
       color: vars.$secondary-dark-color;
       text-shadow: vars.$text-shadow-primary;
     }
+
+    @media (max-width: 500px) {
+      font-size: vars.$primary-title-font-size - 10px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
   }
 
   h2 {
     font-family: vars.$titles-secondary;
-    font-size: vars.$secondary-dark-color;
+    font-size: vars.$secondary-title-font-size;
     margin-top: 90px;
     color: vars.$primary-light-color;
     letter-spacing: 0.115rem;
@@ -52,9 +63,13 @@
     text-shadow: vars.$text-shadow-secondary-dark;
 
     span {
-      color: vars.$secondary-dark-color;
       font-family: vars.$titles-primary;
+      color: vars.$secondary-dark-color;
       text-shadow: vars.$text-shadow-primary-light;
+    }
+
+    @media (max-width: 500px) {
+      font-size: vars.$secondary-title-font-size - 10px;
     }
   }
 }

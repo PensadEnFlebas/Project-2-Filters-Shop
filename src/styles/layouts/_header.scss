@@ -8,60 +8,54 @@
 
 header {
   @include mixins.fixed-tag(
-    0,
-    null,
-    'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729012391/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/BG%20images/Hbg_clear_vkyhwy.png',
-    polygon(0 0, 100% 0, 100% 100%, 0 85%),
-    5
+    $fixed-tag-top: 0,
+    $fixed-tag-bgImage:
+      'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729012391/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/BG%20images/Hbg_clear_vkyhwy.png',
+    $fixed-tag-clipPath: polygon(0 0, 100% 0, 100% 100%, 0 85%),
+    $fixed-tag-zIndex: 5
   );
 }
 
-img {
+.header-footer-img {
   @include mixins.header-footer-images(
-    130px,
-    null,
-    null,
-    null,
-    null,
-    drop-shadow(0 0 5px vars.$primary-color)
+    $height: 130px,
+    $filter: drop-shadow(0 0 5px vars.$primary-color)
       drop-shadow(0 0 10px vars.$primary-color),
-    glow 8s infinite,
-    3
+    $animation: glow 8s infinite,
+    $zIndex: 3
   );
 
   margin-top: 5rem;
   margin-left: 4rem;
+
+  @media (max-width: 500px) {
+    margin-left: 2rem;
+  }
 }
 
 .explosionGifDiv {
-  @include mixins.header-footer-images(
-    null,
-    -28%,
-    null,
-    null,
-    null,
-    null,
-    null,
-    2
-  );
+  @include mixins.header-footer-images($top: -28%, $zIndex: 2);
 
   opacity: 0.7;
 }
 
 .skeletonImg {
   // @include mixins.header-footer-images(
-  //   320px,
-  //   null,
-  //   -100px,
-  //   null,
-  //   4em,
-  //   null,
-  //   pulse 8s infinite,
-  //   2
+  //   $height: 320px,
+  //   $bottom: -100px,
+  //   $right: 4em,
+  //   $animation: pulse 8s infinite,
+  //   $zIndex: 2
   // );
   position: absolute;
   height: 320px;
   right: 4em;
   bottom: -100px;
   animation: pulse 8s infinite;
+
+  @media (max-width: 500px) {
+    height: 200px;
+    right: 0.5rem;
+    bottom: -50px;
+  }
 }

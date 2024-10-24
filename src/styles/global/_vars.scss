@@ -38,24 +38,33 @@ $button: $titles-primary;
 //? FONT SIZE
 
 $primary-title-font-size: 50px;
-$secondary-title-font-size: 40px;
+$secondary-title-font-size: 30px;
 $button-font-size: 2.5em;
 
 //! COLORS
 
 $primary-color: coral;
+$primary-mid-color: #faa88a;
 $primary-light-color: #f7c559;
 $secondary-color: whitesmoke;
 $secondary-dark-color: #585858;
 
 $bg-primary: $secondary-color;
 
+$button-primary-color: $primary-color;
+$button-secondary-color: $primary-mid-color;
+$button-text-color: $secondary-color;
+
 //! SPACINGS
 
 //! BORDERS
 
-//! SHADOWS
+$noBorder: none;
 
+$border-radius-button: 30px;
+
+//! SHADOWS
+//? TEXT SHADOWS
 $text-shadow-secondary-dark: $secondary-dark-color 5px 0px 0px,
   $secondary-dark-color 4.90033px 0.993347px 0px,
   $secondary-dark-color 4.60531px 1.94709px 0px,
@@ -151,3 +160,6 @@ $text-shadow-primary-light: $primary-light-color 5px 0px 0px,
   $primary-light-color 4.4276px -2.32301px 0px,
   $primary-light-color 4.80085px -1.39708px 0px,
   $primary-light-color 4.98271px -0.415447px 0px;
+
+//? BOX SHADOWS
+$button-boxShadow: -4px 9px 11px 0px $secondary-dark-color;
