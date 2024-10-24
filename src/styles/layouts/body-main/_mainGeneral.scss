@@ -1,0 +1,10 @@
+//* IMPORTS
+
+@use '../../global/vars.scss';
+
+//* MAIN (GENERAL)
+
+main {
+  background-color: vars.$bg-primary;
+  padding-top: 380px;
+}

@@ -23,7 +23,41 @@
   @if $fixed-tag-clipPath != null {
     clip-path: $fixed-tag-clipPath;
   }
-  @if $fixed-tag-clipPath != null {
-    clip-path: $fixed-tag-clipPath;
+}
+
+@mixin header-footer-images(
+  $height,
+  $top,
+  $bottom,
+  $left,
+  $right,
+  $filter,
+  $animation,
+  $zIndex
+) {
+  position: absolute;
+  @if $height != null {
+    height: $height;
+  }
+  @if $top != null {
+    top: $top;
+  }
+  @if $bottom != null {
+    bottom: $bottom;
+  }
+  @if $left != null {
+    left: $left;
+  }
+  @if $right != null {
+    height: $right;
+  }
+  @if $filter != null {
+    filter: $filter;
+  }
+  @if $animation != null {
+    animation: $animation;
+  }
+  @if $zIndex != null {
+    z-index: $zIndex;
   }
 }

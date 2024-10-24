@@ -1,7 +1,9 @@
 //* IMPORTS */
 
-@use './styles/layouts/header' as *;
-@use './styles/layouts/footer' as *;
+@use './styles/layouts/header';
+@use './styles/layouts/footer';
+@use './styles/layouts/body-main/mainGeneral';
+@use './styles/layouts/body-main/mainTitle';
 
 //* GENERAL */
 * {

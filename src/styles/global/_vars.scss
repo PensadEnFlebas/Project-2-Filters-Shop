@@ -3,7 +3,7 @@
 //? FONT FAMILY
 @font-face {
   font-family: am-vinyl;
-  src: url(../public/fonts/AmVinyl.ttf);
+  src: url(../fonts/AmVinyl.ttf);
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -11,7 +11,7 @@
 
 @font-face {
   font-family: back-to-the-fantasy;
-  src: url(../public/fonts/BackToTheFantasy.otf);
+  src: url(../fonts/BackToTheFantasy.otf);
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -19,7 +19,7 @@
 
 @font-face {
   font-family: HGRegular;
-  src: url(../public/fonts/Highway-Gothic/HGRegular.TTF);
+  src: url(../fonts/Highway-Gothic/HGRegular.TTF);
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -43,8 +43,111 @@ $button-font-size: 2.5em;
 
 //! COLORS
 
+$primary-color: coral;
+$primary-light-color: #f7c559;
+$secondary-color: whitesmoke;
+$secondary-dark-color: #585858;
+
+$bg-primary: $secondary-color;
+
 //! SPACINGS
 
 //! BORDERS
 
 //! SHADOWS
+
+$text-shadow-secondary-dark: $secondary-dark-color 5px 0px 0px,
+  $secondary-dark-color 4.90033px 0.993347px 0px,
+  $secondary-dark-color 4.60531px 1.94709px 0px,
+  $secondary-dark-color 4.12668px 2.82321px 0px,
+  $secondary-dark-color 3.48353px 3.58678px 0px,
+  $secondary-dark-color 2.70151px 4.20736px 0px,
+  $secondary-dark-color 1.81179px 4.6602px 0px,
+  $secondary-dark-color 0.849836px 4.92725px 0px,
+  $secondary-dark-color -0.145998px 4.99787px 0px,
+  $secondary-dark-color -1.13601px 4.86924px 0px,
+  $secondary-dark-color -2.08073px 4.54649px 0px,
+  $secondary-dark-color -2.94251px 4.04248px 0px,
+  $secondary-dark-color -3.68697px 3.37732px 0px,
+  $secondary-dark-color -4.28444px 2.57751px 0px,
+  $secondary-dark-color -4.71111px 1.67494px 0px,
+  $secondary-dark-color -4.94996px 0.7056px 0px,
+  $secondary-dark-color -4.99147px -0.291871px 0px,
+  $secondary-dark-color -4.83399px -1.27771px 0px,
+  $secondary-dark-color -4.48379px -2.2126px 0px,
+  $secondary-dark-color -3.95484px -3.05929px 0px,
+  $secondary-dark-color -3.26822px -3.78401px 0px,
+  $secondary-dark-color -2.4513px -4.35788px 0px,
+  $secondary-dark-color -1.53666px -4.75801px 0px,
+  $secondary-dark-color -0.560763px -4.96845px 0px,
+  $secondary-dark-color 0.887495px -4.98082px 0px,
+  $secondary-dark-color 1.41831px -4.79462px 0px,
+  $secondary-dark-color 2.34258px -4.41727px 0px,
+  $secondary-dark-color 3.17346px -3.86382px 0px,
+  $secondary-dark-color 3.87783px -3.15633px 0px,
+  $secondary-dark-color 4.4276px -2.32301px 0px,
+  $secondary-dark-color 4.80085px -1.39708px 0px,
+  $secondary-dark-color 4.98271px -0.415447px 0px;
+
+$text-shadow-primary: $primary-color 5px 0px 0px,
+  $primary-color 4.90033px 0.993347px 0px,
+  $primary-color 4.60531px 1.94709px 0px, $primary-color 4.12668px 2.82321px 0px,
+  $primary-color 3.48353px 3.58678px 0px, $primary-color 2.70151px 4.20736px 0px,
+  $primary-color 1.81179px 4.6602px 0px, $primary-color 0.849836px 4.92725px 0px,
+  $primary-color -0.145998px 4.99787px 0px,
+  $primary-color -1.13601px 4.86924px 0px,
+  $primary-color -2.08073px 4.54649px 0px,
+  $primary-color -2.94251px 4.04248px 0px,
+  $primary-color -3.68697px 3.37732px 0px,
+  $primary-color -4.28444px 2.57751px 0px,
+  $primary-color -4.71111px 1.67494px 0px,
+  $primary-color -4.94996px 0.7056px 0px,
+  $primary-color -4.99147px -0.291871px 0px,
+  $primary-color -4.83399px -1.27771px 0px,
+  $primary-color -4.48379px -2.2126px 0px,
+  $primary-color -3.95484px -3.05929px 0px,
+  $primary-color -3.26822px -3.78401px 0px,
+  $primary-color -2.4513px -4.35795px 0px,
+  $primary-color -1.53666px -4.75801px 0px,
+  $primary-color -0.560763px -4.96845px 0px,
+  $primary-color 0.957495px -4.98082px 0px,
+  $primary-color 1.41831px -4.79462px 0px,
+  $primary-color 2.34258px -4.41727px 0px,
+  $primary-color 3.17346px -3.86382px 0px,
+  $primary-color 3.87783px -3.15633px 0px,
+  $primary-color 4.4276px -2.32301px 0px,
+  $primary-color 4.80085px -1.39708px 0px,
+  $primary-color 4.98271px -0.415447px 0px;
+
+$text-shadow-primary-light: $primary-light-color 5px 0px 0px,
+  $primary-light-color 4.90033px 0.993347px 0px,
+  $primary-light-color 4.60531px 1.94709px 0px,
+  $primary-light-color 4.12668px 2.82321px 0px,
+  $primary-light-color 3.48353px 3.58678px 0px,
+  $primary-light-color 2.70151px 4.20736px 0px,
+  $primary-light-color 1.81179px 4.6602px 0px,
+  $primary-light-color 0.849836px 4.92725px 0px,
+  $primary-light-color -0.145998px 4.99787px 0px,
+  $primary-light-color -1.13601px 4.86924px 0px,
+  $primary-light-color -2.08073px 4.54649px 0px,
+  $primary-light-color -2.94251px 4.04248px 0px,
+  $primary-light-color -3.68697px 3.37732px 0px,
+  $primary-light-color -4.28444px 2.57751px 0px,
+  $primary-light-color -4.71111px 1.67494px 0px,
+  $primary-light-color -4.94996px 0.7056px 0px,
+  $primary-light-color -4.99147px -0.291871px 0px,
+  $primary-light-color -4.83399px -1.27771px 0px,
+  $primary-light-color -4.48379px -2.2126px 0px,
+  $primary-light-color -3.95484px -3.05929px 0px,
+  $primary-light-color -3.26822px -3.78401px 0px,
+  $primary-light-color -2.4513px -4.35788px 0px,
+  $primary-light-color -1.53666px -4.75801px 0px,
+  $primary-light-color -0.560763px -4.96845px 0px,
+  $primary-light-color 0.887495px -4.98082px 0px,
+  $primary-light-color 1.41831px -4.79462px 0px,
+  $primary-light-color 2.34258px -4.41727px 0px,
+  $primary-light-color 3.17346px -3.86382px 0px,
+  $primary-light-color 3.87783px -3.15633px 0px,
+  $primary-light-color 4.4276px -2.32301px 0px,
+  $primary-light-color 4.80085px -1.39708px 0px,
+  $primary-light-color 4.98271px -0.415447px 0px;

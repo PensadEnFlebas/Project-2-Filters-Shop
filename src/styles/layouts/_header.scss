@@ -1,6 +1,7 @@
 //* IMPORTS
 
 @use '../global/animations' as *;
+@use '../global/vars';
 @use '../global/mixins';
 
 //* HEADER
@@ -13,28 +14,54 @@ header {
     polygon(0 0, 100% 0, 100% 100%, 0 85%),
     5
   );
+}
 
-  div > img {
-    position: absolute;
-    height: 130px;
-    margin-top: 5rem;
-    margin-left: 4rem;
-    z-index: 3;
+img {
+  @include mixins.header-footer-images(
+    130px,
+    null,
+    null,
+    null,
+    null,
+    drop-shadow(0 0 5px vars.$primary-color)
+      drop-shadow(0 0 10px vars.$primary-color),
+    glow 8s infinite,
+    3
+  );
 
-    filter: drop-shadow(0 0 5px coral) drop-shadow(0 0 10px coral);
-    animation: glow 8s infinite;
-  }
+  margin-top: 5rem;
+  margin-left: 4rem;
+}
+
+.explosionGifDiv {
+  @include mixins.header-footer-images(
+    null,
+    -28%,
+    null,
+    null,
+    null,
+    null,
+    null,
+    2
+  );
+
+  opacity: 0.7;
 }
 
 .skeletonImg {
+  // @include mixins.header-footer-images(
+  //   320px,
+  //   null,
+  //   -100px,
+  //   null,
+  //   4em,
+  //   null,
+  //   pulse 8s infinite,
+  //   2
+  // );
+  position: absolute;
   height: 320px;
   right: 4em;
   bottom: -100px;
   animation: pulse 8s infinite;
-}
-
-.explosionGifDiv {
-  bottom: 42%;
-  opacity: 0.7;
-  z-index: 2;
 }

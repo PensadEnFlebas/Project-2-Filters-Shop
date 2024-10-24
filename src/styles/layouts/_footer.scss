@@ -1,6 +1,7 @@
 //* IMPORTS
 
 @use '../global/animations' as *;
+@use '../global/vars';
 @use '../global/mixins';
 
 //* FOOTER
@@ -16,18 +17,41 @@
 }
 
 .pyramidImg {
-  height: 400px;
+  @include mixins.header-footer-images(
+    400px,
+    null,
+    null,
+    null,
+    null,
+    brightness(67%) blur(1px) drop-shadow(0 0 3px vars.$primary-light-color)
+      drop-shadow(0 0 1px vars.$primary-light-color),
+    none,
+    3
+  );
+
   margin-top: -7rem;
   margin-left: -4rem;
-  z-index: 3;
-  filter: brightness(67%) blur(1px);
   rotate: -5deg;
 }
 
 .zombieImg {
+  // @include mixins.header-footer-images(
+  //   200px,
+  //   null,
+  //   null,
+  //   null,
+  //   4em,
+  //   drop-shadow(0 0 3px vars.$primary-light-color)
+  //     drop-shadow(0 0 1px vars.$primary-light-color),
+  //   xtranslate 10s infinite,
+  //   null
+  // );
+
   position: absolute;
   height: 200px;
   right: 4rem;
   bottom: -10px;
+  filter: drop-shadow(0 0 3px vars.$primary-light-color)
+    drop-shadow(0 0 1px vars.$primary-light-color);
   animation: xtranslate 10s infinite;
 }
