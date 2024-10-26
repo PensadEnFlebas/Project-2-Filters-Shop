@@ -40,7 +40,7 @@ $button: $titles-primary;
 $primary-title-font-size: 50px;
 $secondary-title-font-size: 30px;
 $button-font-size: 2.5em;
-$link-font-size: 20px;
+$link-font-size: 16px;
 $text-mediaquery-font-size: 12px;
 
 //! COLORS
@@ -105,6 +105,7 @@ $margin-m: 0.5rem;
 $margin-l: 1rem;
 $margin-xl: 2rem;
 $margin-xxl: 4rem;
+$margin-xxxl: 4.5rem;
 
 $gap-xxs: $spacing-xxs;
 $gap-xs: $spacing-xs;
@@ -232,5 +233,8 @@ $text-shadow-links: 1px 3px 0 $terciary-color, 1px 13px 5px $primary-light-color
 $button-boxShadow: -4px 9px 11px 0px $secondary-dark-color;
 
 //? DROP SHADOW
+$header-img-dropShadow: drop-shadow(0 0 5px $primary-color)
+  drop-shadow(0 0 10px $primary-color);
+
 $footer-img-dropShadow: drop-shadow(0 0 3px $primary-light-color)
   drop-shadow(0 0 1px $primary-light-color);

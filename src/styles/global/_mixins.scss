@@ -11,6 +11,9 @@
   height: vars.$header-footer-height;
   display: flex;
   position: fixed;
+  background-size: cover;
+  overflow-y: hidden;
+
   @if $fixed-tag-top != null {
     top: $fixed-tag-top;
   }
@@ -20,8 +23,6 @@
 
   background-image: url($fixed-tag-bgImage);
 
-  background-size: cover;
-  overflow-y: hidden;
   @if $fixed-tag-clipPath != null {
     clip-path: $fixed-tag-clipPath;
   }
@@ -80,4 +81,5 @@
   @if $gap != null {
     gap: $gap;
   }
+  flex-wrap: $wrap;
 }

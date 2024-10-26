@@ -1,16 +1,11 @@
 @use './vars';
 
 %footerDiv {
-  width: 100%;
-  max-height: vars.$container-height-xs;
+  height: vars.$container-height-xs;
   text-align: center;
   padding-bottom: vars.$padding-xxs;
   color: vars.$text-secondary-color;
-  margin: vars.$margin-l;
-
-  @media (max-width: 720px) {
-    max-height: vars.$container-height-xs;
-  }
+  flex: 1 1 30%;
 }
 
 %footerLink {

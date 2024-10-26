@@ -3,6 +3,7 @@
 @use '../global/animations' as *;
 @use '../global/vars';
 @use '../global/mixins';
+@use '../global/extends';
 
 //* HEADER
 
@@ -16,25 +17,24 @@ header {
   );
 }
 
-.header-footer-img {
+.headerImg {
   @include mixins.header-footer-images(
     $height: 130px,
-    $filter: drop-shadow(0 0 5px vars.$primary-color)
-      drop-shadow(0 0 10px vars.$primary-color),
+    $filter: vars.$header-img-dropShadow,
     $animation: glow 8s infinite,
-    $zIndex: 3
+    $zIndex: 4
   );
 
-  margin-top: 5rem;
-  margin-left: 4rem;
+  margin-top: vars.$margin-xxxl;
+  margin-left: vars.$margin-xxl;
 
   @media (max-width: 500px) {
-    margin-left: 2rem;
+    margin-left: vars.$margin-xl;
   }
 }
 
 .explosionGifDiv {
-  @include mixins.header-footer-images($top: -28%, $zIndex: 2);
+  @include mixins.header-footer-images($top: -28%, $zIndex: 3);
 
   opacity: 0.7;
 }
@@ -45,13 +45,14 @@ header {
   //   $bottom: -100px,
   //   $right: 4em,
   //   $animation: pulse 8s infinite,
-  //   $zIndex: 2
+  //   $zIndex: 4
   // );
   position: absolute;
   height: 320px;
   right: 4em;
   bottom: -100px;
   animation: pulse 8s infinite;
+  z-index: 4;
 
   @media (max-width: 500px) {
     height: 200px;

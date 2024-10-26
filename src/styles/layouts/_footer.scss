@@ -8,8 +8,12 @@
 //* FOOTER
 
 footer {
+  @include mixins.fixed-tag(
+    $fixed-tag-clipPath: polygon(0% 50%, 100% 15%, 100% 100%, 0 100%),
+    $fixed-tag-bgImage: null
+  );
+
   position: relative;
-  height: vars.$header-footer-height;
   font-family: vars.$text;
 }
 
@@ -45,17 +49,19 @@ footer {
 }
 
 .infoContainer {
-  @include mixins.flex-box($ai: end);
+  @include mixins.flex-box($ai: end, $gap: vars.$gap-m, $wrap: no-wrap);
   position: absolute;
   height: vars.$container-height-xs;
   bottom: 0;
   left: 0;
   width: 70%;
   margin-left: vars.$margin-l;
+  margin-bottom: vars.$margin-m;
   z-index: 4;
 
   @media (max-width: 720px) {
     width: 90%;
+    margin-left: vars.$margin-m;
   }
 
   div {
@@ -65,7 +71,8 @@ footer {
 
 .policiesDiv {
   ul {
-    @include mixins.flex-box($direction: column, $gap: vars.$gap-xs);
+    @include mixins.flex-box($direction: column, $jc: end, $gap: vars.$gap-xs);
+    height: vars.$container-height-xxs;
 
     a {
       @extend %footerLink;
@@ -83,9 +90,10 @@ footer {
 
 .socialDiv {
   @include mixins.flex-box($direction: column, $gap: vars.$gap-xs);
+  max-width: 120px;
 
   @media (max-width: 720px) {
-    max-height: 40px;
+    justify-content: end;
   }
 
   ul {
@@ -94,10 +102,6 @@ footer {
     .footerIcon {
       width: vars.$img-width-xs;
       filter: vars.$footer-img-dropShadow;
-
-      @media (max-width: 720px) {
-        width: vars.$img-width-xxs;
-      }
     }
   }
 }
@@ -140,6 +144,7 @@ footer {
   bottom: -(vars.$spacing-xs);
   filter: vars.$footer-img-dropShadow;
   animation: xtranslate 10s infinite;
+  z-index: 3;
 
   @media (max-width: 500px) {
     height: 160px;
