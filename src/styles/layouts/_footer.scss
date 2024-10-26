@@ -3,8 +3,15 @@
 @use '../global/animations' as *;
 @use '../global/vars';
 @use '../global/mixins';
+@use '../global/extends';
 
 //* FOOTER
+
+footer {
+  position: relative;
+  height: vars.$header-footer-height;
+  font-family: vars.$text;
+}
 
 .containerFooterDiv {
   @include mixins.fixed-tag(
@@ -12,6 +19,8 @@
     $fixed-tag-bgImage: './assets/bgImages/Animated footer bg.gif',
     $fixed-tag-clipPath: polygon(0% 50%, 100% 15%, 100% 100%, 0 100%)
   );
+
+  position: absolute;
 }
 
 .pyramidImg {
@@ -24,14 +33,91 @@
     $zIndex: 3
   );
 
-  margin-top: -7rem;
-  margin-left: -4rem;
+  margin-top: vars.$margin-xxs;
+  margin-left: vars.$margin-xs;
   rotate: -5deg;
 
   @media (max-width: 500px) {
     height: 300px;
-    margin-top: -2rem;
+    margin-top: vars.$margin-s;
     rotate: -3deg;
+  }
+}
+
+.infoContainer {
+  @include mixins.flex-box($ai: end);
+  position: absolute;
+  height: vars.$container-height-xs;
+  bottom: 0;
+  left: 0;
+  width: 70%;
+  margin-left: vars.$margin-l;
+  z-index: 4;
+
+  @media (max-width: 720px) {
+    width: 90%;
+  }
+
+  div {
+    @extend %footerDiv;
+  }
+}
+
+.policiesDiv {
+  ul {
+    @include mixins.flex-box($direction: column, $gap: vars.$gap-xs);
+
+    a {
+      @extend %footerLink;
+      text-shadow: vars.$text-shadow-links;
+    }
+
+    @media (max-width: 720px) {
+      gap: vars.$gap-xxs;
+      a {
+        font-size: vars.$text-mediaquery-font-size;
+      }
+    }
+  }
+}
+
+.socialDiv {
+  @include mixins.flex-box($direction: column, $gap: vars.$gap-xs);
+
+  @media (max-width: 720px) {
+    max-height: 40px;
+  }
+
+  ul {
+    @include mixins.flex-box($jc: space-evenly, $gap: vars.$gap-xxs);
+
+    .footerIcon {
+      width: vars.$img-width-xs;
+      filter: vars.$footer-img-dropShadow;
+
+      @media (max-width: 720px) {
+        width: vars.$img-width-xxs;
+      }
+    }
+  }
+}
+
+.copyrightDiv {
+  a {
+    @extend %footerLink;
+
+    img {
+      max-width: vars.$img-width-xl;
+
+      @media (max-width: 720px) {
+        max-width: vars.$img-width-l;
+      }
+    }
+  }
+
+  p {
+    font-size: vars.$text-mediaquery-font-size;
+    text-shadow: vars.$text-shadow-links;
   }
 }
 
@@ -50,15 +136,14 @@
 
   position: absolute;
   height: 200px;
-  right: 4rem;
-  bottom: -10px;
-  filter: drop-shadow(0 0 3px vars.$primary-light-color)
-    drop-shadow(0 0 1px vars.$primary-light-color);
+  right: 1rem;
+  bottom: -(vars.$spacing-xs);
+  filter: vars.$footer-img-dropShadow;
   animation: xtranslate 10s infinite;
 
   @media (max-width: 500px) {
     height: 160px;
     right: 0.5rem;
-    bottom: -5px;
+    bottom: -(vars.$spacing-xxs);
   }
 }

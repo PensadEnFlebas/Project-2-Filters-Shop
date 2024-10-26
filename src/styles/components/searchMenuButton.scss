@@ -6,7 +6,7 @@
 //* SEARCH MENU BUTTON
 
 .searchMenuButton {
-  @include mixins.flex-box($justify-content: end, $gap: 0.5em);
+  @include mixins.flex-box($jc: end, $gap: 0.5em);
   width: 200px;
   margin-top: 10px;
   border: vars.$noBorder;

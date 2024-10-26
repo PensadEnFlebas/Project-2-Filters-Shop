@@ -1,0 +1,21 @@
+@use './vars';
+
+%footerDiv {
+  width: 100%;
+  max-height: vars.$container-height-xs;
+  text-align: center;
+  padding-bottom: vars.$padding-xxs;
+  color: vars.$text-secondary-color;
+  margin: vars.$margin-l;
+
+  @media (max-width: 720px) {
+    max-height: vars.$container-height-xs;
+  }
+}
+
+%footerLink {
+  color: vars.$text-links;
+  font-size: vars.$link-font-size;
+  cursor: pointer;
+  text-shadow: vars.$text-shadow-links;
+}

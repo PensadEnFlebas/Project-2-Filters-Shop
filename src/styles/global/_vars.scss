@@ -40,6 +40,8 @@ $button: $titles-primary;
 $primary-title-font-size: 50px;
 $secondary-title-font-size: 30px;
 $button-font-size: 2.5em;
+$link-font-size: 20px;
+$text-mediaquery-font-size: 12px;
 
 //! COLORS
 
@@ -48,6 +50,11 @@ $primary-mid-color: #faa88a;
 $primary-light-color: #f7c559;
 $secondary-color: whitesmoke;
 $secondary-dark-color: #585858;
+$terciary-color: #151515;
+
+$text-primary-color: $secondary-dark-color;
+$text-secondary-color: $secondary-color;
+$text-links: $primary-light-color;
 
 $bg-primary: $secondary-color;
 
@@ -57,15 +64,73 @@ $button-text-color: $secondary-color;
 
 //! SPACINGS
 
+$spacing-xxs: 5px;
+$spacing-xs: 10px;
+$spacing-s: 15px;
+$spacing-m: 20px;
+$spacing-l: 25px;
+$spacing-xl: 30px;
+$spacing-xxl: 35px;
+
+$header-footer-height: 250px;
+
+$container-height-xxs: 100px;
+$container-height-xs: 120px;
+$container-height-s: 140px;
+$container-height-m: 160px;
+$container-height-l: 180px;
+$container-height-xl: 200px;
+$container-height-xxl: 240px;
+
+$width-xxs: $spacing-m;
+$width-xs: $spacing-xl;
+$width-s: 40px;
+$width-m: 50px;
+$width-l: 60px;
+$width-xl: 70px;
+$width-xxl: 80px;
+
+$img-width-xxs: $width-xxs;
+$img-width-xs: $width-xs;
+$img-width-s: $width-s;
+$img-width-m: $width-l;
+$img-width-l: $width-xxl;
+$img-width-xl: 100px;
+$img-width-xxl: 140px;
+
+$margin-xxs: -7rem;
+$margin-xs: -4rem;
+$margin-s: -2rem;
+$margin-m: 0.5rem;
+$margin-l: 1rem;
+$margin-xl: 2rem;
+$margin-xxl: 4rem;
+
+$gap-xxs: $spacing-xxs;
+$gap-xs: $spacing-xs;
+$gap-s: $spacing-s;
+$gap-m: $spacing-m;
+$gap-l: $spacing-l;
+$gap-xl: $spacing-xl;
+$gap-xxl: $spacing-xxl;
+
+$padding-xxs: $spacing-xxs;
+$padding-xs: $spacing-xs;
+$padding-s: $spacing-s;
+$padding-m: $spacing-m;
+$padding-l: $spacing-l;
+$padding-xl: $spacing-xl;
+$padding-xxl: $spacing-xxl;
+
 //! BORDERS
 
 $noBorder: none;
 
-$border-radius-button: 30px;
+$border-radius-button: $spacing-xl;
 
 //! SHADOWS
 //? TEXT SHADOWS
-$text-shadow-secondary-dark: $secondary-dark-color 5px 0px 0px,
+$text-shadow-secondary-dark: $secondary-dark-color $spacing-xxs 0px 0px,
   $secondary-dark-color 4.90033px 0.993347px 0px,
   $secondary-dark-color 4.60531px 1.94709px 0px,
   $secondary-dark-color 4.12668px 2.82321px 0px,
@@ -98,7 +163,7 @@ $text-shadow-secondary-dark: $secondary-dark-color 5px 0px 0px,
   $secondary-dark-color 4.80085px -1.39708px 0px,
   $secondary-dark-color 4.98271px -0.415447px 0px;
 
-$text-shadow-primary: $primary-color 5px 0px 0px,
+$text-shadow-primary: $primary-color $spacing-xxs 0px 0px,
   $primary-color 4.90033px 0.993347px 0px,
   $primary-color 4.60531px 1.94709px 0px, $primary-color 4.12668px 2.82321px 0px,
   $primary-color 3.48353px 3.58678px 0px, $primary-color 2.70151px 4.20736px 0px,
@@ -128,7 +193,7 @@ $text-shadow-primary: $primary-color 5px 0px 0px,
   $primary-color 4.80085px -1.39708px 0px,
   $primary-color 4.98271px -0.415447px 0px;
 
-$text-shadow-primary-light: $primary-light-color 5px 0px 0px,
+$text-shadow-primary-light: $primary-light-color $spacing-xxs 0px 0px,
   $primary-light-color 4.90033px 0.993347px 0px,
   $primary-light-color 4.60531px 1.94709px 0px,
   $primary-light-color 4.12668px 2.82321px 0px,
@@ -161,5 +226,11 @@ $text-shadow-primary-light: $primary-light-color 5px 0px 0px,
   $primary-light-color 4.80085px -1.39708px 0px,
   $primary-light-color 4.98271px -0.415447px 0px;
 
+$text-shadow-links: 1px 3px 0 $terciary-color, 1px 13px 5px $primary-light-color;
+
 //? BOX SHADOWS
 $button-boxShadow: -4px 9px 11px 0px $secondary-dark-color;
+
+//? DROP SHADOW
+$footer-img-dropShadow: drop-shadow(0 0 3px $primary-light-color)
+  drop-shadow(0 0 1px $primary-light-color);
