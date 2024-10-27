@@ -1,0 +1,24 @@
+//* IMPORTS
+
+@use '../global/vars';
+@use '../global/mixins';
+@use '../global/extends';
+
+//* SEARCH MENU BUTTON
+
+.searchMenuButton,
+.resetMenuButton {
+  @extend %search-resetButton;
+}
+
+.resetMenuButton {
+  @include mixins.flex-box(
+    $direction: row-reverse,
+    $jc: start,
+    $gap: vars.$gap-s
+  );
+  padding-left: vars.$padding-l;
+  border-radius: 0;
+  border-top-left-radius: vars.$border-radius-button;
+  border-bottom-left-radius: vars.$border-radius-button;
+}

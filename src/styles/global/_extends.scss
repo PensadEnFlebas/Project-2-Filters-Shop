@@ -1,4 +1,5 @@
 @use './vars';
+@use './mixins';
 
 %footerDiv {
   height: vars.$container-height-xs;
@@ -13,4 +14,45 @@
   font-size: vars.$link-font-size;
   cursor: pointer;
   text-shadow: vars.$text-shadow-links;
+}
+
+%search-resetButton {
+  @include mixins.flex-box($jc: end, $gap: 0.5em);
+  width: 200px;
+  margin-top: 10px;
+  border: vars.$noBorder;
+  height: 50px;
+  background-color: vars.$button-secondary-color;
+  color: vars.$button-text-color;
+  margin-bottom: 20px;
+  padding-right: vars.$spacing-m;
+  border-top-right-radius: vars.$border-radius-button;
+  border-bottom-right-radius: vars.$border-radius-button;
+  cursor: pointer;
+  box-shadow: vars.$button-boxShadow;
+  transition: all 0.4s ease-in-out;
+
+  &:hover {
+    background-color: vars.$button-primary-color;
+    transform: scale(1.05);
+
+    .searchMenuIcon,
+    .resetButtonIcon {
+      filter: grayscale(50%);
+    }
+  }
+
+  p {
+    font-family: vars.$button;
+    font-size: vars.$button-font-size;
+    height: 30px;
+  }
+
+  .searchMenuIcon {
+    @include mixins.search-reset-icons($width: 50px, $filter: grayscale(100%));
+  }
+
+  .resetButtonIcon {
+    @include mixins.search-reset-icons($width: 40px, $filter: grayscale(100%));
+  }
 }

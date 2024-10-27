@@ -65,6 +65,11 @@
   }
 }
 
+@mixin search-reset-icons($width, $filter) {
+  width: $width;
+  filter: $filter;
+}
+
 //? FLEX MIXINS
 
 @mixin flex-box(

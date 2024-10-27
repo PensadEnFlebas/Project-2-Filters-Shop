@@ -18,8 +18,20 @@ function searchMenu() {
   searchMenuIcon.setAttribute('alt', 'Eye searching Icon')
   searchMenuIcon.setAttribute('loading', 'lazy')
 
-  searchMenuButton.append(p)
-  searchMenuButton.append(searchMenuIcon)
-  searchMenuContainer.append(searchMenuButton)
+  const resetMenuButton = document.createElement('button')
+  resetMenuButton.classList.add('resetMenuButton')
+
+  const resetP = document.createElement('p')
+  resetP.textContent = `RESET`
+
+  let resetButtonIcon = document.createElement('img')
+  resetButtonIcon.classList.add('resetButtonIcon')
+  resetButtonIcon.setAttribute('src', './src/assets/Reset Button Vinyl.gif')
+  resetButtonIcon.setAttribute('alt', 'Eye searching Icon')
+  resetButtonIcon.setAttribute('loading', 'lazy')
+
+  resetMenuButton.append(resetP, resetButtonIcon)
+  searchMenuButton.append(p, searchMenuIcon)
+  searchMenuContainer.append(searchMenuButton, resetMenuButton)
   main.append(searchMenuContainer)
 }
