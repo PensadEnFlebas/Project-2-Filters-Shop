@@ -7,7 +7,7 @@
 
 .titleContainer {
   @include mixins.fixed-tag(
-    $fixed-tag-top: 150px,
+    $fixed-tag-top: vars.$container-height-m - 10px,
     $fixed-tag-bgImage: null,
     $fixed-tag-zIndex: 1
   );
@@ -22,7 +22,7 @@
     bottom: 0;
     left: 0;
     width: 80%;
-    height: 5px;
+    height: vars.$spacing-xxs;
     background: linear-gradient(
       to right,
       vars.$primary-color,

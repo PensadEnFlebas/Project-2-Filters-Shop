@@ -1,7 +1,7 @@
 //* IMPORTS
 
+@use '../../global/mixins';
+
 .searchMenuContainer {
-  width: 100%;
-  position: fixed;
-  top: 295px;
+  @include mixins.fixed-tag($fixed-tag-top: 295px, $fixed-tag-bgImage: null);
 }
