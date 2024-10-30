@@ -6,12 +6,25 @@
 
 //* SEARCH MENU BUTTON
 
-.searchMenuButton,
-.resetMenuButton {
+.searchMenuButton {
   @extend %search-resetButton;
+  transition: all 0.5s ease-in-out;
+
+  .searchMenuButton > p,
+  .searchMenuIcon {
+    transition: transform 0.5s ease, opacity 0.5s ease;
+  }
+}
+
+.searchMenuButton.expanded {
+  @extend %search-button-expanded;
+
+  width: 90%;
+  overflow: hidden;
 }
 
 .resetMenuButton {
+  @extend %search-resetButton;
   @include mixins.flex-box(
     $direction: row-reverse,
     $jc: start,
@@ -21,4 +34,28 @@
   border-radius: 0;
   border-top-left-radius: vars.$border-radius-button;
   border-bottom-left-radius: vars.$border-radius-button;
+  box-shadow: vars.$button-reset-boxShadow;
+
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translateX(0);
+  opacity: 1;
+  transition: transform 1s ease, opacity 1s ease;
+}
+
+.resetMenuButton.contracted {
+  transform: translateX(100%);
+  opacity: 0;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.hover-disabled {
+  pointer-events: none;
+
+  &:hover {
+    background-color: initial;
+    color: initial;
+    transform: none;
+  }
 }

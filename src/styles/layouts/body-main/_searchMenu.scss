@@ -1,8 +1,18 @@
 //* IMPORTS
 
 @use '../../global/mixins';
+@use '../../global/extends';
+@use '../../global/vars';
 
 .searchMenuContainer {
+  position: relative;
   @include mixins.fixed-tag($fixed-tag-top: 295px, $fixed-tag-bgImage: null);
   @include mixins.flex-box($jc: space-between, $ai: start);
+  height: auto;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+}
+
+.searchMenuContainer.expanded {
+  width: 90vw;
 }
