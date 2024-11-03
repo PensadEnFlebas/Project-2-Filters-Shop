@@ -19,32 +19,49 @@
 %search-resetButton {
   @include mixins.flex-box($jc: end, $gap: 0.5em);
   width: 200px;
+  height: 50px;
   margin-top: 10px;
   border: vars.$noBorder;
-  height: 50px;
-  background-color: vars.$button-secondary-color;
-  color: vars.$button-text-color;
+
+  color: vars.$primary-color;
   margin-bottom: 20px;
   padding-right: vars.$spacing-m;
   border-top-right-radius: vars.$border-radius-button;
   border-bottom-right-radius: vars.$border-radius-button;
-  cursor: pointer;
   box-shadow: vars.$button-boxShadow;
   transition: all 0.4s ease-in-out;
+  cursor: pointer;
 
-  &:hover {
-    background-color: vars.$button-primary-color;
+  &:active {
+    background-color: vars.$button-primary-color-clickActive;
+    color: vars.$button-text-color-clickActive;
     transform: scale(1.05);
 
     .searchMenuIcon,
-    .resetButtonIcon {
+    .resetButtonIcon,
+    .submitButtonIcon {
       filter: grayscale(50%);
+    }
+  }
+
+  @media (any-hover: hover) {
+    &:hover {
+      background-color: vars.$button-primary-color;
+      color: vars.$button-text-color;
+      transform: scale(1.05);
+
+      .searchMenuIcon,
+      .resetButtonIcon,
+      .submitButtonIcon {
+        filter: grayscale(50%);
+      }
     }
   }
 
   p {
     font-family: vars.$button;
     font-size: vars.$button-font-size;
+    text-shadow: 1px 1px 0px vars.$secondary-dark-color;
     height: 30px;
   }
 
@@ -52,7 +69,24 @@
     @include mixins.search-reset-icons($width: 50px, $filter: grayscale(100%));
   }
 
-  .resetButtonIcon {
+  .resetButtonIcon,
+  .submitButtonIcon {
     @include mixins.search-reset-icons($width: 40px, $filter: grayscale(100%));
+  }
+}
+
+%search-button-expanded {
+  background-color: vars.$bg-secondary;
+  color: vars.$text-secondary-color;
+
+  &:active {
+    background-color: vars.$bg-secondary-clickActive;
+    color: vars.$button-text-color-clickActive;
+  }
+  @media (any-hover: hover) {
+    &:hover {
+      background-color: vars.$bg-primary;
+      color: vars.$primary-color;
+    }
   }
 }
