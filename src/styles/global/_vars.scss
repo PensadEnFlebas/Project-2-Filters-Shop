@@ -40,39 +40,27 @@ $button: $titles-primary;
 $primary-title-font-size: 50px;
 $secondary-title-font-size: 30px;
 $button-font-size: 2.5em;
-$button-font-size-small: 1.5em;
 $link-font-size: 16px;
 $text-mediaquery-font-size: 12px;
 
 //! COLORS
 
 $primary-color: coral;
-$primary-color-clickActive: #613120;
 $primary-mid-color: #faa88a;
-$primary-mid-color-clickActive: #825747;
 $primary-light-color: #f7c559;
-$primary-light-color-clickActive: #755d2a;
 $secondary-color: whitesmoke;
-$secondary-color-clickActive: #8b8a8a;
 $secondary-dark-color: #585858;
-$secondary-dark-color-clickActive: #262626;
 $terciary-color: #151515;
-$terciary-color-clickActive: #c3c2c2;
 
 $text-primary-color: $secondary-dark-color;
 $text-secondary-color: $secondary-color;
 $text-links: $primary-light-color;
 
 $bg-primary: $secondary-color;
-$bg-secondary: $primary-color;
-$bg-secondary-clickActive: $primary-color-clickActive;
 
 $button-primary-color: $primary-color;
-$button-primary-color-clickActive: $primary-color-clickActive;
 $button-secondary-color: $primary-mid-color;
-$button-secondary-color-clickActive: $primary-mid-color-clickActive;
 $button-text-color: $secondary-color;
-$button-text-color-clickActive: $secondary-color-clickActive;
 
 //! SPACINGS
 
@@ -242,8 +230,7 @@ $text-shadow-primary-light: $primary-light-color $spacing-xxs 0px 0px,
 $text-shadow-links: 1px 3px 0 $terciary-color, 1px 13px 5px $primary-light-color;
 
 //? BOX SHADOWS
-$button-boxShadow: -6px 9px 11px 0px $secondary-dark-color;
-$button-reset-boxShadow: 6px 9px 11px 0px $secondary-dark-color;
+$button-boxShadow: -4px 9px 11px 0px $secondary-dark-color;
 
 //? DROP SHADOW
 $header-img-dropShadow: drop-shadow(0 0 5px $primary-color)
