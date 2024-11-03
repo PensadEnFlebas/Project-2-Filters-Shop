@@ -62,10 +62,13 @@ $terciary-color-clickActive: #c3c2c2;
 $text-primary-color: $secondary-dark-color;
 $text-secondary-color: $secondary-color;
 $text-links: $primary-light-color;
+$text-inputs: $primary-color;
 
 $bg-primary: $secondary-color;
 $bg-secondary: $primary-color;
 $bg-secondary-clickActive: $primary-color-clickActive;
+
+$border-color-inputs: $primary-color;
 
 $button-primary-color: $primary-color;
 $button-primary-color-clickActive: $primary-color-clickActive;
@@ -86,6 +89,8 @@ $spacing-xxl: 35px;
 
 $header-footer-height: 250px;
 
+$input-height: 40px;
+
 $container-height-xxs: 100px;
 $container-height-xs: 120px;
 $container-height-s: 140px;
@@ -101,6 +106,16 @@ $width-m: 50px;
 $width-l: 60px;
 $width-xl: 70px;
 $width-xxl: 80px;
+
+$width-submit-button: 200px;
+
+$width-per-xxs: 10%;
+$width-per-xs: 20%;
+$width-per-s: 40%;
+$width-per-m: 50%;
+$width-per-l: 80%;
+$width-per-xl: 90%;
+$width-per-xxl: 100%;
 
 $img-width-xxs: $width-xxs;
 $img-width-xs: $width-xs;
@@ -135,11 +150,15 @@ $padding-l: $spacing-l;
 $padding-xl: $spacing-xl;
 $padding-xxl: $spacing-xxl;
 
+$form-padding-top-bottom: $margin-l;
+
 //! BORDERS
 
 $noBorder: none;
 
 $border-radius-button: $spacing-xl;
+$border-radius-form: $width-m;
+$border-radius-input: $spacing-m;
 
 //! SHADOWS
 //? TEXT SHADOWS
@@ -240,6 +259,8 @@ $text-shadow-primary-light: $primary-light-color $spacing-xxs 0px 0px,
   $primary-light-color 4.98271px -0.415447px 0px;
 
 $text-shadow-links: 1px 3px 0 $terciary-color, 1px 13px 5px $primary-light-color;
+
+$text-shadow-label: 3px 3px 6px $primary-mid-color-clickActive;
 
 //? BOX SHADOWS
 $button-boxShadow: -6px 9px 11px 0px $secondary-dark-color;

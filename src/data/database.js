@@ -1,6 +1,8 @@
-const BANDS = [
+export const BANDS = [
   {
     bandName: 'Agent Steel',
+    flag: 'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Map%20Flags/USA_Flag_Map_z5cwcb.png',
+    country: 'USA',
     bandPhoto:
       'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1728735300/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Bands/Agent_Steel_band_qrgeml.jpg',
     albums: [
@@ -11,8 +13,6 @@ const BANDS = [
         year: 1985,
         genre: ['Speed Metal', 'Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 14.99,
         rate: 5
@@ -24,8 +24,6 @@ const BANDS = [
         year: 1986,
         genre: ['Speed Metal', 'Thrash Metal'],
         length: 'EP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 9.99,
         rate: 4
@@ -37,8 +35,6 @@ const BANDS = [
         year: 1987,
         genre: ['Speed Metal', 'Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 15.99,
         rate: 5
@@ -48,10 +44,8 @@ const BANDS = [
         cover:
           'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1728735531/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Agent%20Steel/Agent_Steel_-_1999-_Omega_Conspirancy_bakpik.jpg',
         year: 1999,
-        genre: ['Power Metal', 'Thrash Metal'],
+        genre: ['Power Metal', 'Speed Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 16.99,
         rate: 4
@@ -61,10 +55,8 @@ const BANDS = [
         cover:
           'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1728735531/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Agent%20Steel/Agent_Steel_-_2003-_Order_of_the_Illuminati_tqruth.jpg',
         year: 2003,
-        genre: ['Power Metal', 'Thrash Metal'],
+        genre: ['Power Metal', 'Speed Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 17.99,
         rate: 4
@@ -74,10 +66,8 @@ const BANDS = [
         cover:
           'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1728735541/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Agent%20Steel/Agent_Steel_-_2007-_Alienigma_kfj8fr.jpg',
         year: 2007,
-        genre: ['Power Metal', 'Thrash Metal'],
+        genre: ['Power Metal', 'Speed Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 18.99,
         rate: 4
@@ -87,10 +77,8 @@ const BANDS = [
         cover:
           'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1728735535/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Agent%20Steel/Agent_Steel_-_2021-_No_Other_Godz_Before_Me_bspfaj.jpg',
         year: 2021,
-        genre: ['Power Metal', 'Thrash Metal'],
+        genre: ['Power Metal', 'Speed Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 19.99,
         rate: 4
@@ -100,10 +88,8 @@ const BANDS = [
         cover:
           'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729111948/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Agent%20Steel/Agent_Steel_-_2024-_Mad_Locust_Rising_Live_at_Hammersmith_Odeon_l4prll.webp',
         year: 2024,
-        genre: ['Speed Metal', 'Thrash Metal'],
+        genre: ['Speed Metal'],
         length: 'Live Album',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'live album',
         price: 21.99,
         rate: 5
@@ -112,6 +98,8 @@ const BANDS = [
   },
   {
     bandName: 'Anthrax',
+    flag: 'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Map%20Flags/USA_Flag_Map_z5cwcb.png',
+    country: 'USA',
     bandPhoto:
       'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1728735304/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Bands/Anthrax_band_zfl20w.webp',
     albums: [
@@ -122,8 +110,6 @@ const BANDS = [
         year: 1984,
         genre: ['Thrash Metal', 'Speed Metal', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 14.99,
         rate: 4
@@ -135,8 +121,6 @@ const BANDS = [
         year: 1985,
         genre: ['Thrash Metal', 'Speed Metal'],
         length: 'EP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 8.78,
         rate: 4
@@ -148,8 +132,6 @@ const BANDS = [
         year: 1985,
         genre: ['Thrash Metal', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 15.99,
         rate: 5
@@ -161,8 +143,6 @@ const BANDS = [
         year: 1987,
         genre: ['Thrash Metal'],
         length: 'EP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 7.18,
         rate: 4
@@ -174,8 +154,6 @@ const BANDS = [
         year: 1987,
         genre: ['Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 16.99,
         rate: 5
@@ -187,8 +165,6 @@ const BANDS = [
         year: 1988,
         genre: ['Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 15.99,
         rate: 4
@@ -200,8 +176,6 @@ const BANDS = [
         year: 1989,
         genre: ['Thrash Metal'],
         length: 'EP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 7.18,
         rate: 4
@@ -213,8 +187,6 @@ const BANDS = [
         year: 1990,
         genre: ['Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 17.99,
         rate: 5
@@ -226,8 +198,6 @@ const BANDS = [
         year: 1991,
         genre: ['Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'compilation',
         price: 8.05,
         rate: 4
@@ -239,8 +209,6 @@ const BANDS = [
         year: 1993,
         genre: ['Alternative Metal', 'Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 16.99,
         rate: 4
@@ -252,8 +220,6 @@ const BANDS = [
         year: 1994,
         genre: ['Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'live album',
         price: 14.99,
         rate: 4
@@ -265,8 +231,6 @@ const BANDS = [
         year: 1995,
         genre: ['Alternative Metal', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 15.99,
         rate: 3
@@ -278,8 +242,6 @@ const BANDS = [
         year: 1998,
         genre: ['Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'compilation',
         price: 6.14,
         rate: 4
@@ -291,8 +253,6 @@ const BANDS = [
         year: 1998,
         genre: ['Alternative Metal', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 15.99,
         rate: 3
@@ -304,8 +264,6 @@ const BANDS = [
         year: 1999,
         genre: ['Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'compilation',
         price: 7.0,
         rate: 4
@@ -317,8 +275,6 @@ const BANDS = [
         year: 2001,
         genre: ['Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'compilation',
         price: 11.9,
         rate: 4
@@ -330,8 +286,6 @@ const BANDS = [
         year: 2002,
         genre: ['Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'compilation',
         price: 5.92,
         rate: 3
@@ -343,8 +297,6 @@ const BANDS = [
         year: 2003,
         genre: ['Heavy Metal', 'Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 17.99,
         rate: 4
@@ -356,8 +308,6 @@ const BANDS = [
         year: 2004,
         genre: ['Heavy Metal', 'Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'live album',
         price: 25.0,
         rate: 4
@@ -369,8 +319,6 @@ const BANDS = [
         year: 2004,
         genre: ['Heavy Metal', 'Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'compilation',
         price: 6.8,
         rate: 4
@@ -382,8 +330,6 @@ const BANDS = [
         year: 2005,
         genre: ['Heavy Metal', 'Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'live album',
         price: 9.21,
         rate: 4
@@ -395,8 +341,6 @@ const BANDS = [
         year: 2005,
         genre: ['Heavy Metal', 'Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'compilation',
         price: 11.9,
         rate: 4
@@ -408,8 +352,6 @@ const BANDS = [
         year: 2011,
         genre: ['Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 18.99,
         rate: 5
@@ -421,8 +363,6 @@ const BANDS = [
         year: 2013,
         genre: ['Heavy Metal', 'Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'compilation',
         price: 11.37,
         rate: 4
@@ -434,8 +374,6 @@ const BANDS = [
         year: 2014,
         genre: ['Heavy Metal', 'Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'live album',
         price: 16.95,
         rate: 5
@@ -447,8 +385,6 @@ const BANDS = [
         year: 2016,
         genre: ['Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 19.99,
         rate: 4
@@ -460,8 +396,6 @@ const BANDS = [
         year: 2018,
         genre: ['Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'live album',
         price: 13.02,
         rate: 5
@@ -473,8 +407,6 @@ const BANDS = [
         year: 2022,
         genre: ['Heavy Metal', 'Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'compilation',
         price: 19.99,
         rate: 5
@@ -483,6 +415,8 @@ const BANDS = [
   },
   {
     bandName: 'Axe',
+    flag: 'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Map%20Flags/USA_Flag_Map_z5cwcb.png',
+    country: 'USA',
     bandPhoto:
       'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1728735310/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Bands/Axe_band_v51ojx.jpg',
     albums: [
@@ -493,8 +427,6 @@ const BANDS = [
         year: 1979,
         genre: ['Hard Rock', 'Soft Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 14.99,
         rate: 4
@@ -506,8 +438,6 @@ const BANDS = [
         year: 1980,
         genre: ['Hard Rock', 'Soft Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 15.99,
         rate: 4
@@ -519,8 +449,6 @@ const BANDS = [
         year: 1982,
         genre: ['Hard Rock', 'Soft Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 16.99,
         rate: 4
@@ -532,8 +460,6 @@ const BANDS = [
         year: 1983,
         genre: ['Hard Rock', 'Soft Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 15.99,
         rate: 3
@@ -545,8 +471,6 @@ const BANDS = [
         year: 1997,
         genre: ['Hard Rock', 'Soft Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 15.99,
         rate: 3
@@ -558,8 +482,6 @@ const BANDS = [
         year: 1996,
         genre: ['Hard Rock', 'Soft Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 14.99,
         rate: 3
@@ -571,8 +493,6 @@ const BANDS = [
         year: 1997,
         genre: ['Hard Rock', 'Soft Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'compilation',
         price: 18.81,
         rate: 5
@@ -584,8 +504,6 @@ const BANDS = [
         year: 1998,
         genre: ['Hard Rock', 'Soft Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'compilation',
         price: 12.19,
         rate: 4
@@ -597,8 +515,6 @@ const BANDS = [
         year: 2000,
         genre: ['Hard Rock', 'Soft Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 16.99,
         rate: 4
@@ -610,8 +526,6 @@ const BANDS = [
         year: 2012,
         genre: ['Hard Rock', 'Soft Rock'],
         length: 'Compilation',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'compilation',
         price: 13.99,
         rate: 5
@@ -623,8 +537,6 @@ const BANDS = [
         year: 2012,
         genre: ['Hard Rock', 'Soft Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'live album',
         price: 14.99,
         rate: 4
@@ -636,8 +548,6 @@ const BANDS = [
         year: 2019,
         genre: ['Hard Rock', 'Soft Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 18.99,
         rate: 4
@@ -646,6 +556,8 @@ const BANDS = [
   },
   {
     bandName: 'Barón Rojo',
+    flag: 'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
+    country: 'Spain',
     bandPhoto:
       'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1728735310/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Bands/Baro%CC%81n_Rojo_band_kkf0vr.jpg',
     albums: [
@@ -656,8 +568,6 @@ const BANDS = [
         year: 1981,
         genre: ['Hard Rock', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'original',
         price: 14.99,
         rate: 5
@@ -669,8 +579,6 @@ const BANDS = [
         year: 1982,
         genre: ['Hard Rock', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'original',
         price: 16.99,
         rate: 5
@@ -682,8 +590,6 @@ const BANDS = [
         year: 1983,
         genre: ['Hard Rock', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'compilation',
         price: 20.0,
         rate: 3
@@ -695,8 +601,6 @@ const BANDS = [
         year: 1983,
         genre: ['Hard Rock', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'original',
         price: 15.99,
         rate: 5
@@ -708,8 +612,6 @@ const BANDS = [
         year: 1984,
         genre: ['Hard Rock', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'live album',
         price: 14.9,
         rate: 5
@@ -721,8 +623,6 @@ const BANDS = [
         year: 1985,
         genre: ['Hard Rock', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'original',
         price: 14.99,
         rate: 4
@@ -734,8 +634,6 @@ const BANDS = [
         year: 1984,
         genre: ['Hard Rock', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'live album',
         price: 10.95,
         rate: 4
@@ -747,8 +645,6 @@ const BANDS = [
         year: 1987,
         genre: ['Hard Rock', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'original',
         price: 16.99,
         rate: 4
@@ -760,8 +656,6 @@ const BANDS = [
         year: 1988,
         genre: ['Hard Rock', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'original',
         price: 15.99,
         rate: 3
@@ -773,8 +667,6 @@ const BANDS = [
         year: 1989,
         genre: ['Hard Rock', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'original',
         price: 14.99,
         rate: 3
@@ -786,8 +678,6 @@ const BANDS = [
         year: 1992,
         genre: ['Hard Rock', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'original',
         price: 17.99,
         rate: 4
@@ -799,8 +689,6 @@ const BANDS = [
         year: 1995,
         genre: ['Hard Rock', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'compilation',
         price: 17.23,
         rate: 5
@@ -812,8 +700,6 @@ const BANDS = [
         year: 1997,
         genre: ['Hard Rock', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'original',
         price: 13.99,
         rate: 3
@@ -825,8 +711,6 @@ const BANDS = [
         year: 1999,
         genre: ['Hard Rock', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'compilation',
         price: 12.99,
         rate: 4
@@ -838,8 +722,6 @@ const BANDS = [
         year: 2001,
         genre: ['Hard Rock', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'original',
         price: 15.99,
         rate: 4
@@ -851,8 +733,6 @@ const BANDS = [
         year: 2002,
         genre: ['Hard Rock', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'live album',
         price: 14.99,
         rate: 4
@@ -864,8 +744,6 @@ const BANDS = [
         year: 2003,
         genre: ['Hard Rock', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'covers',
         price: 10.95,
         rate: 3
@@ -877,8 +755,6 @@ const BANDS = [
         year: 2006,
         genre: ['Hard Rock', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'compilation',
         price: 8.99,
         rate: 4
@@ -890,8 +766,6 @@ const BANDS = [
         year: 2006,
         genre: ['Hard Rock', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'original',
         price: 16.99,
         rate: 4
@@ -903,8 +777,6 @@ const BANDS = [
         year: 2007,
         genre: ['Hard Rock', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'live album',
         price: 14.99,
         rate: 4
@@ -914,10 +786,8 @@ const BANDS = [
         cover:
           'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1728735612/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Baro%CC%81n%20Rojo/Baro%CC%81n_Rojo_-_2009-_En_Clave_de_Rock_wkv6bb.jpg',
         year: 2009,
-        genre: ['Hard Rock', 'Heavy Metal'],
+        genre: ['Hard Rock', 'Heavy Metal', 'Symphonic Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'live album',
         price: 19.5,
         rate: 3
@@ -929,8 +799,6 @@ const BANDS = [
         year: 2012,
         genre: ['Hard Rock', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'covers',
         price: 13.99,
         rate: 3
@@ -939,6 +807,8 @@ const BANDS = [
   },
   {
     bandName: 'Blind Guardian',
+    flag: 'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
+    country: 'Germany',
     bandPhoto:
       'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1728735316/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Bands/Blind_Guardian_band_mx9tyd.png',
     albums: [
@@ -949,8 +819,6 @@ const BANDS = [
         year: 1988,
         genre: ['Speed Metal', 'Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 14.99,
         rate: 4
@@ -962,8 +830,6 @@ const BANDS = [
         year: 1989,
         genre: ['Speed Metal', 'Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 15.99,
         rate: 4
@@ -975,8 +841,6 @@ const BANDS = [
         year: 1990,
         genre: ['Speed Metal', 'Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 15.99,
         rate: 5
@@ -988,8 +852,6 @@ const BANDS = [
         year: 1992,
         genre: ['Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 16.99,
         rate: 5
@@ -999,10 +861,8 @@ const BANDS = [
         cover:
           'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1728735563/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Blind%20Guardian/Blind_Guardian_-_1993-_Tokyo_Tales_wez8iy.webp',
         year: 1993,
-        genre: ['Power Metal', 'Live'],
+        genre: ['Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'live album',
         price: 14.99,
         rate: 4
@@ -1014,8 +874,6 @@ const BANDS = [
         year: 1995,
         genre: ['Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 16.99,
         rate: 5
@@ -1026,8 +884,6 @@ const BANDS = [
         year: 1996,
         genre: ['Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'compilation',
         price: 14.99,
         rate: 4
@@ -1037,10 +893,8 @@ const BANDS = [
         cover:
           'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1728735785/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Blind%20Guardian/Blind_Guardian_-_1998-_Nightfall_in_Middle-Earth_mccgma.webp',
         year: 1998,
-        genre: ['Power Metal', 'Progressive Metal'],
+        genre: ['Power Metal', 'Symphonic Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 17.99,
         rate: 5
@@ -1052,8 +906,6 @@ const BANDS = [
         year: 2002,
         genre: ['Power Metal', 'Symphonic Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 17.99,
         rate: 5
@@ -1065,8 +917,6 @@ const BANDS = [
         year: 2003,
         genre: ['Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'live album',
         price: 14.99,
         rate: 4
@@ -1076,10 +926,8 @@ const BANDS = [
         cover:
           'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1728735709/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Blind%20Guardian/Blind_Guardian_-_2006-_A_Twist_in_the_Myth_ti16z9.jpg',
         year: 2006,
-        genre: ['Power Metal'],
+        genre: ['Power Metal', 'Symphonic Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 16.99,
         rate: 4
@@ -1091,8 +939,6 @@ const BANDS = [
         year: 2010,
         genre: ['Power Metal', 'Symphonic Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 17.99,
         rate: 4
@@ -1104,8 +950,6 @@ const BANDS = [
         year: 2012,
         genre: ['Power Metal', 'Symphonic Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'compilation',
         price: 15.52,
         rate: 4
@@ -1117,8 +961,6 @@ const BANDS = [
         year: 2013,
         genre: ['Power Metal', 'Symphonic Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'compilation',
         price: 249.45,
         rate: 5
@@ -1130,8 +972,6 @@ const BANDS = [
         year: 2015,
         genre: ['Power Metal', 'Symphonic Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 17.99,
         rate: 5
@@ -1143,8 +983,6 @@ const BANDS = [
         year: 2017,
         genre: ['Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'live album',
         price: 15.99,
         rate: 4
@@ -1155,8 +993,6 @@ const BANDS = [
         year: 2019,
         genre: ['Symphonic Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 18.99,
         rate: 4
@@ -1168,8 +1004,6 @@ const BANDS = [
         year: 2022,
         genre: ['Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 17.99,
         rate: 5
@@ -1178,6 +1012,8 @@ const BANDS = [
   },
   {
     bandName: 'Cauldron',
+    flag: 'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139815/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Map%20Flags/Canada_flag_map_sts8qv.svg',
+    country: 'Canada',
     bandPhoto:
       'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1728735301/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Bands/Cauldron_band_vvivo1.jpg',
     albums: [
@@ -1188,8 +1024,6 @@ const BANDS = [
         year: 2007,
         genre: ['Heavy Metal', 'Speed Metal'],
         length: 'EP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139815/Jason%20english%20lessons/Map%20Flags/Canada_flag_map_sts8qv.svg',
         type: 'original',
         price: 10.95,
         rate: 4
@@ -1201,8 +1035,6 @@ const BANDS = [
         year: 2009,
         genre: ['Heavy Metal', 'Speed Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139815/Jason%20english%20lessons/Map%20Flags/Canada_flag_map_sts8qv.svg',
         type: 'original',
         price: 13.99,
         rate: 4
@@ -1214,8 +1046,6 @@ const BANDS = [
         year: 2011,
         genre: ['Heavy Metal', 'Speed Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139815/Jason%20english%20lessons/Map%20Flags/Canada_flag_map_sts8qv.svg',
         type: 'original',
         price: 14.99,
         rate: 4
@@ -1227,8 +1057,6 @@ const BANDS = [
         year: 2012,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139815/Jason%20english%20lessons/Map%20Flags/Canada_flag_map_sts8qv.svg',
         type: 'original',
         price: 15.99,
         rate: 4
@@ -1240,8 +1068,6 @@ const BANDS = [
         year: 2014,
         genre: ['Heavy Metal', 'Speed Metal'],
         length: 'EP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139815/Jason%20english%20lessons/Map%20Flags/Canada_flag_map_sts8qv.svg',
         type: 'original',
         price: 6.99,
         rate: 4
@@ -1253,8 +1079,6 @@ const BANDS = [
         year: 2016,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139815/Jason%20english%20lessons/Map%20Flags/Canada_flag_map_sts8qv.svg',
         type: 'original',
         price: 15.99,
         rate: 5
@@ -1266,8 +1090,6 @@ const BANDS = [
         year: 2018,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139815/Jason%20english%20lessons/Map%20Flags/Canada_flag_map_sts8qv.svg',
         type: 'original',
         price: 16.99,
         rate: 5
@@ -1276,6 +1098,8 @@ const BANDS = [
   },
   {
     bandName: 'Europe',
+    flag: 'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139815/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Map%20Flags/sweden-map-map-of-sweden-with-swedish-flag-png_jrzanq.webp',
+    country: 'Sweden',
     bandPhoto:
       'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1728735314/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Bands/Europe_band_q2g9gy.jpg',
     albums: [
@@ -1286,8 +1110,6 @@ const BANDS = [
         year: 1983,
         genre: ['Hard Rock', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139815/Jason%20english%20lessons/Map%20Flags/sweden-map-map-of-sweden-with-swedish-flag-png_jrzanq.webp',
         type: 'original',
         price: 13.99,
         rate: 4
@@ -1299,8 +1121,6 @@ const BANDS = [
         year: 1984,
         genre: ['Hard Rock', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139815/Jason%20english%20lessons/Map%20Flags/sweden-map-map-of-sweden-with-swedish-flag-png_jrzanq.webp',
         type: 'original',
         price: 14.99,
         rate: 4
@@ -1312,8 +1132,6 @@ const BANDS = [
         year: 1986,
         genre: ['Hard Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139815/Jason%20english%20lessons/Map%20Flags/sweden-map-map-of-sweden-with-swedish-flag-png_jrzanq.webp',
         type: 'original',
         price: 15.99,
         rate: 5
@@ -1325,8 +1143,6 @@ const BANDS = [
         year: 1988,
         genre: ['Hard Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139815/Jason%20english%20lessons/Map%20Flags/sweden-map-map-of-sweden-with-swedish-flag-png_jrzanq.webp',
         type: 'original',
         price: 16.99,
         rate: 4
@@ -1336,13 +1152,11 @@ const BANDS = [
         cover:
           'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1728735446/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Europe/Europe_-_1991-_Prisioners_in_Paradise_ask13r.jpg',
         year: 1991,
-        genre: ['Hard Rock'],
+        genre: ['Hard Rock', 'Soft Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139815/Jason%20english%20lessons/Map%20Flags/sweden-map-map-of-sweden-with-swedish-flag-png_jrzanq.webp',
         type: 'original',
         price: 14.99,
-        rate: 4
+        rate: 1
       },
       {
         title: '1982–1992',
@@ -1351,8 +1165,6 @@ const BANDS = [
         year: 1993,
         genre: ['Hard Rock', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139815/Jason%20english%20lessons/Map%20Flags/sweden-map-map-of-sweden-with-swedish-flag-png_jrzanq.webp',
         type: 'compilation',
         price: 12.99,
         rate: 4
@@ -1364,8 +1176,6 @@ const BANDS = [
         year: 1993,
         genre: ['Hard Rock', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139815/Jason%20english%20lessons/Map%20Flags/sweden-map-map-of-sweden-with-swedish-flag-png_jrzanq.webp',
         type: 'compilation',
         price: 12.9,
         rate: 4
@@ -1377,8 +1187,6 @@ const BANDS = [
         year: 2004,
         genre: ['Hard Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139815/Jason%20english%20lessons/Map%20Flags/sweden-map-map-of-sweden-with-swedish-flag-png_jrzanq.webp',
         type: 'original',
         price: 17.99,
         rate: 4
@@ -1390,8 +1198,6 @@ const BANDS = [
         year: 2004,
         genre: ['Hard Rock', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139815/Jason%20english%20lessons/Map%20Flags/sweden-map-map-of-sweden-with-swedish-flag-png_jrzanq.webp',
         type: 'compilation',
         price: 13.99,
         rate: 5
@@ -1403,8 +1209,6 @@ const BANDS = [
         year: 2006,
         genre: ['Hard Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139815/Jason%20english%20lessons/Map%20Flags/sweden-map-map-of-sweden-with-swedish-flag-png_jrzanq.webp',
         type: 'original',
         price: 17.99,
         rate: 4
@@ -1417,8 +1221,6 @@ const BANDS = [
         year: 2006,
         genre: ['Hard Rock', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139815/Jason%20english%20lessons/Map%20Flags/sweden-map-map-of-sweden-with-swedish-flag-png_jrzanq.webp',
         type: 'live album',
         price: 19.99,
         rate: 4
@@ -1430,11 +1232,9 @@ const BANDS = [
         year: 2009,
         genre: ['Hard Rock', 'Soft Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139815/Jason%20english%20lessons/Map%20Flags/sweden-map-map-of-sweden-with-swedish-flag-png_jrzanq.webp',
         type: 'live album',
         price: 18.99,
-        rate: 4
+        rate: 2
       },
       {
         title: 'Last Look at Eden',
@@ -1443,8 +1243,6 @@ const BANDS = [
         year: 2009,
         genre: ['Hard Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139815/Jason%20english%20lessons/Map%20Flags/sweden-map-map-of-sweden-with-swedish-flag-png_jrzanq.webp',
         type: 'original',
         price: 17.99,
         rate: 4
@@ -1456,8 +1254,6 @@ const BANDS = [
         year: 2012,
         genre: ['Hard Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139815/Jason%20english%20lessons/Map%20Flags/sweden-map-map-of-sweden-with-swedish-flag-png_jrzanq.webp',
         type: 'original',
         price: 17.99,
         rate: 4
@@ -1469,8 +1265,6 @@ const BANDS = [
         year: 2013,
         genre: ['Hard Rock', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139815/Jason%20english%20lessons/Map%20Flags/sweden-map-map-of-sweden-with-swedish-flag-png_jrzanq.webp',
         type: 'live album',
         price: 19.99,
         rate: 5
@@ -1482,8 +1276,6 @@ const BANDS = [
         year: 2015,
         genre: ['Hard Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139815/Jason%20english%20lessons/Map%20Flags/sweden-map-map-of-sweden-with-swedish-flag-png_jrzanq.webp',
         type: 'original',
         price: 18.99,
         rate: 5
@@ -1495,8 +1287,6 @@ const BANDS = [
         year: 2017,
         genre: ['Hard Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139815/Jason%20english%20lessons/Map%20Flags/sweden-map-map-of-sweden-with-swedish-flag-png_jrzanq.webp',
         type: 'original',
         price: 18.99,
         rate: 5
@@ -1505,6 +1295,8 @@ const BANDS = [
   },
   {
     bandName: 'Exciter',
+    flag: 'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139815/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Map%20Flags/Canada_flag_map_sts8qv.svg',
+    country: 'Canada',
     bandPhoto:
       'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1728735301/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Bands/Exciter_band_tuiuze.jpg',
     albums: [
@@ -1515,8 +1307,6 @@ const BANDS = [
         year: 1983,
         genre: ['Speed Metal', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139815/Jason%20english%20lessons/Map%20Flags/Canada_flag_map_sts8qv.svg',
         type: 'original',
         price: 13.99,
         rate: 5
@@ -1528,8 +1318,6 @@ const BANDS = [
         year: 1984,
         genre: ['Speed Metal', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139815/Jason%20english%20lessons/Map%20Flags/Canada_flag_map_sts8qv.svg',
         type: 'original',
         price: 14.99,
         rate: 5
@@ -1541,8 +1329,6 @@ const BANDS = [
         year: 1985,
         genre: ['Speed Metal', 'Heavy Metal'],
         length: 'EP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139815/Jason%20english%20lessons/Map%20Flags/Canada_flag_map_sts8qv.svg',
         type: 'original',
         price: 13.8,
         rate: 4
@@ -1554,8 +1340,6 @@ const BANDS = [
         year: 1985,
         genre: ['Speed Metal', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139815/Jason%20english%20lessons/Map%20Flags/Canada_flag_map_sts8qv.svg',
         type: 'original',
         price: 15.99,
         rate: 5
@@ -1567,8 +1351,6 @@ const BANDS = [
         year: 1986,
         genre: ['Speed Metal', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139815/Jason%20english%20lessons/Map%20Flags/Canada_flag_map_sts8qv.svg',
         type: 'original',
         price: 14.99,
         rate: 4
@@ -1580,8 +1362,6 @@ const BANDS = [
         year: 1988,
         genre: ['Speed Metal', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139815/Jason%20english%20lessons/Map%20Flags/Canada_flag_map_sts8qv.svg',
         type: 'original',
         price: 13.99,
         rate: 4
@@ -1593,8 +1373,6 @@ const BANDS = [
         year: 1992,
         genre: ['Speed Metal', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139815/Jason%20english%20lessons/Map%20Flags/Canada_flag_map_sts8qv.svg',
         type: 'original',
         price: 14.99,
         rate: 4
@@ -1606,8 +1384,6 @@ const BANDS = [
         year: 1993,
         genre: ['Speed Metal', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139815/Jason%20english%20lessons/Map%20Flags/Canada_flag_map_sts8qv.svg',
         type: 'live album',
         price: 12.99,
         rate: 3
@@ -1619,8 +1395,6 @@ const BANDS = [
         year: 1997,
         genre: ['Speed Metal', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139815/Jason%20english%20lessons/Map%20Flags/Canada_flag_map_sts8qv.svg',
         type: 'original',
         price: 15.99,
         rate: 4
@@ -1632,8 +1406,6 @@ const BANDS = [
         year: 2000,
         genre: ['Speed Metal', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139815/Jason%20english%20lessons/Map%20Flags/Canada_flag_map_sts8qv.svg',
         type: 'original',
         price: 15.99,
         rate: 4
@@ -1645,8 +1417,6 @@ const BANDS = [
         year: 2004,
         genre: ['Speed Metal', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139815/Jason%20english%20lessons/Map%20Flags/Canada_flag_map_sts8qv.svg',
         type: 'compilation',
         price: 13.99,
         rate: 3
@@ -1658,8 +1428,6 @@ const BANDS = [
         year: 2008,
         genre: ['Speed Metal', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139815/Jason%20english%20lessons/Map%20Flags/Canada_flag_map_sts8qv.svg',
         type: 'original',
         price: 16.99,
         rate: 4
@@ -1671,8 +1439,6 @@ const BANDS = [
         year: 2010,
         genre: ['Speed Metal', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139815/Jason%20english%20lessons/Map%20Flags/Canada_flag_map_sts8qv.svg',
         type: 'original',
         price: 17.99,
         rate: 4
@@ -1681,6 +1447,8 @@ const BANDS = [
   },
   {
     bandName: 'Fate',
+    flag: 'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729275461/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Map%20Flags/Flag_map_of_Denmark__1864-1920_m49oyg.png',
+    country: 'Denmark',
     bandPhoto:
       'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1728735303/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Bands/Fate_band_qyqpfm.jpg',
     albums: [
@@ -1691,8 +1459,6 @@ const BANDS = [
         year: 1985,
         genre: ['Hard Rock', 'Soft Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729275461/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Denmark__1864-1920_m49oyg.png',
         type: 'original',
         price: 13.99,
         rate: 4
@@ -1704,8 +1470,6 @@ const BANDS = [
         year: 1986,
         genre: ['Hard Rock', 'Soft Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729275461/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Denmark__1864-1920_m49oyg.png',
         type: 'original',
         price: 14.99,
         rate: 5
@@ -1717,8 +1481,6 @@ const BANDS = [
         year: 1988,
         genre: ['Hard Rock', 'Soft Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729275461/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Denmark__1864-1920_m49oyg.png',
         type: 'original',
         price: 14.99,
         rate: 4
@@ -1730,8 +1492,6 @@ const BANDS = [
         year: 1990,
         genre: ['Hard Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729275461/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Denmark__1864-1920_m49oyg.png',
         type: 'original',
         price: 15.99,
         rate: 4
@@ -1743,8 +1503,6 @@ const BANDS = [
         year: 2006,
         genre: ['Hard Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729275461/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Denmark__1864-1920_m49oyg.png',
         type: 'original',
         price: 16.99,
         rate: 4
@@ -1756,8 +1514,6 @@ const BANDS = [
         year: 2010,
         genre: ['Hard Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729275461/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Denmark__1864-1920_m49oyg.png',
         type: 'compilation',
         price: 12.99,
         rate: 3
@@ -1769,8 +1525,6 @@ const BANDS = [
         year: 2011,
         genre: ['Hard Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729275461/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Denmark__1864-1920_m49oyg.png',
         type: 'original',
         price: 17.99,
         rate: 4
@@ -1782,8 +1536,6 @@ const BANDS = [
         year: 2013,
         genre: ['Hard Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729275461/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Denmark__1864-1920_m49oyg.png',
         type: 'original',
         price: 18.99,
         rate: 4
@@ -1795,8 +1547,6 @@ const BANDS = [
         year: 2022,
         genre: ['Hard Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729275461/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Denmark__1864-1920_m49oyg.png',
         type: 'compilation',
         price: 15.5,
         rate: 3
@@ -1808,8 +1558,6 @@ const BANDS = [
         year: 2024,
         genre: ['Hard Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729275461/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Denmark__1864-1920_m49oyg.png',
         type: 'original',
         price: 14.0,
         rate: 4
@@ -1818,6 +1566,8 @@ const BANDS = [
   },
   {
     bandName: 'Gamma Ray',
+    flag: 'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
+    country: 'Germany',
     bandPhoto:
       'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1728735306/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Bands/Gamma_Ray_band_jbp0jm.webp',
     albums: [
@@ -1828,8 +1578,6 @@ const BANDS = [
         year: 1990,
         genre: ['Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 13.99,
         rate: 5
@@ -1841,8 +1589,6 @@ const BANDS = [
         year: 1991,
         genre: ['Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 14.99,
         rate: 4
@@ -1854,8 +1600,6 @@ const BANDS = [
         year: 1993,
         genre: ['Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 14.99,
         rate: 4
@@ -1867,8 +1611,6 @@ const BANDS = [
         year: 1995,
         genre: ['Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 15.99,
         rate: 5
@@ -1880,8 +1622,6 @@ const BANDS = [
         year: 1996,
         genre: ['Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'live album',
         price: 13.99,
         rate: 4
@@ -1893,8 +1633,6 @@ const BANDS = [
         year: 1997,
         genre: ['Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 16.99,
         rate: 5
@@ -1906,8 +1644,6 @@ const BANDS = [
         year: 1999,
         genre: ['Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 15.99,
         rate: 5
@@ -1919,8 +1655,6 @@ const BANDS = [
         year: 2000,
         genre: ['Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'compilation',
         price: 14.99,
         rate: 4
@@ -1932,8 +1666,6 @@ const BANDS = [
         year: 2001,
         genre: ['Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 16.99,
         rate: 5
@@ -1945,8 +1677,6 @@ const BANDS = [
         year: 2003,
         genre: ['Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'live album',
         price: 15.99,
         rate: 4
@@ -1958,8 +1688,6 @@ const BANDS = [
         year: 2005,
         genre: ['Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 17.99,
         rate: 4
@@ -1971,8 +1699,6 @@ const BANDS = [
         year: 2007,
         genre: ['Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 17.99,
         rate: 4
@@ -1984,8 +1710,6 @@ const BANDS = [
         year: 2008,
         genre: ['Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'live album',
         price: 14.99,
         rate: 4
@@ -1997,8 +1721,6 @@ const BANDS = [
         year: 2010,
         genre: ['Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 16.99,
         rate: 4
@@ -2009,8 +1731,6 @@ const BANDS = [
         year: 2013,
         genre: ['Power Metal'],
         length: 'EP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 9.95,
         rate: 4
@@ -2022,8 +1742,6 @@ const BANDS = [
         year: 2014,
         genre: ['Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 18.99,
         rate: 4
@@ -2035,8 +1753,6 @@ const BANDS = [
         year: 2015,
         genre: ['Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'compilation',
         price: 11.76,
         rate: 5
@@ -2048,8 +1764,6 @@ const BANDS = [
         year: 2015,
         genre: ['Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'live album',
         price: 16.24,
         rate: 5
@@ -2058,6 +1772,8 @@ const BANDS = [
   },
   {
     bandName: 'Helloween',
+    flag: 'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
+    country: 'Germany',
     bandPhoto:
       'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1728735306/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Bands/Gamma_Ray_band_jbp0jm.webp',
     albums: [
@@ -2068,8 +1784,6 @@ const BANDS = [
         year: 1985,
         genre: ['Power Metal', 'Speed Metal'],
         length: 'EP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 9.99,
         rate: 4
@@ -2081,8 +1795,6 @@ const BANDS = [
         year: 1986,
         genre: ['Power Metal', 'Speed Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 13.99,
         rate: 5
@@ -2094,8 +1806,6 @@ const BANDS = [
         year: 1987,
         genre: ['Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 14.99,
         rate: 5
@@ -2107,8 +1817,6 @@ const BANDS = [
         year: 1988,
         genre: ['Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 14.99,
         rate: 5
@@ -2120,8 +1828,6 @@ const BANDS = [
         year: 1989,
         genre: ['Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'live album',
         price: 12.99,
         rate: 4
@@ -2133,8 +1839,6 @@ const BANDS = [
         year: 1991,
         genre: ['Power Metal', 'Heavy Metal', 'Hard Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 13.99,
         rate: 3
@@ -2146,8 +1850,6 @@ const BANDS = [
         year: 1993,
         genre: ['Hard Rock', 'Soft Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 13.99,
         rate: 3
@@ -2159,8 +1861,6 @@ const BANDS = [
         year: 1994,
         genre: ['Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 14.99,
         rate: 4
@@ -2172,8 +1872,6 @@ const BANDS = [
         year: 1996,
         genre: ['Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 15.99,
         rate: 5
@@ -2185,8 +1883,6 @@ const BANDS = [
         year: 1996,
         genre: ['Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'live album',
         price: 13.99,
         rate: 4
@@ -2198,8 +1894,6 @@ const BANDS = [
         year: 1998,
         genre: ['Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 14.99,
         rate: 4
@@ -2211,8 +1905,6 @@ const BANDS = [
         year: 1999,
         genre: ['Heavy Metal', 'Hard Rock', 'Soft Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'covers',
         price: 12.99,
         rate: 3
@@ -2224,8 +1916,6 @@ const BANDS = [
         year: 2000,
         genre: ['Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 15.99,
         rate: 5
@@ -2237,8 +1927,6 @@ const BANDS = [
         year: 2003,
         genre: ['Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 14.99,
         rate: 4
@@ -2250,8 +1938,6 @@ const BANDS = [
         year: 2005,
         genre: ['Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 17.99,
         rate: 5
@@ -2263,8 +1949,6 @@ const BANDS = [
         year: 2007,
         genre: ['Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 15.99,
         rate: 4
@@ -2276,8 +1960,6 @@ const BANDS = [
         year: 2010,
         genre: ['Symphonyc Metal', 'Hard Rock', 'Soft Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'compilation',
         price: 13.99,
         rate: 4
@@ -2289,8 +1971,6 @@ const BANDS = [
         year: 2010,
         genre: ['Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 16.99,
         rate: 5
@@ -2302,8 +1982,6 @@ const BANDS = [
         year: 2013,
         genre: ['Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 16.99,
         rate: 5
@@ -2315,8 +1993,6 @@ const BANDS = [
         year: 2015,
         genre: ['Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 16.99,
         rate: 4
@@ -2328,8 +2004,6 @@ const BANDS = [
         year: 2021,
         genre: ['Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'live album',
         price: 17.99,
         rate: 5
@@ -2341,8 +2015,6 @@ const BANDS = [
         year: 2021,
         genre: ['Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 17.99,
         rate: 5
@@ -2351,6 +2023,8 @@ const BANDS = [
   },
   {
     bandName: 'Hitten',
+    flag: 'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
+    country: 'Spain',
     bandPhoto:
       'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1728735309/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Bands/Hitten_band_cyyher.jpg',
     albums: [
@@ -2361,8 +2035,6 @@ const BANDS = [
         year: 2012,
         genre: ['Heavy Metal'],
         length: 'EP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'original',
         price: 8.99,
         rate: 3
@@ -2374,8 +2046,6 @@ const BANDS = [
         year: 2013,
         genre: ['Heavy Metal'],
         length: 'EP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'original',
         price: 9.99,
         rate: 4
@@ -2387,8 +2057,6 @@ const BANDS = [
         year: 2014,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'original',
         price: 12.99,
         rate: 4
@@ -2400,8 +2068,6 @@ const BANDS = [
         year: 2015,
         genre: ['Heavy Metal'],
         length: 'EP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'original',
         price: 9.99,
         rate: 4
@@ -2413,8 +2079,6 @@ const BANDS = [
         year: 2016,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'original',
         price: 13.99,
         rate: 4
@@ -2426,8 +2090,6 @@ const BANDS = [
         year: 2018,
         genre: ['Heavy Metal', 'Hard Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'original',
         price: 14.99,
         rate: 5
@@ -2439,8 +2101,6 @@ const BANDS = [
         year: 2021,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'original',
         price: 15.99,
         rate: 5
@@ -2452,8 +2112,6 @@ const BANDS = [
         year: 2021,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'original',
         price: 13.99,
         rate: 5
@@ -2462,6 +2120,8 @@ const BANDS = [
   },
   {
     bandName: 'Iron Maiden',
+    flag: 'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
+    country: 'UK',
     bandPhoto:
       'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1728735312/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Bands/Iron_Maiden_band_pxayqd.webp',
     albums: [
@@ -2472,8 +2132,6 @@ const BANDS = [
         year: 1979,
         genre: ['Heavy Metal'],
         length: 'EP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'original',
         price: 7.99,
         rate: 4
@@ -2485,8 +2143,6 @@ const BANDS = [
         year: 1980,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'original',
         price: 10.99,
         rate: 5
@@ -2498,8 +2154,6 @@ const BANDS = [
         year: 1981,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'original',
         price: 11.99,
         rate: 5
@@ -2511,8 +2165,6 @@ const BANDS = [
         year: 1981,
         genre: ['Heavy Metal'],
         length: 'EP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'live album',
         price: 11.99,
         rate: 5
@@ -2524,8 +2176,6 @@ const BANDS = [
         year: 1981,
         genre: ['Heavy Metal'],
         length: 'EP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'live album',
         price: 11.99,
         rate: 5
@@ -2537,8 +2187,6 @@ const BANDS = [
         year: 1982,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'original',
         price: 12.99,
         rate: 5
@@ -2550,8 +2198,6 @@ const BANDS = [
         year: 1983,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'original',
         price: 12.99,
         rate: 5
@@ -2563,8 +2209,6 @@ const BANDS = [
         year: 1984,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'original',
         price: 12.99,
         rate: 5
@@ -2576,8 +2220,6 @@ const BANDS = [
         year: 1985,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'live album',
         price: 15.99,
         rate: 5
@@ -2589,8 +2231,6 @@ const BANDS = [
         year: 1986,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'original',
         price: 12.99,
         rate: 5
@@ -2602,8 +2242,6 @@ const BANDS = [
         year: 1988,
         genre: ['Heavy Metal', 'Progressive Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'original',
         price: 12.99,
         rate: 5
@@ -2615,8 +2253,6 @@ const BANDS = [
         year: 1990,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'original',
         price: 11.99,
         rate: 4
@@ -2629,8 +2265,6 @@ const BANDS = [
         year: 1990,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'compilation',
         price: 11.99,
         rate: 4
@@ -2642,8 +2276,6 @@ const BANDS = [
         year: 1992,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'original',
         price: 11.99,
         rate: 5
@@ -2655,8 +2287,6 @@ const BANDS = [
         year: 1993,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'live album',
         price: 14.99,
         rate: 4
@@ -2668,8 +2298,6 @@ const BANDS = [
         year: 1993,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'live album',
         price: 14.39,
         rate: 4
@@ -2681,8 +2309,6 @@ const BANDS = [
         year: 1993,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'live album',
         price: 18.29,
         rate: 4
@@ -2694,8 +2320,6 @@ const BANDS = [
         year: 1995,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'original',
         price: 10.99,
         rate: 3
@@ -2707,8 +2331,6 @@ const BANDS = [
         year: 1996,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'compilation',
         price: 10.99,
         rate: 3
@@ -2720,8 +2342,6 @@ const BANDS = [
         year: 1998,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'original',
         price: 10.99,
         rate: 3
@@ -2733,8 +2353,6 @@ const BANDS = [
         year: 1999,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'compilation',
         price: 10.99,
         rate: 3
@@ -2746,8 +2364,6 @@ const BANDS = [
         year: 2000,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'original',
         price: 12.99,
         rate: 5
@@ -2759,8 +2375,6 @@ const BANDS = [
         year: 2002,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'live album',
         price: 21.16,
         rate: 5
@@ -2772,8 +2386,6 @@ const BANDS = [
         year: 2002,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'compilation',
         price: 30.95,
         rate: 4
@@ -2785,8 +2397,6 @@ const BANDS = [
         year: 2002,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'compilation',
         price: 250.0,
         rate: 5
@@ -2798,8 +2408,6 @@ const BANDS = [
         year: 2002,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'compilation',
         price: 7.59,
         rate: 3
@@ -2811,8 +2419,6 @@ const BANDS = [
         year: 2002,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'live album',
         price: 17.85,
         rate: 5
@@ -2824,8 +2430,6 @@ const BANDS = [
         year: 2002,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'live album',
         price: 9.0,
         rate: 3
@@ -2837,8 +2441,6 @@ const BANDS = [
         year: 2003,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'original',
         price: 11.99,
         rate: 4
@@ -2850,8 +2452,6 @@ const BANDS = [
         year: 2004,
         genre: ['Heavy Metal'],
         length: 'EP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'original',
         price: 65.0,
         rate: 4
@@ -2863,8 +2463,6 @@ const BANDS = [
         year: 2005,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'live album',
         price: 21.95,
         rate: 4
@@ -2876,8 +2474,6 @@ const BANDS = [
         year: 2005,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'compilation',
         price: 13.78,
         rate: 3
@@ -2889,8 +2485,6 @@ const BANDS = [
         year: 2006,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'original',
         price: 12.99,
         rate: 4
@@ -2902,8 +2496,6 @@ const BANDS = [
         year: 2008,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'compilation',
         price: 15.94,
         rate: 4
@@ -2915,8 +2507,6 @@ const BANDS = [
         year: 2009,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'live album',
         price: 12.59,
         rate: 4
@@ -2928,8 +2518,6 @@ const BANDS = [
         year: 2010,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'original',
         price: 13.99,
         rate: 4
@@ -2941,8 +2529,6 @@ const BANDS = [
         year: 2010,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'compilation',
         price: 13.19,
         rate: 4
@@ -2954,8 +2540,6 @@ const BANDS = [
         year: 2012,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'live album',
         price: 13.19,
         rate: 4
@@ -2967,8 +2551,6 @@ const BANDS = [
         year: 2013,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'live album',
         price: 6.49,
         rate: 4
@@ -2980,8 +2562,6 @@ const BANDS = [
         year: 2015,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'original',
         price: 14.99,
         rate: 4
@@ -2993,8 +2573,6 @@ const BANDS = [
         year: 2017,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'live album',
         price: 12.31,
         rate: 4
@@ -3006,8 +2584,6 @@ const BANDS = [
         year: 2020,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'live album',
         price: 12.31,
         rate: 4
@@ -3019,8 +2595,6 @@ const BANDS = [
         year: 2021,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'original',
         price: 15.99,
         rate: 4
@@ -3029,6 +2603,8 @@ const BANDS = [
   },
   {
     bandName: 'Judas Priest',
+    flag: 'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
+    country: 'UK',
     bandPhoto:
       'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1728735314/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Bands/Judas_Priest_band_hxb6jt.jpg',
     albums: [
@@ -3039,8 +2615,6 @@ const BANDS = [
         year: 1974,
         genre: ['Heavy Metal', 'Hard Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'original',
         price: 10.99,
         rate: 3
@@ -3052,8 +2626,6 @@ const BANDS = [
         year: 1976,
         genre: ['Heavy Metal', 'Hard Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'original',
         price: 12.99,
         rate: 5
@@ -3065,8 +2637,6 @@ const BANDS = [
         year: 1977,
         genre: ['Heavy Metal', 'Hard Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'original',
         price: 12.99,
         rate: 4
@@ -3078,8 +2648,6 @@ const BANDS = [
         year: 1978,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'original',
         price: 12.99,
         rate: 5
@@ -3091,8 +2659,6 @@ const BANDS = [
         year: 1978,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'original',
         price: 11.99,
         rate: 4
@@ -3104,8 +2670,6 @@ const BANDS = [
         year: 1978,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'compilation',
         price: 28.0,
         rate: 4
@@ -3117,8 +2681,6 @@ const BANDS = [
         year: 1979,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'live album',
         price: 13.99,
         rate: 5
@@ -3130,8 +2692,6 @@ const BANDS = [
         year: 1980,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'original',
         price: 13.99,
         rate: 5
@@ -3143,8 +2703,6 @@ const BANDS = [
         year: 1981,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'compilation',
         price: 11.98,
         rate: 4
@@ -3156,8 +2714,6 @@ const BANDS = [
         year: 1981,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'original',
         price: 11.99,
         rate: 4
@@ -3169,8 +2725,6 @@ const BANDS = [
         year: 1982,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'original',
         price: 13.99,
         rate: 5
@@ -3182,8 +2736,6 @@ const BANDS = [
         year: 1984,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'original',
         price: 13.99,
         rate: 5
@@ -3195,8 +2747,6 @@ const BANDS = [
         year: 1986,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'original',
         price: 11.99,
         rate: 3
@@ -3208,8 +2758,6 @@ const BANDS = [
         year: 1987,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'live album',
         price: 13.99,
         rate: 4
@@ -3221,8 +2769,6 @@ const BANDS = [
         year: 1988,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'original',
         price: 12.99,
         rate: 4
@@ -3234,8 +2780,6 @@ const BANDS = [
         year: 1990,
         genre: ['Heavy Metal', 'Speed Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'original',
         price: 13.99,
         rate: 5
@@ -3247,8 +2791,6 @@ const BANDS = [
         year: 1993,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'compilation',
         price: 12.05,
         rate: 5
@@ -3260,8 +2802,6 @@ const BANDS = [
         year: 1997,
         genre: ['Heavy Metal', 'Alternative Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'original',
         price: 10.99,
         rate: 3
@@ -3273,8 +2813,6 @@ const BANDS = [
         year: 1998,
         genre: ['Heavy Metal', 'Alternative Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'live album',
         price: 20.96,
         rate: 4
@@ -3286,8 +2824,6 @@ const BANDS = [
         year: 1998,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'compilation',
         price: 7.98,
         rate: 3
@@ -3299,8 +2835,6 @@ const BANDS = [
         year: 2000,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'compilation',
         price: 11.57,
         rate: 4
@@ -3312,8 +2846,6 @@ const BANDS = [
         year: 2001,
         genre: ['Heavy Metal', 'Alternative Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'original',
         price: 9.99,
         rate: 3
@@ -3325,8 +2857,6 @@ const BANDS = [
         year: 2003,
         genre: ['Heavy Metal', 'Alternative Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'live album',
         price: 20.53,
         rate: 3
@@ -3338,8 +2868,6 @@ const BANDS = [
         year: 2005,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'original',
         price: 12.99,
         rate: 4
@@ -3351,8 +2879,6 @@ const BANDS = [
         year: 2006,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'compilation',
         price: 10.79,
         rate: 4
@@ -3364,8 +2890,6 @@ const BANDS = [
         year: 2008,
         genre: ['Heavy Metal', 'Progressive Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'original',
         price: 13.99,
         rate: 4
@@ -3377,8 +2901,6 @@ const BANDS = [
         year: 2009,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'live album',
         price: 14.99,
         rate: 3
@@ -3390,8 +2912,6 @@ const BANDS = [
         year: 2011,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'compilation',
         price: 11.98,
         rate: 3
@@ -3403,8 +2923,6 @@ const BANDS = [
         year: 2014,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'original',
         price: 14.99,
         rate: 4
@@ -3416,8 +2934,6 @@ const BANDS = [
         year: 2016,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'live album',
         price: 9.95,
         rate: 4
@@ -3429,8 +2945,6 @@ const BANDS = [
         year: 2018,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'original',
         price: 14.99,
         rate: 5
@@ -3442,8 +2956,6 @@ const BANDS = [
         year: 2016,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'original',
         price: 13.99,
         rate: 4
@@ -3452,6 +2964,8 @@ const BANDS = [
   },
   {
     bandName: 'King Diamond',
+    flag: 'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729275461/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Map%20Flags/Flag_map_of_Denmark__1864-1920_m49oyg.png',
+    country: 'Denmark',
     bandPhoto:
       'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1728735302/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Bands/King_Diamond_band_xitogx.jpg',
     albums: [
@@ -3462,8 +2976,6 @@ const BANDS = [
         year: 1986,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729275461/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Denmark__1864-1920_m49oyg.png',
         type: 'original',
         price: 12.99,
         rate: 4
@@ -3475,8 +2987,6 @@ const BANDS = [
         year: 1987,
         genre: ['Heavy Metal', 'Progressive Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729275461/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Denmark__1864-1920_m49oyg.png',
         type: 'original',
         price: 13.99,
         rate: 5
@@ -3488,8 +2998,6 @@ const BANDS = [
         year: 1988,
         genre: ['Heavy Metal'],
         length: 'EP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729275461/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Denmark__1864-1920_m49oyg.png',
         type: 'original',
         price: 19.99,
         rate: 4
@@ -3501,8 +3009,6 @@ const BANDS = [
         year: 1988,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729275461/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Denmark__1864-1920_m49oyg.png',
         type: 'original',
         price: 13.99,
         rate: 5
@@ -3514,8 +3020,6 @@ const BANDS = [
         year: 1989,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729275461/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Denmark__1864-1920_m49oyg.png',
         type: 'original',
         price: 12.99,
         rate: 5
@@ -3527,8 +3031,6 @@ const BANDS = [
         year: 1990,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729275461/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Denmark__1864-1920_m49oyg.png',
         type: 'original',
         price: 12.99,
         rate: 4
@@ -3540,8 +3042,6 @@ const BANDS = [
         year: 1991,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729275461/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Denmark__1864-1920_m49oyg.png',
         type: 'live album',
         price: 18.54,
         rate: 4
@@ -3553,8 +3053,6 @@ const BANDS = [
         year: 1995,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729275461/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Denmark__1864-1920_m49oyg.png',
         type: 'original',
         price: 11.99,
         rate: 4
@@ -3566,8 +3064,6 @@ const BANDS = [
         year: 1996,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729275461/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Denmark__1864-1920_m49oyg.png',
         type: 'original',
         price: 11.99,
         rate: 4
@@ -3579,8 +3075,6 @@ const BANDS = [
         year: 1998,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729275461/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Denmark__1864-1920_m49oyg.png',
         type: 'original',
         price: 12.99,
         rate: 4
@@ -3592,8 +3086,6 @@ const BANDS = [
         year: 2000,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729275461/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Denmark__1864-1920_m49oyg.png',
         type: 'original',
         price: 12.99,
         rate: 4
@@ -3605,8 +3097,6 @@ const BANDS = [
         year: 2002,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729275461/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Denmark__1864-1920_m49oyg.png',
         type: 'original',
         price: 13.99,
         rate: 3
@@ -3618,8 +3108,6 @@ const BANDS = [
         year: 2003,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729275461/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Denmark__1864-1920_m49oyg.png',
         type: 'original',
         price: 12.99,
         rate: 4
@@ -3631,8 +3119,6 @@ const BANDS = [
         year: 2004,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729275461/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Denmark__1864-1920_m49oyg.png',
         type: 'live album',
         price: 14.99,
         rate: 4
@@ -3644,8 +3130,6 @@ const BANDS = [
         year: 2007,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729275461/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Denmark__1864-1920_m49oyg.png',
         type: 'original',
         price: 13.99,
         rate: 4
@@ -3657,8 +3141,6 @@ const BANDS = [
         year: 2014,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729275461/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Denmark__1864-1920_m49oyg.png',
         type: 'compilation',
         price: 15.99,
         rate: 4
@@ -3670,8 +3152,6 @@ const BANDS = [
         year: 2019,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729275461/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Denmark__1864-1920_m49oyg.png',
         type: 'live album',
         price: 14.99,
         rate: 4
@@ -3680,6 +3160,8 @@ const BANDS = [
   },
   {
     bandName: 'Legion',
+    flag: 'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
+    country: 'Spain',
     bandPhoto:
       'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1728735316/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Bands/Legion_band_qouhmk.gif',
     albums: [
@@ -3690,8 +3172,6 @@ const BANDS = [
         year: 1989,
         genre: ['Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'original',
         price: 12.99,
         rate: 5
@@ -3703,8 +3183,6 @@ const BANDS = [
         year: 1990,
         genre: ['Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'original',
         price: 13.99,
         rate: 4
@@ -3716,8 +3194,6 @@ const BANDS = [
         year: 1992,
         genre: ['Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'original',
         price: 13.99,
         rate: 4
@@ -3728,8 +3204,6 @@ const BANDS = [
         year: 2022,
         genre: ['Thrash Metal'],
         length: 'EP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'compilation',
         price: 11.95,
         rate: 4
@@ -3738,6 +3212,8 @@ const BANDS = [
   },
   {
     bandName: 'Megadeth',
+    flag: 'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Map%20Flags/USA_Flag_Map_z5cwcb.png',
+    country: 'USA',
     bandPhoto:
       'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1728735301/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Bands/Megadeth_band_qtv4us.jpg',
     albums: [
@@ -3748,8 +3224,6 @@ const BANDS = [
         year: 1985,
         genre: ['Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 13.99,
         rate: 4
@@ -3761,8 +3235,6 @@ const BANDS = [
         year: 1986,
         genre: ['Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 14.99,
         rate: 5
@@ -3774,8 +3246,6 @@ const BANDS = [
         year: 1988,
         genre: ['Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 13.99,
         rate: 4
@@ -3787,8 +3257,6 @@ const BANDS = [
         year: 1990,
         genre: ['Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 15.99,
         rate: 5
@@ -3800,8 +3268,6 @@ const BANDS = [
         year: 1992,
         genre: ['Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 14.99,
         rate: 5
@@ -3813,8 +3279,6 @@ const BANDS = [
         year: 1994,
         genre: ['Thrash Metal', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 14.99,
         rate: 4
@@ -3826,8 +3290,6 @@ const BANDS = [
         year: 1997,
         genre: ['Thrash Metal', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 13.99,
         rate: 4
@@ -3839,8 +3301,6 @@ const BANDS = [
         year: 1999,
         genre: ['Thrash Metal', 'Alternative Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 12.99,
         rate: 3
@@ -3852,8 +3312,6 @@ const BANDS = [
         year: 2001,
         genre: ['Thrash Metal', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 13.99,
         rate: 3
@@ -3864,8 +3322,6 @@ const BANDS = [
         year: 2002,
         genre: ['Thrash Metal', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'live album',
         price: 13.99,
         rate: 4
@@ -3877,8 +3333,6 @@ const BANDS = [
         year: 2004,
         genre: ['Thrash Metal', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 14.99,
         rate: 4
@@ -3890,8 +3344,6 @@ const BANDS = [
         year: 2007,
         genre: ['Thrash Metal', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'live album',
         price: 13.99,
         rate: 4
@@ -3903,8 +3355,6 @@ const BANDS = [
         year: 2007,
         genre: ['Thrash Metal', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 13.99,
         rate: 4
@@ -3916,8 +3366,6 @@ const BANDS = [
         year: 2009,
         genre: ['Thrash Metal', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 14.99,
         rate: 4
@@ -3929,8 +3377,6 @@ const BANDS = [
         year: 2011,
         genre: ['Thrash Metal', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 14.99,
         rate: 4
@@ -3942,8 +3388,6 @@ const BANDS = [
         year: 2013,
         genre: ['Thrash Metal', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 12.99,
         rate: 3
@@ -3955,8 +3399,6 @@ const BANDS = [
         year: 2016,
         genre: ['Thrash Metal', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 15.99,
         rate: 5
@@ -3968,8 +3410,6 @@ const BANDS = [
         year: 2019,
         genre: ['Thrash Metal', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'compilation',
         price: 14.99,
         rate: 5
@@ -3981,8 +3421,6 @@ const BANDS = [
         year: 2022,
         genre: ['Thrash Metal', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 15.99,
         rate: 5
@@ -3991,6 +3429,8 @@ const BANDS = [
   },
   {
     bandName: 'Mercyful Fate',
+    flag: 'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729275461/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Map%20Flags/Flag_map_of_Denmark__1864-1920_m49oyg.png',
+    country: 'Denmark',
     bandPhoto:
       'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1728735307/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Bands/Mercyful_Fate_bmoegt.webp',
     albums: [
@@ -4001,8 +3441,6 @@ const BANDS = [
         year: 1982,
         genre: ['Heavy Metal'],
         length: 'EP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729275461/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Denmark__1864-1920_m49oyg.png',
         type: 'original',
         price: 9.99,
         rate: 4
@@ -4014,8 +3452,6 @@ const BANDS = [
         year: 1983,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729275461/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Denmark__1864-1920_m49oyg.png',
         type: 'original',
         price: 13.99,
         rate: 5
@@ -4027,8 +3463,6 @@ const BANDS = [
         year: 1984,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729275461/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Denmark__1864-1920_m49oyg.png',
         type: 'original',
         price: 14.99,
         rate: 5
@@ -4040,8 +3474,6 @@ const BANDS = [
         year: 1987,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729275461/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Denmark__1864-1920_m49oyg.png',
         type: 'compilation',
         price: 12.99,
         rate: 4
@@ -4053,8 +3485,6 @@ const BANDS = [
         year: 1992,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729275461/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Denmark__1864-1920_m49oyg.png',
         type: 'compilation',
         price: 12.99,
         rate: 4
@@ -4066,8 +3496,6 @@ const BANDS = [
         year: 1993,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729275461/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Denmark__1864-1920_m49oyg.png',
         type: 'original',
         price: 14.99,
         rate: 4
@@ -4079,8 +3507,6 @@ const BANDS = [
         year: 1994,
         genre: ['Heavy Metal'],
         length: 'EP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729275461/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Denmark__1864-1920_m49oyg.png',
         type: 'original',
         price: 9.99,
         rate: 3
@@ -4092,8 +3518,6 @@ const BANDS = [
         year: 1994,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729275461/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Denmark__1864-1920_m49oyg.png',
         type: 'original',
         price: 13.99,
         rate: 4
@@ -4105,8 +3529,6 @@ const BANDS = [
         year: 1996,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729275461/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Denmark__1864-1920_m49oyg.png',
         type: 'original',
         price: 13.99,
         rate: 4
@@ -4118,8 +3540,6 @@ const BANDS = [
         year: 1998,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729275461/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Denmark__1864-1920_m49oyg.png',
         type: 'original',
         price: 13.99,
         rate: 4
@@ -4131,8 +3551,6 @@ const BANDS = [
         year: 1999,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729275461/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Denmark__1864-1920_m49oyg.png',
         type: 'original',
         price: 13.99,
         rate: 4
@@ -4144,8 +3562,6 @@ const BANDS = [
         year: 2003,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729275461/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Denmark__1864-1920_m49oyg.png',
         type: 'compilation',
         price: 12.99,
         rate: 4
@@ -4154,6 +3570,8 @@ const BANDS = [
   },
   {
     bandName: 'Metallica',
+    flag: 'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Map%20Flags/USA_Flag_Map_z5cwcb.png',
+    country: 'USA',
     bandPhoto:
       'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1728735306/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Bands/Metallica_band_ehhdoo.jpg',
     albums: [
@@ -4164,8 +3582,6 @@ const BANDS = [
         year: 1983,
         genre: ['Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 14.99,
         rate: 5
@@ -4177,8 +3593,6 @@ const BANDS = [
         year: 1984,
         genre: ['Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 14.99,
         rate: 5
@@ -4190,8 +3604,6 @@ const BANDS = [
         year: 1986,
         genre: ['Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 15.99,
         rate: 5
@@ -4203,8 +3615,6 @@ const BANDS = [
         year: 1987,
         genre: ['Thrash Metal'],
         length: 'EP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'covers',
         price: 5.98,
         rate: 4
@@ -4216,8 +3626,6 @@ const BANDS = [
         year: 1988,
         genre: ['Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 15.99,
         rate: 5
@@ -4229,8 +3637,6 @@ const BANDS = [
         year: 1991,
         genre: ['Thrash Metal', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 16.99,
         rate: 5
@@ -4242,8 +3648,6 @@ const BANDS = [
         year: 1993,
         genre: ['Thrash Metal', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'live album',
         price: 19.99,
         rate: 4
@@ -4255,8 +3659,6 @@ const BANDS = [
         year: 1996,
         genre: ['Heavy Metal', 'Hard Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 16.99,
         rate: 4
@@ -4268,8 +3670,6 @@ const BANDS = [
         year: 1997,
         genre: ['Heavy Metal', 'Hard Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 16.99,
         rate: 4
@@ -4281,8 +3681,6 @@ const BANDS = [
         year: 1998,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'compilation',
         price: 15.99,
         rate: 4
@@ -4294,8 +3692,6 @@ const BANDS = [
         year: 1999,
         genre: ['Heavy Metal', 'Symphonic Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'live album',
         price: 18.99,
         rate: 4
@@ -4307,8 +3703,6 @@ const BANDS = [
         year: 2003,
         genre: ['Heavy Metal', 'Alternative Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 15.99,
         rate: 3
@@ -4320,8 +3714,6 @@ const BANDS = [
         year: 2008,
         genre: ['Heavy Metal', 'Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 16.99,
         rate: 4
@@ -4333,8 +3725,6 @@ const BANDS = [
         year: 2016,
         genre: ['Heavy Metal', 'Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 17.99,
         rate: 4
@@ -4346,8 +3736,6 @@ const BANDS = [
         year: 2020,
         genre: ['Heavy Metal', 'Symphonic Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'live album',
         price: 19.99,
         rate: 4
@@ -4359,8 +3747,6 @@ const BANDS = [
         year: 2023,
         genre: ['Heavy Metal', 'Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 18.99,
         rate: 4
@@ -4369,6 +3755,8 @@ const BANDS = [
   },
   {
     bandName: 'Muro',
+    flag: 'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
+    country: 'Spain',
     bandPhoto:
       'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1728735305/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Bands/Muro_band_gfnvw8.jpg',
     albums: [
@@ -4379,8 +3767,6 @@ const BANDS = [
         year: 1986,
         genre: ['Heavy Metal', 'Speed Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'live album',
         price: 13.99,
         rate: 5
@@ -4392,8 +3778,6 @@ const BANDS = [
         year: 1988,
         genre: ['Heavy Metal', 'Speed Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'original',
         price: 14.99,
         rate: 5
@@ -4405,8 +3789,6 @@ const BANDS = [
         year: 1989,
         genre: ['Heavy Metal', 'Speed Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'original',
         price: 14.99,
         rate: 4
@@ -4418,8 +3800,6 @@ const BANDS = [
         year: 1992,
         genre: ['Heavy Metal', 'Speed Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'original',
         price: 15.99,
         rate: 4
@@ -4431,8 +3811,6 @@ const BANDS = [
         year: 1992,
         genre: ['Heavy Metal', 'Speed Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'compilation',
         price: 10.99,
         rate: 4
@@ -4444,8 +3822,6 @@ const BANDS = [
         year: 1999,
         genre: ['Heavy Metal', 'Speed Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'original',
         price: 14.99,
         rate: 3
@@ -4457,8 +3833,6 @@ const BANDS = [
         year: 2001,
         genre: ['Heavy Metal', 'Speed Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'original',
         price: 14.99,
         rate: 4
@@ -4470,8 +3844,6 @@ const BANDS = [
         year: 2003,
         genre: ['Heavy Metal', 'Speed Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'live album',
         price: 16.99,
         rate: 4
@@ -4483,8 +3855,6 @@ const BANDS = [
         year: 2004,
         genre: ['Heavy Metal', 'Speed Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'compilation',
         price: 10.11,
         rate: 3
@@ -4496,8 +3866,6 @@ const BANDS = [
         year: 2007,
         genre: ['Heavy Metal', 'Speed Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'compilation',
         price: 10.91,
         rate: 3
@@ -4509,8 +3877,6 @@ const BANDS = [
         year: 2013,
         genre: ['Heavy Metal', 'Speed Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'original',
         price: 15.99,
         rate: 4
@@ -4519,6 +3885,8 @@ const BANDS = [
   },
   {
     bandName: 'Ñu',
+    flag: 'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
+    country: 'Spain',
     bandPhoto:
       'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1728735300/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Bands/N%CC%83u_band_isl3v2.jpg',
     albums: [
@@ -4529,8 +3897,6 @@ const BANDS = [
         year: 1978,
         genre: ['Folk Rock', 'Hard Rock', 'Progressive Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'original',
         price: 14.99,
         rate: 5
@@ -4542,8 +3908,6 @@ const BANDS = [
         year: 1979,
         genre: ['Folk Rock', 'Hard Rock', 'Progressive Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'original',
         price: 11.0,
         rate: 5
@@ -4555,8 +3919,6 @@ const BANDS = [
         year: 1983,
         genre: ['Folk Rock', 'Hard Rock', 'Progressive Rock', 'Heavy  Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'original',
         price: 7.99,
         rate: 5
@@ -4568,8 +3930,6 @@ const BANDS = [
         year: 1984,
         genre: ['Folk Rock', 'Hard Rock', 'Progressive Rock', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'original',
         price: 14.99,
         rate: 4
@@ -4581,8 +3941,6 @@ const BANDS = [
         year: 1986,
         genre: ['Folk Rock', 'Hard Rock', 'Progressive Rock', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'live album',
         price: 15.99,
         rate: 4
@@ -4594,8 +3952,6 @@ const BANDS = [
         year: 1987,
         genre: ['Folk Rock', 'Heavy Metal', 'Progressive Rock', 'Hard Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'original',
         price: 15.99,
         rate: 4
@@ -4607,8 +3963,6 @@ const BANDS = [
         year: 1988,
         genre: ['Folk Rock', 'Hard Rock', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'original',
         price: 16.99,
         rate: 4
@@ -4620,8 +3974,6 @@ const BANDS = [
         year: 1990,
         genre: ['Folk Rock', 'Heavy Metal', 'Hard Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'original',
         price: 9.99,
         rate: 4
@@ -4633,8 +3985,6 @@ const BANDS = [
         year: 1992,
         genre: ['Folk Rock', 'Heavy Metal', 'Progressive Rock', 'Hard Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'live album',
         price: 15.99,
         rate: 4
@@ -4646,8 +3996,6 @@ const BANDS = [
         year: 1994,
         genre: ['Folk Rock', 'Heavy Metal', 'Progressive Rock', 'Hard Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'original',
         price: 14.99,
         rate: 4
@@ -4659,8 +4007,6 @@ const BANDS = [
         year: 1995,
         genre: ['Folk Rock', 'Heavy Metal', 'Progressive Rock', 'Hard Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'compilation',
         price: 9.99,
         rate: 4
@@ -4672,8 +4018,6 @@ const BANDS = [
         year: 1997,
         genre: ['Folk Rock', 'Hard Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'compilation',
         price: 16.99,
         rate: 4
@@ -4685,8 +4029,6 @@ const BANDS = [
         year: 1999,
         genre: ['Folk Rock', 'Hard Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'live album',
         price: 16.99,
         rate: 4
@@ -4698,8 +4040,6 @@ const BANDS = [
         year: 2000,
         genre: ['Folk Rock', 'Hard Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'original',
         price: 14.99,
         rate: 4
@@ -4711,8 +4051,6 @@ const BANDS = [
         year: 2001,
         genre: ['Folk Rock', 'Heavy Metal', 'Hard Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'compilation',
         price: 8.27,
         rate: 3
@@ -4724,8 +4062,6 @@ const BANDS = [
         year: 2002,
         genre: ['Folk Rock', 'Heavy Metal', 'Hard Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'compilation',
         price: 17.45,
         rate: 3
@@ -4737,8 +4073,6 @@ const BANDS = [
         year: 2002,
         genre: ['Folk Rock', 'Heavy Metal', 'Hard Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'original',
         price: 14.0,
         rate: 4
@@ -4750,8 +4084,6 @@ const BANDS = [
         year: 2003,
         genre: ['Folk Rock', 'Heavy Metal', 'Hard Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'original',
         price: 15.99,
         rate: 4
@@ -4763,8 +4095,6 @@ const BANDS = [
         year: 2011,
         genre: ['Folk Rock', 'Heavy Metal', 'Progressive Rock', 'Hard Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'compilation',
         price: 11.95,
         rate: 4
@@ -4776,8 +4106,6 @@ const BANDS = [
         year: 2011,
         genre: ['Folk Rock', 'Heavy Metal', 'Hard Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'original',
         price: 14.99,
         rate: 4
@@ -4789,8 +4117,6 @@ const BANDS = [
         year: 2023,
         genre: ['Folk Rock', 'Heavy Metal', 'Hard Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
         type: 'original',
         price: 15.99,
         rate: 4
@@ -4799,6 +4125,8 @@ const BANDS = [
   },
   {
     bandName: 'Picture',
+    flag: 'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729361405/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Map%20Flags/Flag-map_of_the_Netherlands.svg_mdrdnx.png',
+    country: 'Netherlands',
     bandPhoto:
       'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1728735315/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Bands/Picture_band_eysyte.jpg',
     albums: [
@@ -4809,8 +4137,6 @@ const BANDS = [
         year: 1980,
         genre: ['Heavy Metal', 'Hard Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729361405/Jason%20english%20lessons/Map%20Flags/Flag-map_of_the_Netherlands.svg_mdrdnx.png',
         type: 'original',
         price: 14.99,
         rate: 4
@@ -4822,8 +4148,6 @@ const BANDS = [
         year: 1981,
         genre: ['Heavy Metal', 'Hard Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729361405/Jason%20english%20lessons/Map%20Flags/Flag-map_of_the_Netherlands.svg_mdrdnx.png',
         type: 'original',
         price: 15.99,
         rate: 4
@@ -4835,8 +4159,6 @@ const BANDS = [
         year: 1982,
         genre: ['Heavy Metal', 'Hard Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729361405/Jason%20english%20lessons/Map%20Flags/Flag-map_of_the_Netherlands.svg_mdrdnx.png',
         type: 'original',
         price: 16.99,
         rate: 5
@@ -4848,8 +4170,6 @@ const BANDS = [
         year: 1983,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729361405/Jason%20english%20lessons/Map%20Flags/Flag-map_of_the_Netherlands.svg_mdrdnx.png',
         type: 'original',
         price: 16.99,
         rate: 5
@@ -4861,8 +4181,6 @@ const BANDS = [
         year: 1985,
         genre: ['Heavy Metal', 'Hard Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729361405/Jason%20english%20lessons/Map%20Flags/Flag-map_of_the_Netherlands.svg_mdrdnx.png',
         type: 'original',
         price: 15.99,
         rate: 4
@@ -4874,8 +4192,6 @@ const BANDS = [
         year: 1986,
         genre: ['Heavy Metal', 'Hard Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729361405/Jason%20english%20lessons/Map%20Flags/Flag-map_of_the_Netherlands.svg_mdrdnx.png',
         type: 'original',
         price: 14.99,
         rate: 3
@@ -4887,8 +4203,6 @@ const BANDS = [
         year: 1987,
         genre: ['Hard Rock', 'Soft Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729361405/Jason%20english%20lessons/Map%20Flags/Flag-map_of_the_Netherlands.svg_mdrdnx.png',
         type: 'original',
         price: 14.99,
         rate: 4
@@ -4900,8 +4214,6 @@ const BANDS = [
         year: 2008,
         genre: ['Heavy Metal', 'Hard Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729361405/Jason%20english%20lessons/Map%20Flags/Flag-map_of_the_Netherlands.svg_mdrdnx.png',
         type: 'live album',
         price: 16.99,
         rate: 4
@@ -4913,8 +4225,6 @@ const BANDS = [
         year: 2009,
         genre: ['Heavy Metal', 'Hard Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729361405/Jason%20english%20lessons/Map%20Flags/Flag-map_of_the_Netherlands.svg_mdrdnx.png',
         type: 'original',
         price: 15.99,
         rate: 4
@@ -4926,8 +4236,6 @@ const BANDS = [
         year: 2012,
         genre: ['Heavy Metal', 'Hard Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729361405/Jason%20english%20lessons/Map%20Flags/Flag-map_of_the_Netherlands.svg_mdrdnx.png',
         type: 'original',
         price: 16.99,
         rate: 4
@@ -4939,8 +4247,6 @@ const BANDS = [
         year: 2014,
         genre: ['Heavy Metal', 'Hard Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729361405/Jason%20english%20lessons/Map%20Flags/Flag-map_of_the_Netherlands.svg_mdrdnx.png',
         type: 'live album',
         price: 17.99,
         rate: 4
@@ -4952,8 +4258,6 @@ const BANDS = [
         year: 2019,
         genre: ['Heavy Metal', 'Hard Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729361405/Jason%20english%20lessons/Map%20Flags/Flag-map_of_the_Netherlands.svg_mdrdnx.png',
         type: 'original',
         price: 16.99,
         rate: 4
@@ -4962,6 +4266,8 @@ const BANDS = [
   },
   {
     bandName: 'Rainbow',
+    flag: 'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
+    country: 'UK',
     bandPhoto:
       'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1728735308/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Bands/Rainbow_band_stuin8.jpg',
     albums: [
@@ -4972,8 +4278,6 @@ const BANDS = [
         year: 1975,
         genre: ['Hard Rock', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'original',
         price: 14.99,
         rate: 5
@@ -4985,8 +4289,6 @@ const BANDS = [
         year: 1976,
         genre: ['Hard Rock', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'original',
         price: 16.99,
         rate: 5
@@ -4998,8 +4300,6 @@ const BANDS = [
         year: 1977,
         genre: ['Hard Rock', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'live album',
         price: 17.99,
         rate: 4
@@ -5011,8 +4311,6 @@ const BANDS = [
         year: 1978,
         genre: ['Hard Rock', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'original',
         price: 15.99,
         rate: 5
@@ -5024,8 +4322,6 @@ const BANDS = [
         year: 1979,
         genre: ['Hard Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'original',
         price: 14.99,
         rate: 4
@@ -5037,8 +4333,6 @@ const BANDS = [
         year: 1981,
         genre: ['Hard Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'original',
         price: 15.99,
         rate: 4
@@ -5050,8 +4344,6 @@ const BANDS = [
         year: 1982,
         genre: ['Hard Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'original',
         price: 15.99,
         rate: 4
@@ -5063,8 +4355,6 @@ const BANDS = [
         year: 1983,
         genre: ['Hard Rock', 'Soft Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'original',
         price: 14.99,
         rate: 4
@@ -5076,8 +4366,6 @@ const BANDS = [
         year: 1986,
         genre: ['Hard Rock', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'compilation',
         price: 13.99,
         rate: 3
@@ -5089,8 +4377,6 @@ const BANDS = [
         year: 1990,
         genre: ['Hard Rock', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'live album',
         price: 18.99,
         rate: 5
@@ -5102,8 +4388,6 @@ const BANDS = [
         year: 1995,
         genre: ['Hard Rock', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'original',
         price: 16.99,
         rate: 4
@@ -5115,8 +4399,6 @@ const BANDS = [
         year: 1997,
         genre: ['Hard Rock', 'Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Jason%20english%20lessons/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
         type: 'compilation',
         price: 15.21,
         rate: 4
@@ -5125,6 +4407,8 @@ const BANDS = [
   },
   {
     bandName: 'Ram',
+    flag: 'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139815/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Map%20Flags/sweden-map-map-of-sweden-with-swedish-flag-png_jrzanq.webp',
+    country: 'Sweden',
     bandPhoto:
       'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1728735312/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Bands/Ram_band_icvme9.jpg',
     albums: [
@@ -5135,8 +4419,6 @@ const BANDS = [
         year: 2003,
         genre: ['Heavy Metal'],
         length: 'EP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139815/Jason%20english%20lessons/Map%20Flags/sweden-map-map-of-sweden-with-swedish-flag-png_jrzanq.webp',
         type: 'original',
         price: 9.99,
         rate: 4
@@ -5148,8 +4430,6 @@ const BANDS = [
         year: 2005,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139815/Jason%20english%20lessons/Map%20Flags/sweden-map-map-of-sweden-with-swedish-flag-png_jrzanq.webp',
         type: 'original',
         price: 14.99,
         rate: 4
@@ -5161,8 +4441,6 @@ const BANDS = [
         year: 2009,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139815/Jason%20english%20lessons/Map%20Flags/sweden-map-map-of-sweden-with-swedish-flag-png_jrzanq.webp',
         type: 'original',
         price: 14.99,
         rate: 4
@@ -5174,8 +4452,6 @@ const BANDS = [
         year: 2011,
         genre: ['Heavy Metal'],
         length: 'EP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139815/Jason%20english%20lessons/Map%20Flags/sweden-map-map-of-sweden-with-swedish-flag-png_jrzanq.webp',
         type: 'original',
         price: 6.35,
         rate: 4
@@ -5187,8 +4463,6 @@ const BANDS = [
         year: 2012,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139815/Jason%20english%20lessons/Map%20Flags/sweden-map-map-of-sweden-with-swedish-flag-png_jrzanq.webp',
         type: 'original',
         price: 16.99,
         rate: 5
@@ -5200,8 +4474,6 @@ const BANDS = [
         year: 2014,
         genre: ['Heavy Metal'],
         length: 'EP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139815/Jason%20english%20lessons/Map%20Flags/sweden-map-map-of-sweden-with-swedish-flag-png_jrzanq.webp',
         type: 'original',
         price: 9.99,
         rate: 4
@@ -5213,8 +4485,6 @@ const BANDS = [
         year: 2015,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139815/Jason%20english%20lessons/Map%20Flags/sweden-map-map-of-sweden-with-swedish-flag-png_jrzanq.webp',
         type: 'original',
         price: 16.99,
         rate: 5
@@ -5226,8 +4496,6 @@ const BANDS = [
         year: 2017,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139815/Jason%20english%20lessons/Map%20Flags/sweden-map-map-of-sweden-with-swedish-flag-png_jrzanq.webp',
         type: 'original',
         price: 16.99,
         rate: 5
@@ -5239,8 +4507,6 @@ const BANDS = [
         year: 2019,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139815/Jason%20english%20lessons/Map%20Flags/sweden-map-map-of-sweden-with-swedish-flag-png_jrzanq.webp',
         type: 'original',
         price: 17.99,
         rate: 5
@@ -5249,6 +4515,8 @@ const BANDS = [
   },
   {
     bandName: 'Riot',
+    flag: 'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Map%20Flags/USA_Flag_Map_z5cwcb.png',
+    country: 'USA',
     bandPhoto:
       'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1728735311/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Bands/Riot_band_m8wdmk.jpg',
     albums: [
@@ -5259,8 +4527,6 @@ const BANDS = [
         year: 1977,
         genre: ['Heavy Metal', 'Hard Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 14.99,
         rate: 4
@@ -5272,8 +4538,6 @@ const BANDS = [
         year: 1979,
         genre: ['Heavy Metal', 'Hard Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 14.99,
         rate: 4
@@ -5285,8 +4549,6 @@ const BANDS = [
         year: 1981,
         genre: ['Heavy Metal', 'Hard Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 15.99,
         rate: 5
@@ -5298,8 +4560,6 @@ const BANDS = [
         year: 1982,
         genre: ['Heavy Metal', 'Hard Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 14.99,
         rate: 4
@@ -5311,8 +4571,6 @@ const BANDS = [
         year: 1983,
         genre: ['Heavy Metal', 'Hard Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 14.99,
         rate: 4
@@ -5324,8 +4582,6 @@ const BANDS = [
         year: 1988,
         genre: ['Heavy Metal', 'Speed Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 15.99,
         rate: 5
@@ -5337,8 +4593,6 @@ const BANDS = [
         year: 1989,
         genre: ['Heavy Metal', 'Speed Metal', 'Hard Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'live album',
         price: 13.99,
         rate: 4
@@ -5350,8 +4604,6 @@ const BANDS = [
         year: 1990,
         genre: ['Heavy Metal', 'Speed Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 15.99,
         rate: 4
@@ -5363,8 +4615,6 @@ const BANDS = [
         year: 1992,
         genre: ['Heavy Metal', 'Speed Metal', 'Hard Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'live album',
         price: 15.99,
         rate: 4
@@ -5376,8 +4626,6 @@ const BANDS = [
         year: 1993,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 14.99,
         rate: 4
@@ -5389,8 +4637,6 @@ const BANDS = [
         year: 1995,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 14.99,
         rate: 4
@@ -5402,8 +4648,6 @@ const BANDS = [
         year: 1998,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 14.99,
         rate: 4
@@ -5415,8 +4659,6 @@ const BANDS = [
         year: 1998,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'live album',
         price: 16.95,
         rate: 4
@@ -5428,8 +4670,6 @@ const BANDS = [
         year: 1999,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 14.99,
         rate: 4
@@ -5441,8 +4681,6 @@ const BANDS = [
         year: 2002,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 14.99,
         rate: 4
@@ -5454,8 +4692,6 @@ const BANDS = [
         year: 2006,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 15.99,
         rate: 4
@@ -5467,8 +4703,6 @@ const BANDS = [
         year: 2011,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 15.99,
         rate: 5
@@ -5480,8 +4714,6 @@ const BANDS = [
         year: 2014,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 15.99,
         rate: 5
@@ -5493,8 +4725,6 @@ const BANDS = [
         year: 2018,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 16.99,
         rate: 5
@@ -5506,8 +4736,6 @@ const BANDS = [
         year: 2019,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'live album',
         price: 18.89,
         rate: 4
@@ -5519,8 +4747,6 @@ const BANDS = [
         year: 2024,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 17.79,
         rate: 5
@@ -5529,6 +4755,8 @@ const BANDS = [
   },
   {
     bandName: 'Running Wild',
+    flag: 'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
+    country: 'Germany',
     bandPhoto:
       'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1728735309/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Bands/Running_Wild_band_jsw6sc.jpg',
     albums: [
@@ -5539,8 +4767,6 @@ const BANDS = [
         year: 1984,
         genre: ['Heavy Metal', 'Speed Metal'],
         length: 'EP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 10.76,
         rate: 4
@@ -5552,8 +4778,6 @@ const BANDS = [
         year: 1984,
         genre: ['Heavy Metal', 'Speed Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 14.99,
         rate: 4
@@ -5565,8 +4789,6 @@ const BANDS = [
         year: 1985,
         genre: ['Heavy Metal', 'Speed Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 14.99,
         rate: 4
@@ -5578,8 +4800,6 @@ const BANDS = [
         year: 1987,
         genre: ['Heavy Metal', 'Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 15.99,
         rate: 5
@@ -5591,8 +4811,6 @@ const BANDS = [
         year: 1988,
         genre: ['Heavy Metal', 'Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 15.99,
         rate: 5
@@ -5604,8 +4822,6 @@ const BANDS = [
         year: 1988,
         genre: ['Heavy Metal', 'Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'live album',
         price: 14.99,
         rate: 4
@@ -5617,8 +4833,6 @@ const BANDS = [
         year: 1989,
         genre: ['Heavy Metal', 'Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 15.99,
         rate: 5
@@ -5630,8 +4844,6 @@ const BANDS = [
         year: 1991,
         genre: ['Heavy Metal', 'Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 16.99,
         rate: 5
@@ -5643,8 +4855,6 @@ const BANDS = [
         year: 1991,
         genre: ['Heavy Metal', 'Speed Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'compilation',
         price: 15.77,
         rate: 4
@@ -5656,8 +4866,6 @@ const BANDS = [
         year: 1992,
         genre: ['Heavy Metal', 'Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 16.99,
         rate: 5
@@ -5669,8 +4877,6 @@ const BANDS = [
         year: 1994,
         genre: ['Heavy Metal', 'Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 16.99,
         rate: 5
@@ -5682,8 +4888,6 @@ const BANDS = [
         year: 1995,
         genre: ['Heavy Metal', 'Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 16.99,
         rate: 5
@@ -5695,8 +4899,6 @@ const BANDS = [
         year: 1998,
         genre: ['Heavy Metal', 'Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 16.99,
         rate: 5
@@ -5708,8 +4910,6 @@ const BANDS = [
         year: 2000,
         genre: ['Heavy Metal', 'Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 15.99,
         rate: 4
@@ -5721,8 +4921,6 @@ const BANDS = [
         year: 2002,
         genre: ['Heavy Metal', 'Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 15.99,
         rate: 4
@@ -5734,8 +4932,6 @@ const BANDS = [
         year: 2005,
         genre: ['Heavy Metal', 'Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 15.99,
         rate: 4
@@ -5747,8 +4943,6 @@ const BANDS = [
         year: 2012,
         genre: ['Heavy Metal', 'Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 15.99,
         rate: 4
@@ -5760,8 +4954,6 @@ const BANDS = [
         year: 2013,
         genre: ['Heavy Metal', 'Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 15.99,
         rate: 4
@@ -5773,8 +4965,6 @@ const BANDS = [
         year: 2016,
         genre: ['Heavy Metal', 'Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 16.99,
         rate: 5
@@ -5786,8 +4976,6 @@ const BANDS = [
         year: 2019,
         genre: ['Heavy Metal', 'Power Metal'],
         length: 'EP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 19.95,
         rate: 4
@@ -5799,8 +4987,6 @@ const BANDS = [
         year: 2021,
         genre: ['Heavy Metal', 'Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 16.99,
         rate: 5
@@ -5809,6 +4995,8 @@ const BANDS = [
   },
   {
     bandName: 'Slayer',
+    flag: 'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Map%20Flags/USA_Flag_Map_z5cwcb.png',
+    country: 'USA',
     bandPhoto:
       'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1728735313/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Bands/Slayer_band_umoqfx.webp',
     albums: [
@@ -5819,8 +5007,6 @@ const BANDS = [
         year: 1983,
         genre: ['Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 14.99,
         rate: 4
@@ -5832,8 +5018,6 @@ const BANDS = [
         year: 1984,
         genre: ['Thrash Metal'],
         length: 'EP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 9.99,
         rate: 4
@@ -5845,8 +5029,6 @@ const BANDS = [
         year: 1984,
         genre: ['Thrash Metal'],
         length: 'EP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'live album',
         price: 12.99,
         rate: 4
@@ -5858,8 +5040,6 @@ const BANDS = [
         year: 1985,
         genre: ['Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 14.99,
         rate: 5
@@ -5871,8 +5051,6 @@ const BANDS = [
         year: 1986,
         genre: ['Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 15.99,
         rate: 5
@@ -5884,8 +5062,6 @@ const BANDS = [
         year: 1988,
         genre: ['Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 15.99,
         rate: 5
@@ -5897,8 +5073,6 @@ const BANDS = [
         year: 1990,
         genre: ['Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 15.99,
         rate: 5
@@ -5910,8 +5084,6 @@ const BANDS = [
         year: 1991,
         genre: ['Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'live album',
         price: 14.99,
         rate: 4
@@ -5923,8 +5095,6 @@ const BANDS = [
         year: 1994,
         genre: ['Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 14.99,
         rate: 4
@@ -5936,8 +5106,6 @@ const BANDS = [
         year: 1996,
         genre: ['Punk', 'Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'covers',
         price: 13.99,
         rate: 3
@@ -5949,8 +5117,6 @@ const BANDS = [
         year: 1998,
         genre: ['Thrash Metal', 'Alternative Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 14.99,
         rate: 4
@@ -5962,8 +5128,6 @@ const BANDS = [
         year: 2001,
         genre: ['Thrash Metal', 'Alternative Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 15.99,
         rate: 4
@@ -5975,8 +5139,6 @@ const BANDS = [
         year: 2003,
         genre: ['Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'compilation',
         price: 119.99,
         rate: 5
@@ -5988,8 +5150,6 @@ const BANDS = [
         year: 2006,
         genre: ['Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 15.99,
         rate: 4
@@ -6001,8 +5161,6 @@ const BANDS = [
         year: 2009,
         genre: ['Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 15.99,
         rate: 4
@@ -6014,8 +5172,6 @@ const BANDS = [
         year: 2015,
         genre: ['Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 16.99,
         rate: 5
@@ -6024,6 +5180,8 @@ const BANDS = [
   },
   {
     bandName: 'Tankard',
+    flag: 'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
+    country: 'Germany',
     bandPhoto:
       'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729375192/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Bands/Tankard_band_cshxg0.jpg',
     albums: [
@@ -6034,8 +5192,6 @@ const BANDS = [
         year: 1986,
         genre: ['Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 12.99,
         rate: 4
@@ -6047,8 +5203,6 @@ const BANDS = [
         year: 1987,
         genre: ['Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 13.99,
         rate: 5
@@ -6060,8 +5214,6 @@ const BANDS = [
         year: 1988,
         genre: ['Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 13.99,
         rate: 4
@@ -6073,8 +5225,6 @@ const BANDS = [
         year: 1989,
         genre: ['Thrash Metal'],
         length: 'EP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 8.99,
         rate: 4
@@ -6086,8 +5236,6 @@ const BANDS = [
         year: 1989,
         genre: ['Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'compilation',
         price: 8.8,
         rate: 3
@@ -6099,8 +5247,6 @@ const BANDS = [
         year: 1990,
         genre: ['Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 13.99,
         rate: 4
@@ -6112,8 +5258,6 @@ const BANDS = [
         year: 1991,
         genre: ['Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'live album',
         price: 12.99,
         rate: 4
@@ -6125,8 +5269,6 @@ const BANDS = [
         year: 1992,
         genre: ['Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 13.99,
         rate: 4
@@ -6138,8 +5280,6 @@ const BANDS = [
         year: 1994,
         genre: ['Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 13.99,
         rate: 4
@@ -6151,8 +5291,6 @@ const BANDS = [
         year: 1995,
         genre: ['Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 13.99,
         rate: 4
@@ -6164,8 +5302,6 @@ const BANDS = [
         year: 1998,
         genre: ['Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 13.99,
         rate: 3
@@ -6177,8 +5313,6 @@ const BANDS = [
         year: 2000,
         genre: ['Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 13.99,
         rate: 4
@@ -6190,8 +5324,6 @@ const BANDS = [
         year: 2002,
         genre: ['Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 13.99,
         rate: 4
@@ -6203,8 +5335,6 @@ const BANDS = [
         year: 2004,
         genre: ['Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 13.99,
         rate: 4
@@ -6216,8 +5346,6 @@ const BANDS = [
         year: 2006,
         genre: ['Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 13.99,
         rate: 4
@@ -6229,8 +5357,6 @@ const BANDS = [
         year: 2007,
         genre: ['Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'compilation',
         price: 15.07,
         rate: 5
@@ -6242,8 +5368,6 @@ const BANDS = [
         year: 2008,
         genre: ['Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 13.99,
         rate: 4
@@ -6255,8 +5379,6 @@ const BANDS = [
         year: 2010,
         genre: ['Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 13.99,
         rate: 4
@@ -6268,8 +5390,6 @@ const BANDS = [
         year: 2012,
         genre: ['Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 14.99,
         rate: 4
@@ -6281,8 +5401,6 @@ const BANDS = [
         year: 2014,
         genre: ['Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 14.99,
         rate: 4
@@ -6294,8 +5412,6 @@ const BANDS = [
         year: 2017,
         genre: ['Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 14.99,
         rate: 4
@@ -6307,8 +5423,6 @@ const BANDS = [
         year: 2018,
         genre: ['Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'compilation',
         price: 12.99,
         rate: 3
@@ -6320,8 +5434,6 @@ const BANDS = [
         year: 2022,
         genre: ['Thrash Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 14.99,
         rate: 4
@@ -6330,6 +5442,8 @@ const BANDS = [
   },
   {
     bandName: 'Virgin Steele',
+    flag: 'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Map%20Flags/USA_Flag_Map_z5cwcb.png',
+    country: 'USA',
     bandPhoto:
       'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1728735304/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Bands/Virgin_Steele_band_njvoks.webp',
     albums: [
@@ -6340,8 +5454,6 @@ const BANDS = [
         year: 1982,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 12.99,
         rate: 4
@@ -6353,8 +5465,6 @@ const BANDS = [
         year: 1983,
         genre: ['Heavy Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 13.99,
         rate: 4
@@ -6366,8 +5476,6 @@ const BANDS = [
         year: 1985,
         genre: ['Heavy Metal', 'Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 14.99,
         rate: 5
@@ -6379,8 +5487,6 @@ const BANDS = [
         year: 1988,
         genre: ['Heavy Metal', 'Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 14.99,
         rate: 5
@@ -6392,8 +5498,6 @@ const BANDS = [
         year: 1993,
         genre: ['Heavy Metal', 'Hard Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 14.99,
         rate: 3
@@ -6405,8 +5509,6 @@ const BANDS = [
         year: 1994,
         genre: ['Heavy Metal', 'Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 14.99,
         rate: 5
@@ -6418,8 +5520,6 @@ const BANDS = [
         year: 1995,
         genre: ['Heavy Metal', 'Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 14.99,
         rate: 5
@@ -6431,8 +5531,6 @@ const BANDS = [
         year: 1998,
         genre: ['Heavy Metal', 'Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 15.99,
         rate: 5
@@ -6444,8 +5542,6 @@ const BANDS = [
         year: 1999,
         genre: ['Heavy Metal', 'Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 15.99,
         rate: 4
@@ -6457,8 +5553,6 @@ const BANDS = [
         year: 2000,
         genre: ['Heavy Metal', 'Power Metal'],
         length: 'EP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'EP',
         price: 9.99,
         rate: 3
@@ -6470,8 +5564,6 @@ const BANDS = [
         year: 2000,
         genre: ['Heavy Metal', 'Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 16.99,
         rate: 5
@@ -6483,8 +5575,6 @@ const BANDS = [
         year: 2002,
         genre: ['Heavy Metal', 'Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'compilation',
         price: 12.99,
         rate: 4
@@ -6496,8 +5586,6 @@ const BANDS = [
         year: 2002,
         genre: ['Heavy Metal', 'Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'compilation',
         price: 12.99,
         rate: 4
@@ -6509,8 +5597,6 @@ const BANDS = [
         year: 2006,
         genre: ['Heavy Metal', 'Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 15.99,
         rate: 3
@@ -6522,8 +5608,6 @@ const BANDS = [
         year: 2010,
         genre: ['Heavy Metal', 'Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 16.99,
         rate: 3
@@ -6535,8 +5619,6 @@ const BANDS = [
         year: 2015,
         genre: ['Heavy Metal', 'Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 16.99,
         rate: 3
@@ -6548,8 +5630,6 @@ const BANDS = [
         year: 2023,
         genre: ['Heavy Metal', 'Power Metal'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Jason%20english%20lessons/Map%20Flags/USA_Flag_Map_z5cwcb.png',
         type: 'original',
         price: 18.99,
         rate: 3
@@ -6558,6 +5638,8 @@ const BANDS = [
   },
   {
     bandName: 'Zeno',
+    flag: 'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
+    country: 'Germany',
     bandPhoto:
       'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1728735307/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Bands/Zeno_band_w7ssmo.jpg',
     albums: [
@@ -6568,8 +5650,6 @@ const BANDS = [
         year: 1986,
         genre: ['Hard Rock', 'Soft Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 12.99,
         rate: 5
@@ -6581,8 +5661,6 @@ const BANDS = [
         year: 1995,
         genre: ['Hard Rock', 'Soft Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 13.99,
         rate: 4
@@ -6594,8 +5672,6 @@ const BANDS = [
         year: 1998,
         genre: ['Hard Rock', 'Soft Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 14.99,
         rate: 5
@@ -6607,8 +5683,6 @@ const BANDS = [
         year: 2001,
         genre: ['Hard Rock', 'Soft Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 13.99,
         rate: 3
@@ -6620,8 +5694,6 @@ const BANDS = [
         year: 2006,
         genre: ['Hard Rock', 'Soft Rock'],
         length: 'LP',
-        country:
-          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Jason%20english%20lessons/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
         type: 'original',
         price: 14.99,
         rate: 4

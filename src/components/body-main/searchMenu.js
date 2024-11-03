@@ -48,15 +48,17 @@ function searchMenu() {
 
     if (searchMenuContainer.classList.contains('expanded')) {
       p.textContent = `EXIT`
-      searchMenuIcon.setAttribute(
-        'src',
-        './src/assets/The Shining Exit Animated.gif'
-      )
-      searchMenuIcon.setAttribute(
-        'alt',
-        'The Shining Movie pixel art exit icon'
-      )
+      searchMenuIcon.setAttribute('src', './src/assets/Exit Animated.gif')
+      searchMenuIcon.setAttribute('alt', 'Opening Door icon')
+
       searchForm()
+
+      const form = document.querySelector('form')
+      if (form) {
+        requestAnimationFrame(() => {
+          form.classList.add('visible') // Añade la clase para activar la transición
+        })
+      }
     } else {
       p.textContent = `SEARCH`
       searchMenuIcon.setAttribute('src', './src/assets/Search Menu Eye.gif')
@@ -64,7 +66,8 @@ function searchMenu() {
 
       const form = document.querySelector('form')
       if (form) {
-        form.remove()
+        form.classList.remove('visible')
+        setTimeout(() => form.remove(), 500)
       }
     }
   })

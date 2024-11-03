@@ -10,7 +10,6 @@ form {
   width: vars.$width-per-l;
   margin: auto;
   padding: vars.$form-padding-top-bottom 0;
-
   background-image: url(https://res.cloudinary.com/dd0zwrz0b/image/upload/v1730587266/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/BG%20images/metal-antideslizante-fondo-textura-oxido-rojo-oxidado-metales-oxido-corrosivo-hierro-viejo_483511-1530_ssv6bv.avif);
   background-size: cover;
   box-shadow: vars.$button-reset-boxShadow;
@@ -27,8 +26,8 @@ form.visible {
 }
 
 .formInputDiv {
-  @include mixins.flex-box($direction: column, $gap: $gap-xxs);
-  width: vars.$width-per-l;
+  @include mixins.flex-box($direction: column, $gap: vars.$gap-xxs);
+  width: vars.$width-per-xxl;
 }
 
 .formInputLabel {
@@ -71,4 +70,5 @@ form.visible {
   margin-top: vars.$margin-l;
   padding: 0;
   width: vars.$width-submit-button;
+  border-radius: 30px;
 }
