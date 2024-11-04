@@ -5,7 +5,11 @@ import { BANDS } from '../../data/database.js'
 export { searchForm }
 
 const bandKeys = Object.keys(BANDS[0]).filter(
-  (key) => key !== 'bandPhoto' && key !== 'albums' && key !== 'flag'
+  (key) =>
+    key !== 'bandPhoto' &&
+    key !== 'albums' &&
+    key !== 'flag' &&
+    key !== 'bandLogo'
 )
 
 const albumKeys = Object.keys(BANDS[0].albums[0]).filter(

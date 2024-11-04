@@ -1,6 +1,8 @@
 export const BANDS = [
   {
     bandName: 'Agent Steel',
+    bandLogo:
+      'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1730053931/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Bands/Agent_Steel_Logo_hkidys.png',
     flag: 'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Map%20Flags/USA_Flag_Map_z5cwcb.png',
     country: 'USA',
     bandPhoto:
@@ -98,6 +100,8 @@ export const BANDS = [
   },
   {
     bandName: 'Anthrax',
+    bandLogo:
+      'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1730053861/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Bands/Anthrax_Logo_nzv7do.png',
     flag: 'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Map%20Flags/USA_Flag_Map_z5cwcb.png',
     country: 'USA',
     bandPhoto:
@@ -415,6 +419,8 @@ export const BANDS = [
   },
   {
     bandName: 'Axe',
+    bandLogo:
+      'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1730053989/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Bands/Axe_Logo_o27x4c.png',
     flag: 'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Map%20Flags/USA_Flag_Map_z5cwcb.png',
     country: 'USA',
     bandPhoto:
@@ -556,6 +562,8 @@ export const BANDS = [
   },
   {
     bandName: 'Barón Rojo',
+    bandLogo:
+      'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1730053861/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Bands/Baro%CC%81n_Rojo_Logo_smigri.png',
     flag: 'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
     country: 'Spain',
     bandPhoto:
@@ -807,6 +815,8 @@ export const BANDS = [
   },
   {
     bandName: 'Blind Guardian',
+    bandLogo:
+      'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1730053861/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Bands/Blind_Guardian_Logo_u485b1.png',
     flag: 'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
     country: 'Germany',
     bandPhoto:
@@ -1012,6 +1022,8 @@ export const BANDS = [
   },
   {
     bandName: 'Cauldron',
+    bandLogo:
+      'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1730054144/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Bands/Cauldron_Logo_tuihl5.png',
     flag: 'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139815/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Map%20Flags/Canada_flag_map_sts8qv.svg',
     country: 'Canada',
     bandPhoto:
@@ -1098,6 +1110,8 @@ export const BANDS = [
   },
   {
     bandName: 'Europe',
+    bandLogo:
+      'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1730054063/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Bands/Europe_Logo_yr57sc.png',
     flag: 'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139815/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Map%20Flags/sweden-map-map-of-sweden-with-swedish-flag-png_jrzanq.webp',
     country: 'Sweden',
     bandPhoto:
@@ -1295,6 +1309,8 @@ export const BANDS = [
   },
   {
     bandName: 'Exciter',
+    bandLogo:
+      'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1730054035/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Bands/Exciter_Logo_tlpft9.png',
     flag: 'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139815/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Map%20Flags/Canada_flag_map_sts8qv.svg',
     country: 'Canada',
     bandPhoto:
@@ -1447,6 +1463,8 @@ export const BANDS = [
   },
   {
     bandName: 'Fate',
+    bandLogo:
+      'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1730055006/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Bands/Fate_Logo_lqwwxf.png',
     flag: 'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729275461/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Map%20Flags/Flag_map_of_Denmark__1864-1920_m49oyg.png',
     country: 'Denmark',
     bandPhoto:
@@ -1566,6 +1584,8 @@ export const BANDS = [
   },
   {
     bandName: 'Gamma Ray',
+    bandLogo:
+      'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1730053862/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Bands/Gamma_Ray_Logo_uh9iv4.png',
     flag: 'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
     country: 'Germany',
     bandPhoto:
@@ -1772,6 +1792,8 @@ export const BANDS = [
   },
   {
     bandName: 'Helloween',
+    bandLogo:
+      'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1730054094/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Bands/Helloween_Logo_xbokmc.png',
     flag: 'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
     country: 'Germany',
     bandPhoto:
@@ -2023,6 +2045,8 @@ export const BANDS = [
   },
   {
     bandName: 'Hitten',
+    bandLogo:
+      'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1730053862/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Bands/Hitten_Logo_pdwzu9.png',
     flag: 'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
     country: 'Spain',
     bandPhoto:
@@ -2120,6 +2144,8 @@ export const BANDS = [
   },
   {
     bandName: 'Iron Maiden',
+    bandLogo:
+      'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1730054177/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Bands/Iron_Maiden_Logo_q1nknf.png',
     flag: 'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
     country: 'UK',
     bandPhoto:
@@ -2603,6 +2629,8 @@ export const BANDS = [
   },
   {
     bandName: 'Judas Priest',
+    bandLogo:
+      'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1730054299/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Bands/Judas_Priest_Logo_pyyetb.png',
     flag: 'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
     country: 'UK',
     bandPhoto:
@@ -2964,6 +2992,8 @@ export const BANDS = [
   },
   {
     bandName: 'King Diamond',
+    bandLogo:
+      'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1730054214/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Bands/King_Diamond_Logo_iz3hjg.png',
     flag: 'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729275461/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Map%20Flags/Flag_map_of_Denmark__1864-1920_m49oyg.png',
     country: 'Denmark',
     bandPhoto:
@@ -3160,6 +3190,8 @@ export const BANDS = [
   },
   {
     bandName: 'Legion',
+    bandLogo:
+      'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1730053863/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Bands/Legion_Logo_us6vwf.png',
     flag: 'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
     country: 'Spain',
     bandPhoto:
@@ -3212,6 +3244,8 @@ export const BANDS = [
   },
   {
     bandName: 'Megadeth',
+    bandLogo:
+      'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1730055143/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Bands/Megadeth_Logo_vmgwil.png',
     flag: 'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Map%20Flags/USA_Flag_Map_z5cwcb.png',
     country: 'USA',
     bandPhoto:
@@ -3429,6 +3463,8 @@ export const BANDS = [
   },
   {
     bandName: 'Mercyful Fate',
+    bandLogo:
+      'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1730054242/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Bands/Mercyful_Fate_Logo_tal0dk.png',
     flag: 'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729275461/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Map%20Flags/Flag_map_of_Denmark__1864-1920_m49oyg.png',
     country: 'Denmark',
     bandPhoto:
@@ -3570,6 +3606,8 @@ export const BANDS = [
   },
   {
     bandName: 'Metallica',
+    bandLogo:
+      'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1730055175/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Bands/Metallica_Logo_ozavrg.png',
     flag: 'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Map%20Flags/USA_Flag_Map_z5cwcb.png',
     country: 'USA',
     bandPhoto:
@@ -3755,6 +3793,8 @@ export const BANDS = [
   },
   {
     bandName: 'Muro',
+    bandLogo:
+      'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1730054510/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Bands/Muro_Logo_mucrpc.png',
     flag: 'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
     country: 'Spain',
     bandPhoto:
@@ -3885,6 +3925,8 @@ export const BANDS = [
   },
   {
     bandName: 'Ñu',
+    bandLogo:
+      'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1730055100/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Bands/N%CC%83u_Logo_uypac4.png',
     flag: 'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Map%20Flags/Spain-flag-map-plus-ultra_idqxrm.png',
     country: 'Spain',
     bandPhoto:
@@ -4125,6 +4167,8 @@ export const BANDS = [
   },
   {
     bandName: 'Picture',
+    bandLogo:
+      'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1730053866/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Bands/Picture_Logo_ogao3n.png',
     flag: 'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729361405/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Map%20Flags/Flag-map_of_the_Netherlands.svg_mdrdnx.png',
     country: 'Netherlands',
     bandPhoto:
@@ -4266,6 +4310,8 @@ export const BANDS = [
   },
   {
     bandName: 'Rainbow',
+    bandLogo:
+      'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1730054540/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Bands/Rainbow_Logo_nhfblh.png',
     flag: 'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139816/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Map%20Flags/flag-of-the-united-kingdom-england-map-england-flag-world-united-kingdom_n9rx6y.png',
     country: 'UK',
     bandPhoto:
@@ -4407,6 +4453,8 @@ export const BANDS = [
   },
   {
     bandName: 'Ram',
+    bandLogo:
+      'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1730055053/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Bands/Ram_Logo_ngf89r.png',
     flag: 'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139815/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Map%20Flags/sweden-map-map-of-sweden-with-swedish-flag-png_jrzanq.webp',
     country: 'Sweden',
     bandPhoto:
@@ -4515,6 +4563,8 @@ export const BANDS = [
   },
   {
     bandName: 'Riot',
+    bandLogo:
+      'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1730054691/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Bands/Riot_Logo_doroaq.png',
     flag: 'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Map%20Flags/USA_Flag_Map_z5cwcb.png',
     country: 'USA',
     bandPhoto:
@@ -4755,6 +4805,8 @@ export const BANDS = [
   },
   {
     bandName: 'Running Wild',
+    bandLogo:
+      'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1730054804/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Bands/Running_Wild_Logo_tym8td.png',
     flag: 'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
     country: 'Germany',
     bandPhoto:
@@ -4995,6 +5047,8 @@ export const BANDS = [
   },
   {
     bandName: 'Slayer',
+    bandLogo:
+      'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1730054899/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Bands/Slayer_Logo_rmkylk.png',
     flag: 'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Map%20Flags/USA_Flag_Map_z5cwcb.png',
     country: 'USA',
     bandPhoto:
@@ -5180,6 +5234,8 @@ export const BANDS = [
   },
   {
     bandName: 'Tankard',
+    bandLogo:
+      'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1730053867/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Bands/Tankard_jnzqge.png',
     flag: 'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
     country: 'Germany',
     bandPhoto:
@@ -5442,6 +5498,8 @@ export const BANDS = [
   },
   {
     bandName: 'Virgin Steele',
+    bandLogo:
+      'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1730054855/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Bands/Virgin_Steele_Logo_xhqias.png',
     flag: 'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721139814/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Map%20Flags/USA_Flag_Map_z5cwcb.png',
     country: 'USA',
     bandPhoto:
@@ -5638,6 +5696,8 @@ export const BANDS = [
   },
   {
     bandName: 'Zeno',
+    bandLogo:
+      'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1730054962/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Bands/Zeno_Logo_at5uxl.png',
     flag: 'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1721317170/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Map%20Flags/Flag_map_of_Germany.svg_silbn6.png',
     country: 'Germany',
     bandPhoto:
