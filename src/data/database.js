@@ -89,7 +89,7 @@ export const BANDS = [
           'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729111948/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Agent%20Steel/Agent_Steel_-_2024-_Mad_Locust_Rising_Live_at_Hammersmith_Odeon_l4prll.webp',
         year: 2024,
         genre: ['Speed Metal'],
-        length: 'Live Album',
+        length: 'LP',
         type: 'live album',
         price: 21.99,
         rate: 5
@@ -525,7 +525,7 @@ export const BANDS = [
           'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729154990/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Axe/Axe_-_2012-_Axeology_qcurr0.jpg',
         year: 2012,
         genre: ['Hard Rock', 'Soft Rock'],
-        length: 'Compilation',
+        length: 'LP',
         type: 'compilation',
         price: 13.99,
         rate: 5
@@ -1841,7 +1841,7 @@ export const BANDS = [
         length: 'LP',
         type: 'original',
         price: 13.99,
-        rate: 3
+        rate: 2
       },
       {
         title: 'Chameleon',
@@ -1852,7 +1852,7 @@ export const BANDS = [
         length: 'LP',
         type: 'original',
         price: 13.99,
-        rate: 3
+        rate: 2
       },
       {
         title: 'Master of the Rings',
@@ -1958,7 +1958,7 @@ export const BANDS = [
         cover:
           'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1728735632/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Helloween/Helloween_-_2009-_Unarmed_glvag0.jpg',
         year: 2010,
-        genre: ['Symphonyc Metal', 'Hard Rock', 'Soft Rock'],
+        genre: ['Symphonic Metal'],
         length: 'LP',
         type: 'compilation',
         price: 13.99,
@@ -2099,7 +2099,7 @@ export const BANDS = [
         cover:
           'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1728735641/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Hitten/Hitten_-_2021-_Triumph_and_Tragedy_i7ppse.jpg',
         year: 2021,
-        genre: ['Heavy Metal'],
+        genre: ['Heavy Metal', 'Hard Rock'],
         length: 'LP',
         type: 'original',
         price: 15.99,
@@ -2110,7 +2110,7 @@ export const BANDS = [
         cover:
           'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1728735620/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Hitten/Hitten_-_2023-_While_Passion_Lasts_zmpnyt.jpg',
         year: 2021,
-        genre: ['Heavy Metal'],
+        genre: ['Heavy Metal', 'Hard Rock'],
         length: 'LP',
         type: 'original',
         price: 13.99,
@@ -2240,7 +2240,7 @@ export const BANDS = [
         cover:
           'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1728735356/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Iron%20Maiden/Iron_Maiden_-_1988_-_Seventh_Son_of_a_Seventh_Son_sb2t4r.jpg',
         year: 1988,
-        genre: ['Heavy Metal', 'Progressive Metal'],
+        genre: ['Heavy Metal'],
         length: 'LP',
         type: 'original',
         price: 12.99,
@@ -2366,7 +2366,7 @@ export const BANDS = [
         length: 'LP',
         type: 'original',
         price: 12.99,
-        rate: 5
+        rate: 4
       },
       {
         title: 'Beast Over Hammersmith',
@@ -2377,7 +2377,7 @@ export const BANDS = [
         length: 'LP',
         type: 'live album',
         price: 21.16,
-        rate: 5
+        rate: 4
       },
       {
         title: "Best of the B'Sides",
@@ -2745,7 +2745,7 @@ export const BANDS = [
         cover:
           'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1728735644/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Judas%20Priest/Judas_Priest_-_1986-_Turbo_auddso.jpg',
         year: 1986,
-        genre: ['Heavy Metal'],
+        genre: ['Heavy Metal', 'Hard Rock'],
         length: 'LP',
         type: 'original',
         price: 11.99,
@@ -2844,11 +2844,11 @@ export const BANDS = [
         cover:
           'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1728735586/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Judas%20Priest/Judas_Priest_-_2001-_Demolition_gynk8v.jpg',
         year: 2001,
-        genre: ['Heavy Metal', 'Alternative Metal'],
+        genre: ['Alternative Metal'],
         length: 'LP',
         type: 'original',
         price: 9.99,
-        rate: 3
+        rate: 1
       },
       {
         title: 'Live in London',
@@ -2859,7 +2859,7 @@ export const BANDS = [
         length: 'LP',
         type: 'live album',
         price: 20.53,
-        rate: 3
+        rate: 2
       },
       {
         title: 'Angel of Retribution',
@@ -2888,11 +2888,11 @@ export const BANDS = [
         cover:
           'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1728735712/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Judas%20Priest/Judas_Priest_-_2008-_Nostradamus_ohw9lu.jpg',
         year: 2008,
-        genre: ['Heavy Metal', 'Progressive Metal'],
+        genre: ['Heavy Metal'],
         length: 'LP',
         type: 'original',
         price: 13.99,
-        rate: 4
+        rate: 2
       },
       {
         title: 'A Touch of Evil Live',
@@ -2985,7 +2985,7 @@ export const BANDS = [
         cover:
           'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1728735452/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/King%20Diamond/King_Diamond_-_1987-_Abigail_fuy782.jpg',
         year: 1987,
-        genre: ['Heavy Metal', 'Progressive Metal'],
+        genre: ['Heavy Metal'],
         length: 'LP',
         type: 'original',
         price: 13.99,
@@ -3255,7 +3255,7 @@ export const BANDS = [
         cover:
           'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1728735499/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Megadeth/Megadeth_-_1990-_Rust_in_Peace_tdehvo.jpg',
         year: 1990,
-        genre: ['Thrash Metal'],
+        genre: ['Thrash Metal', 'Speed Metal'],
         length: 'LP',
         type: 'original',
         price: 15.99,
@@ -3266,7 +3266,7 @@ export const BANDS = [
         cover:
           'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1728735508/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Megadeth/Megadeth_-_1992-_Countdown_to_Extinction_iehimd.jpg',
         year: 1992,
-        genre: ['Thrash Metal'],
+        genre: ['Thrash Metal', 'Heavy Metal'],
         length: 'LP',
         type: 'original',
         price: 14.99,
@@ -3690,7 +3690,7 @@ export const BANDS = [
         cover:
           'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1728735485/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Metallica/Metallica-_1999-_S_M_kolsxx.jpg',
         year: 1999,
-        genre: ['Heavy Metal', 'Symphonic Metal'],
+        genre: ['Symphonic Metal'],
         length: 'LP',
         type: 'live album',
         price: 18.99,
@@ -3701,7 +3701,7 @@ export const BANDS = [
         cover:
           'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1728735496/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Metallica/Metallica-_2003-_St_Anger_aqa9gg.webp',
         year: 2003,
-        genre: ['Heavy Metal', 'Alternative Metal'],
+        genre: ['Alternative Metal'],
         length: 'LP',
         type: 'original',
         price: 15.99,
@@ -3734,7 +3734,7 @@ export const BANDS = [
         cover:
           'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729355672/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Metallica/Metallica-_2020-_S_M2_iyp7pq.jpg',
         year: 2020,
-        genre: ['Heavy Metal', 'Symphonic Metal'],
+        genre: ['Symphonic Metal'],
         length: 'LP',
         type: 'live album',
         price: 19.99,
@@ -3917,7 +3917,7 @@ export const BANDS = [
         cover:
           'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1728735657/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/N%CC%83u/R-5706388-1498494572-5462_gssuu3.jpg',
         year: 1983,
-        genre: ['Folk Rock', 'Hard Rock', 'Progressive Rock', 'Heavy  Metal'],
+        genre: ['Folk Rock', 'Hard Rock', 'Progressive Rock', 'Heavy Metal'],
         length: 'LP',
         type: 'original',
         price: 7.99,
@@ -5104,7 +5104,7 @@ export const BANDS = [
         cover:
           'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729374654/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Slayer/Slayer_-_1996-_Undisputed_Attitude_a9niv1.jpg',
         year: 1996,
-        genre: ['Punk', 'Thrash Metal'],
+        genre: ['Punk Rock', 'Thrash Metal'],
         length: 'LP',
         type: 'covers',
         price: 13.99,
@@ -5553,7 +5553,7 @@ export const BANDS = [
         year: 2000,
         genre: ['Heavy Metal', 'Power Metal'],
         length: 'EP',
-        type: 'EP',
+        type: 'original',
         price: 9.99,
         rate: 3
       },
@@ -5610,7 +5610,7 @@ export const BANDS = [
         length: 'LP',
         type: 'original',
         price: 16.99,
-        rate: 3
+        rate: 1
       },
       {
         title: 'Nocturnes of Hellfire & Damnation',
@@ -5621,7 +5621,7 @@ export const BANDS = [
         length: 'LP',
         type: 'original',
         price: 16.99,
-        rate: 3
+        rate: 2
       },
       {
         title: 'The Passion of Dionysus',
@@ -5632,7 +5632,7 @@ export const BANDS = [
         length: 'LP',
         type: 'original',
         price: 18.99,
-        rate: 3
+        rate: 2
       }
     ]
   },
