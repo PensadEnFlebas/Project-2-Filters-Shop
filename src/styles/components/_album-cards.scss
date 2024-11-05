@@ -1,0 +1,44 @@
+//* IMPORTS
+
+@use '../global/vars';
+@use '../global/mixins';
+@use '../global/extends';
+
+.band-section {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.band-card {
+  width: 100%;
+  border-radius: 5px;
+
+  .band-info {
+    .band-photo {
+      border-radius: 5px;
+    }
+  }
+}
+
+.album-card {
+  width: 150px;
+  border-radius: 5px;
+
+  background-image: url(https://res.cloudinary.com/dd0zwrz0b/image/upload/v1730769218/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/BG%20images/IMG_1476_1200x_lvou54.webp);
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  .album-info {
+    gap: 20px;
+    flex-wrap: wrap;
+
+    .album-cover {
+      width: 100px;
+      height: 100px;
+    }
+  }
+}

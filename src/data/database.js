@@ -3232,7 +3232,8 @@ export const BANDS = [
       },
       {
         title: 'Legionized',
-        cover: 'https://example.com/anthology-cover.jpg',
+        cover:
+          'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1728735647/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Legion/Legion_-_2022-_Legionized_yobajl.jpg',
         year: 2022,
         genre: ['Thrash Metal'],
         length: 'EP',
