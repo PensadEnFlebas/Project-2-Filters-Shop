@@ -4,6 +4,20 @@
 @use '../global/mixins';
 @use '../global/extends';
 
+.searchMenuContainer {
+  position: relative;
+  @include mixins.fixed-tag($fixed-tag-top: 295px, $fixed-tag-bgImage: null);
+  @include mixins.flex-box($jc: space-between, $ai: start);
+  height: auto;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+  z-index: 3;
+}
+
+.searchMenuContainer.expanded {
+  width: 90vw;
+}
+
 //* SEARCH MENU BUTTON
 
 .searchMenuButton {
@@ -47,6 +61,9 @@
 }
 
 .resetMenuButton {
+  position: relative;
+  z-index: 3;
+
   @extend %search-resetButton;
   @include mixins.flex-box(
     $direction: row-reverse,

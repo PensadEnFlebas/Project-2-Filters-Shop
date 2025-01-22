@@ -11,11 +11,11 @@ function FOOTER() {
   pyramidImg.classList.add('pyramidImg', 'header-footer-img')
   pyramidImg.setAttribute(
     'src',
-    'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729021281/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/BG%20images/Pyramid_main_ahg8yl.png'
+    'https://res.cloudinary.com/dwjwglwsq/image/upload/v1735905187/Pyramid_main_ahg8yl_lo94bx.png'
   )
   pyramidImg.setAttribute('alt', 'Powerslave pyramid')
   pyramidImg.setAttribute('loading', 'lazy')
-  pyramidDiv.append(pyramidImg)
+  pyramidDiv.appendChild(pyramidImg)
 
   let infoContainer = document.createElement('div')
   infoContainer.classList.add('infoContainer')
@@ -35,11 +35,11 @@ function FOOTER() {
     let a = document.createElement('a')
     a.setAttribute('href', '#')
     a.textContent = policy
-    li.append(a)
-    policiesList.append(li)
+    li.appendChild(a)
+    policiesList.appendChild(li)
   })
-  policiesDiv.append(policiesList)
-  infoContainer.append(policiesDiv)
+  policiesDiv.appendChild(policiesList)
+  infoContainer.appendChild(policiesDiv)
 
   let copyrightDiv = document.createElement('div')
   let copyrightLink = document.createElement('a')
@@ -51,16 +51,16 @@ function FOOTER() {
   copyrightLink.setAttribute('href', '#')
   copyrightImg.setAttribute(
     'src',
-    'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1728733783/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Goblin%20Store%20Logos/Favicon_Goblin_Store_skp6wk.png'
+    'https://res.cloudinary.com/dwjwglwsq/image/upload/v1735905157/Favicon_Goblin_Store_skp6wk_cr326n.png'
   )
   copyrightImg.setAttribute('alt', 'Goblin Heavy Metal Store Logo')
   copyrightImg.setAttribute('loading', 'lazy')
   copyrightP.textContent =
     '© 2024 Goblin Heavy Metal Store. All rights reserved.'
 
-  copyrightLink.append(copyrightImg)
+  copyrightLink.appendChild(copyrightImg)
   copyrightDiv.append(copyrightLink, copyrightP)
-  infoContainer.append(copyrightDiv)
+  infoContainer.appendChild(copyrightDiv)
 
   let socialDiv = document.createElement('div')
   socialDiv.classList.add('socialDiv')
@@ -70,12 +70,12 @@ function FOOTER() {
   // socialDiv.append(socialTitle)
 
   let socialIcons = [
-    'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729810104/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Icons/facebook-logo-facebook-icon-transparent-free-png_ggm8hf.webp',
-    'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729809860/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Icons/spotify-logo-spotify-social-media-icon-free-png_cyi4rb.webp',
-    'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729809894/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Icons/img.icons8_eb4fk6.png',
-    'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729810137/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Icons/instagram-logo-instagram-icon-transparent-free-png_pdplnz.webp',
-    'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729810183/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Icons/twitter-new-logo-twitter-icons-new-twitter-logo-x-2023-x-social-media-icon-free-png_myhtpd.webp',
-    'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729810214/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Icons/tiktok-logo-tiktok-logo-transparent-tiktok-icon-transparent-free-free-png_y0s4yb.webp'
+    'https://res.cloudinary.com/dwjwglwsq/image/upload/v1735905147/facebook-logo-facebook-icon-transparent-free-png_ggm8hf_vn0ulm.webp',
+    'https://res.cloudinary.com/dwjwglwsq/image/upload/v1735905155/spotify-logo-spotify-social-media-icon-free-png_cyi4rb_pedqiw.webp',
+    'https://res.cloudinary.com/dwjwglwsq/image/upload/v1735905148/img.icons8_eb4fk6_ieygho.png',
+    'https://res.cloudinary.com/dwjwglwsq/image/upload/v1735905152/instagram-logo-instagram-icon-transparent-free-png_pdplnz_cz2bcf.webp',
+    'https://res.cloudinary.com/dwjwglwsq/image/upload/v1735905153/twitter-new-logo-twitter-icons-new-twitter-logo-x-2023-x-social-media-icon-free-png_myhtpd_pmkkrp.webp',
+    'https://res.cloudinary.com/dwjwglwsq/image/upload/v1735905150/tiktok-logo-tiktok-logo-transparent-tiktok-icon-transparent-free-free-png_y0s4yb_nvfsp3.webp'
   ]
 
   let socialLink = [
@@ -99,12 +99,12 @@ function FOOTER() {
     img.setAttribute('loading', 'lazy')
     a.setAttribute('href', '#')
 
-    a.append(img)
-    li.append(a)
-    socialList.append(li)
+    a.appendChild(img)
+    li.appendChild(a)
+    socialList.appendChild(li)
   })
-  socialDiv.append(socialList)
-  infoContainer.append(socialDiv)
+  socialDiv.appendChild(socialList)
+  infoContainer.appendChild(socialDiv)
 
   let zombieDiv = document.createElement('div')
   zombieDiv.classList.add('zombieDiv')
@@ -112,14 +112,14 @@ function FOOTER() {
   zombieImg.classList.add('zombieImg', 'header-footer-img')
   zombieImg.setAttribute(
     'src',
-    'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1729021306/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/BG%20images/Eddie_main_qdquoh.png'
+    'https://res.cloudinary.com/dwjwglwsq/image/upload/v1735905179/Eddie_main_qdquoh_qlgpns.png'
   )
   zombieImg.setAttribute('alt', 'Zombie walking animation')
   zombieImg.setAttribute('loading', 'lazy')
-  zombieDiv.append(zombieImg)
+  zombieDiv.appendChild(zombieImg)
 
   const footer = document.querySelector('footer')
   infoContainer.append(policiesDiv, copyrightDiv, socialDiv)
   containerFooterDiv.append(pyramidDiv, infoContainer, zombieDiv)
-  footer.append(containerFooterDiv)
+  footer.appendChild(containerFooterDiv)
 }

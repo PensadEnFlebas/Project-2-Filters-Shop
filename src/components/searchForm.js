@@ -1,6 +1,8 @@
 //* IMPORTS
 
-import { BANDS } from '../../data/database.js'
+import { BANDS } from '../data/database.js'
+import { bandCard, albumCard } from './album-cards.js'
+import { closeSearchMenu } from '../layouts/body-main/searchMenu.js'
 
 export { searchForm }
 
@@ -130,8 +132,8 @@ function searchForm() {
       selectInput.setAttribute('id', `${formInput}Input`)
 
       let defaultOption = document.createElement('option')
-      defaultOption.value = 'Select An Option'
-      selectInput.append(defaultOption)
+      defaultOption.value = ''
+      selectInput.appendChild(defaultOption)
 
       let options = selectInputOptions(formInput)
 
@@ -139,13 +141,13 @@ function searchForm() {
         let optionElement = document.createElement('option')
         optionElement.value = option
         optionElement.textContent = option
-        selectInput.append(optionElement)
+        selectInput.appendChild(optionElement)
       })
 
       formInputDiv.append(formInputLabel, selectInput)
     }
 
-    form.append(formInputDiv)
+    form.appendChild(formInputDiv)
   })
 
   let submitButton = document.createElement('button')
@@ -161,7 +163,82 @@ function searchForm() {
   submitButtonIcon.setAttribute('loading', 'lazy')
 
   submitButton.append(submitButtonP, submitButtonIcon)
-  form.append(submitButton)
+  form.appendChild(submitButton)
 
-  main.append(form)
+  form.addEventListener('submit', (event) => {
+    event.preventDefault()
+
+    const filters = {}
+    formInputs.forEach((formInput) => {
+      const inputElement = document.getElementById(`${formInput}Input`)
+      const inputValue = inputElement.value.trim()
+      if (inputValue && inputValue !== '') {
+        filters[formInput] = inputValue
+      }
+    })
+
+    let bandSection = document.querySelector('.bandSection')
+    if (!bandSection) {
+      bandSection = document.createElement('section')
+      bandSection.className = 'bandSection'
+      document.querySelector('main').appendChild(bandSection)
+    }
+    bandSection.innerHTML = ''
+
+    const filteredBands = BANDS.filter((band) =>
+      band.albums.some((album) =>
+        Object.entries(filters).every(([key, value]) => {
+          if (key in band) {
+            return band[key]
+              .toString()
+              .toLowerCase()
+              .includes(value.toLowerCase())
+          } else if (key in album) {
+            return album[key]
+              .toString()
+              .toLowerCase()
+              .includes(value.toLowerCase())
+          }
+          return false
+        })
+      )
+    )
+
+    if (Array.isArray(filteredBands) && filteredBands.length > 0) {
+      filteredBands.forEach((band) => {
+        const bandCardElement = bandCard(band)
+        bandSection.appendChild(bandCardElement)
+
+        const filteredAlbums = band.albums.filter((album) =>
+          Object.entries(filters).every(([key, value]) => {
+            if (key in band) {
+              return band[key]
+                .toString()
+                .toLowerCase()
+                .includes(value.toLowerCase())
+            } else if (key in album) {
+              return album[key]
+                .toString()
+                .toLowerCase()
+                .includes(value.toLowerCase())
+            }
+            return false
+          })
+        )
+
+        filteredAlbums.forEach((album) => {
+          const albumCardElement = albumCard(album)
+          bandCardElement.appendChild(albumCardElement)
+        })
+      })
+    } else {
+      let noResultsMessage = document.createElement('p')
+      noResultsMessage.textContent = 'No bands or albums match your criteria.'
+      bandSection.appendChild(noResultsMessage)
+    }
+
+    closeSearchMenu()
+  })
+
+  main.appendChild(form)
 }

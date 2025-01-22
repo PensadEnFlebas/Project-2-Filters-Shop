@@ -2,6 +2,7 @@
 
 @use '../../global/vars';
 @use '../../global/mixins';
+@use '../../global/extends';
 
 //* MAIN-TITLE
 
@@ -9,12 +10,12 @@
   @include mixins.fixed-tag(
     $fixed-tag-top: vars.$container-height-m - 10px,
     $fixed-tag-bgImage: null,
-    $fixed-tag-zIndex: 1
+    $fixed-tag-zIndex: 3,
+    $fixed-tag-clipPath: polygon(0 41%, 100% 68%, 100% 100%, 0% 100%)
   );
   height: auto;
   background-color: vars.$secondary-color;
   margin-top: 5px;
-  clip-path: polygon(0 41%, 100% 68%, 100% 100%, 0% 100%);
 
   &::after {
     content: '';
@@ -72,4 +73,7 @@
       font-size: vars.$secondary-title-font-size - 10px;
     }
   }
+}
+
+.titleContainerFooter {
 }

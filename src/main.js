@@ -1,14 +1,30 @@
 //? IMPORTS
 
-import { HEADER } from './components/header.js'
+import { BANDS, albumsData } from './data/database.js'
+
+import { HEADER } from './layouts/header.js'
 HEADER()
-import { mainTitle } from './components/body-main/mainTitle.js'
+
+import { mainTitle } from './layouts/body-main/mainTitle.js'
 mainTitle()
-import { searchMenu } from './components/body-main/searchMenu.js'
-searchMenu()
-import { bandCard } from './components/body-main/album-cards.js'
-bandCard('Ñu')
-bandCard('Muro')
-bandCard('Legion')
-import { FOOTER } from './components/footer.js'
+
+import { createButtons } from './components/search-reset-buttons-new.js'
+const main = document.querySelector('main')
+createButtons(
+  main,
+  'SEARCH',
+  './src/assets/Search Menu Eye.gif',
+  'RESET',
+  './src/assets/Reset Button Vinyl.gif'
+)
+
+import {
+  createCardSection,
+  createBandCard
+} from './components/band-album-cards-new.js'
+import { getRandomCards } from './utils/random-initial-bandSection-new.js'
+createCardSection()
+createBandCard(getRandomCards(BANDS, 5), albumsData, 3)
+
+import { FOOTER } from './layouts/footer.js'
 FOOTER()

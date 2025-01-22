@@ -1,0 +1,15 @@
+//* IMPORTS
+
+@use '../global/vars';
+@use '../global/mixins';
+@use '../global/extends';
+
+.button {
+  width: 200px;
+  height: 100px;
+  cursor: pointer;
+
+  .buttonIcon {
+    width: 50px;
+  }
+}

@@ -52,6 +52,10 @@
     @include mixins.flex-box($direction: column);
 
     width: 20%;
+
+    background-color: vars.$bg-cardAlbum;
+    border-radius: 5px;
+    box-shadow: vars.$cardArticle-boxShadow;
   }
 
   .albumContainerCover {

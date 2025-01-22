@@ -7,11 +7,11 @@ function HEADER() {
   logoImg.classList.add('logoImg', 'headerImg')
   logoImg.setAttribute(
     'src',
-    'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1728733708/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/Goblin%20Store%20Logos/Goblin_Store_Icon_gsbxs6.png'
+    'https://res.cloudinary.com/dwjwglwsq/image/upload/v1735905160/Goblin_Store_Icon_gsbxs6_rhij2b.png'
   )
   logoImg.setAttribute('alt', 'Goblin Store Logo')
   logoImg.setAttribute('loading', 'lazy')
-  logoDiv.append(logoImg)
+  logoDiv.appendChild(logoImg)
 
   let explosionGifDiv = document.createElement('div')
   explosionGifDiv.classList.add('explosionGifDiv')
@@ -24,7 +24,7 @@ function HEADER() {
   )
   explosionGifImg.setAttribute('alt', 'Nuclear explosion')
   explosionGifImg.setAttribute('loading', 'lazy')
-  explosionGifDiv.append(explosionGifImg)
+  explosionGifDiv.appendChild(explosionGifImg)
 
   let skeletonDiv = document.createElement('div')
   skeletonDiv.classList.add('skeletonDiv')
@@ -32,14 +32,12 @@ function HEADER() {
   skeletonImg.classList.add('skeletonImg')
   skeletonImg.setAttribute(
     'src',
-    'https://res.cloudinary.com/dd0zwrz0b/image/upload/v1728769392/Project%202%20%7C%20Filters%20shopping:%20Goblin%20Heavy%20Metal%20Store/BG%20images/41_mseosv.png'
+    'https://res.cloudinary.com/dwjwglwsq/image/upload/v1735905177/41_mseosv_no6ppc.png'
   )
   skeletonImg.setAttribute('alt', 'Skeleton in header')
   skeletonImg.setAttribute('loading', 'lazy')
-  skeletonDiv.append(skeletonImg)
+  skeletonDiv.appendChild(skeletonImg)
 
   const header = document.querySelector('header')
   header.append(logoDiv, explosionGifDiv, skeletonDiv)
-  // header.append(explosionGifDiv)
-  // header.append(skeletonDiv)
 }

@@ -1,14 +1,11 @@
 //* IMPORTS */
 
-@use './styles/global/vars';
 @use './styles/layouts/header';
 @use './styles/layouts/footer';
 @use './styles/layouts/body-main/mainGeneral';
 @use './styles/layouts/body-main/mainTitle';
-@use './styles/layouts/body-main/searchMenu';
-@use './styles/components/search-reset-Button';
-@use './styles/components/search-form';
-@use './styles/components/album-cards';
+@use './styles/components/band-album-cards-new';
+@use './styles/components/search-reset-buttons-new';
 
 //* GENERAL */
 * {

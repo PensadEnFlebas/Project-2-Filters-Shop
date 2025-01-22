@@ -26,6 +26,10 @@
   @if $fixed-tag-clipPath != null {
     clip-path: $fixed-tag-clipPath;
   }
+
+  @if $fixed-tag-zIndex != null {
+    z-index: $fixed-tag-zIndex;
+  }
 }
 
 @mixin header-footer-images(

@@ -1,7 +1,9 @@
+//* IMPORTS
 import { searchForm } from './searchForm'
-import { hoverDisabler } from './hover-disabler'
+import { hoverDisabler } from '../utils/hover-disabler'
+import { randomBandSection } from './random-initial-bandSection'
 
-export { searchMenu }
+export { searchMenu, closeSearchMenu }
 
 function searchMenu() {
   const main = document.querySelector('main')
@@ -36,7 +38,8 @@ function searchMenu() {
   resetMenuButton.append(resetP, resetButtonIcon)
   searchMenuButton.append(p, searchMenuIcon)
   searchMenuContainer.append(searchMenuButton, resetMenuButton)
-  main.append(searchMenuContainer)
+
+  main.appendChild(searchMenuContainer)
 
   hoverDisabler(searchMenuButton)
   hoverDisabler(resetMenuButton)
@@ -55,8 +58,10 @@ function searchMenu() {
 
       const form = document.querySelector('form')
       if (form) {
+        window.scrollTo({ top: form.offsetTop - 400, behavior: 'smooth' })
+
         requestAnimationFrame(() => {
-          form.classList.add('visible') // Añade la clase para activar la transición
+          form.classList.add('visible')
         })
       }
     } else {
@@ -71,4 +76,40 @@ function searchMenu() {
       }
     }
   })
+
+  resetMenuButton.addEventListener('click', function () {
+    const existingBandSection = document.querySelector('.bandSection')
+    if (existingBandSection) {
+      existingBandSection.remove()
+    }
+
+    randomBandSection()
+  })
+}
+
+function closeSearchMenu() {
+  const searchMenuContainer = document.querySelector('.searchMenuContainer')
+  const searchMenuButton = document.querySelector('.searchMenuButton')
+  const resetMenuButton = document.querySelector('.resetMenuButton')
+
+  if (searchMenuContainer && searchMenuButton && resetMenuButton) {
+    searchMenuContainer.classList.remove('expanded')
+    searchMenuButton.classList.remove('expanded')
+    resetMenuButton.classList.remove('contracted')
+
+    const form = document.querySelector('form')
+    if (form) {
+      form.classList.remove('visible')
+      setTimeout(() => form.remove(), 500)
+    }
+
+    const searchMenuIcon = searchMenuButton.querySelector('img')
+    const p = searchMenuButton.querySelector('p')
+
+    if (searchMenuIcon && p) {
+      p.textContent = `SEARCH`
+      searchMenuIcon.setAttribute('src', './src/assets/Search Menu Eye.gif')
+      searchMenuIcon.setAttribute('alt', 'Eye searching Icon')
+    }
+  }
 }

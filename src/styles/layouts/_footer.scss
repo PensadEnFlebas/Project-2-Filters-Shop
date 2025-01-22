@@ -101,7 +101,7 @@ footer {
 
     .footerIcon {
       width: vars.$img-width-xs;
-      filter: vars.$footer-img-dropShadow;
+      filter: vars.$footer-img-dropShadow, grayscale(100%);
     }
   }
 }
