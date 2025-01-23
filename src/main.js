@@ -14,8 +14,10 @@ createButtons(
   main,
   'SEARCH',
   './src/assets/Search Menu Eye.gif',
+  'searchButton',
   'RESET',
-  './src/assets/Reset Button Vinyl.gif'
+  './src/assets/Reset Button Vinyl.gif',
+  'resetButton'
 )
 
 import {

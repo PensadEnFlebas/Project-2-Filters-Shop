@@ -12,7 +12,13 @@ export function createCardSection() {
 }
 
 export function createBandCard(arrayBands, arrayAlbums, countAlbums = null) {
-  const bandSection = document.querySelector('.bandSection')
+  let bandSection = document.querySelector('.bandSection')
+
+  if (!bandSection) {
+    bandSection = document.createElement('section')
+    bandSection.classList.add('bandSection')
+    document.querySelector('main').appendChild(bandSection)
+  }
   bandSection.innerHTML = ''
 
   const fragment = document.createDocumentFragment()
