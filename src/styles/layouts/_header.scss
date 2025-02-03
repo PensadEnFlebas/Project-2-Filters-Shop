@@ -40,13 +40,6 @@ header {
 }
 
 .skeletonImg {
-  // @include mixins.header-footer-images(
-  //   $height: 320px,
-  //   $bottom: -100px,
-  //   $right: 4em,
-  //   $animation: pulse 8s infinite,
-  //   $zIndex: 4
-  // );
   position: absolute;
   height: 320px;
   right: 4em;

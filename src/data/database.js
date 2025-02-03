@@ -5786,3 +5786,16 @@ function getAlbumsData() {
 }
 
 export const albumsData = getAlbumsData()
+
+function getAlbumProperties() {
+  const albums = albumsData
+  if (albums.length === 0) return []
+
+  const getProperties = Object.fromEntries(
+    Object.entries(albums[0]).filter(([key]) => key !== 'cover')
+  )
+
+  return Object.keys(getProperties)
+}
+
+export const albumProperties = getAlbumProperties()

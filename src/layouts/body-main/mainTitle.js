@@ -5,6 +5,7 @@ function mainTitle() {
 
   const titleContainer = document.createElement('div')
   titleContainer.classList.add('titleContainer')
+  titleContainer.id = 'titleCont'
 
   const h1 = document.createElement('h1')
   const spanH1 = document.createElement('span')

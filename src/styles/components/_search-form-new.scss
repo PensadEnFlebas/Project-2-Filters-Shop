@@ -1,0 +1,107 @@
+//* IMPORTS
+
+@use '../global/vars';
+@use '../global/mixins';
+@use '../global/extends';
+
+.hidden {
+  display: none;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 9;
+}
+
+.search-form {
+  position: absolute;
+  top: 5%;
+  left: 10%;
+
+  width: 70%;
+  max-height: 90%;
+
+  @include mixins.flex-box(
+    $direction: column,
+    $gap: vars.$gap-xs,
+    $wrap: nowrap
+  );
+
+  width: vars.$width-per-l;
+  margin: auto;
+  padding: vars.$form-padding-top-bottom 0;
+  background-image: url(https://res.cloudinary.com/dwjwglwsq/image/upload/v1735905173/metal-antideslizante-fondo-textura-oxido-rojo-oxidado-metales-oxido-corrosivo-hierro-viejo_483511-1530_ssv6bv_meubpp.avif);
+  background-size: cover;
+  box-shadow: vars.$button-reset-boxShadow;
+  border-radius: vars.$border-radius-form;
+
+  z-index: 10;
+
+  .buttonsContainer {
+    @include mixins.fixed-tag($fixed-tag-bgImage: null);
+    @include mixins.flex-box($jc: space-around, $ai: start);
+    position: relative;
+    width: 70%;
+    top: 0;
+    height: auto;
+
+    .button {
+      border-radius: vars.$border-radius-button;
+      box-shadow: vars.$button-form-boxShadow;
+
+      &:hover {
+        box-shadow: vars.$button-form-hover-boxShadow;
+      }
+    }
+
+    #findItButton {
+      .buttonIcon {
+        width: 40px;
+      }
+    }
+  }
+}
+
+.form-field {
+  @include mixins.flex-box($direction: column, $gap: vars.$gap-xxs);
+  width: vars.$width-per-xxl;
+
+  label {
+    font-family: vars.$text;
+    letter-spacing: 0.015rem;
+    font-size: vars.$spacing-m;
+    color: vars.$text-secondary-color;
+    text-shadow: vars.$text-shadow-label;
+  }
+
+  input,
+  select {
+    width: vars.$width-per-m;
+    height: vars.$input-height;
+    text-align: center;
+    font-family: vars.$text;
+    text-shadow: vars.$text-shadow-label;
+    font-size: vars.$spacing-m;
+    border-radius: vars.$border-radius-input;
+    color: vars.$text-inputs;
+    transition: all 0.3s ease-in-out;
+    background-color: vars.$bg-primary;
+    cursor: pointer;
+
+    &:focus {
+      border-color: vars.$border-color-inputs;
+      outline: none;
+    }
+
+    &:hover {
+      border-color: vars.$border-color-inputs;
+      filter: vars.$header-img-dropShadow;
+    }
+  }
+}

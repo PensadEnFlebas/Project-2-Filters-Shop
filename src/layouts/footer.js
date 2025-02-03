@@ -23,10 +23,6 @@ function FOOTER() {
   let policiesDiv = document.createElement('div')
   policiesDiv.classList.add('policiesDiv')
 
-  // let policiesTitle = document.createElement('h3')
-  // policiesTitle.textContent = 'Information'
-  // policiesDiv.append(policiesTitle)
-
   let policiesList = document.createElement('ul')
   let policies = ['Privacy Policy', 'Terms of Service', 'Who we are']
 
@@ -64,10 +60,6 @@ function FOOTER() {
 
   let socialDiv = document.createElement('div')
   socialDiv.classList.add('socialDiv')
-
-  // let socialTitle = document.createElement('h3')
-  // socialTitle.textContent = 'Follow Us'
-  // socialDiv.append(socialTitle)
 
   let socialIcons = [
     'https://res.cloudinary.com/dwjwglwsq/image/upload/v1735905147/facebook-logo-facebook-icon-transparent-free-png_ggm8hf_vn0ulm.webp',

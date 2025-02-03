@@ -92,7 +92,7 @@ $spacing-xxl: 35px;
 
 $header-footer-height: 250px;
 
-$input-height: 40px;
+$input-height: 30px;
 
 $container-height-xxs: 100px;
 $container-height-xs: 120px;
@@ -263,14 +263,19 @@ $text-shadow-primary-light: $primary-light-color $spacing-xxs 0px 0px,
 
 $text-shadow-links: 1px 3px 0 $terciary-color, 1px 13px 5px $primary-light-color;
 
-$text-shadow-label: 3px 3px 6px $primary-mid-color-clickActive;
+$text-shadow-label: 3px 3px 6px $primary-mid-color;
+$text-shadow-noResults: 1px 1px 1px$primary-mid-color;
 
 //? BOX SHADOWS
 $band-photo-boxShadow: -6px 9px 11px 0px $secondary-dark-color;
+$band-bandPhoto-hover-boxShadow: -3px 6px 10px 5px $secondary-color;
+$band-albumCard-hover-boxShadow: 0px 0px 9px 5px $primary-color;
 $cardArticle-boxShadow: 1px 1px 5px $primary-mid-color;
 
 $button-boxShadow: -6px 9px 11px 0px $secondary-dark-color;
-$button-reset-boxShadow: 6px 9px 11px 0px $secondary-dark-color;
+$button-reset-boxShadow: 6px 9px 11px 0px $primary-color-clickActive;
+$button-form-boxShadow: 6px 9px 11px 0px $primary-color;
+$button-form-hover-boxShadow: 6px 9px 11px 0px $secondary-color;
 
 //? DROP SHADOW
 $header-img-dropShadow: drop-shadow(0 0 5px $primary-color)
@@ -280,4 +285,7 @@ $footer-img-dropShadow: drop-shadow(0 0 3px $primary-light-color)
   drop-shadow(0 0 1px $primary-light-color);
 
 $bandCardHeader-img-dropShadow: drop-shadow(0 0 5px $secondary-dark-color)
+  drop-shadow(0 0 1px $secondary-dark-color);
+
+$noResults-img-dropShadow: drop-shadow(0 0 3px $secondary-dark-color)
   drop-shadow(0 0 1px $secondary-dark-color);

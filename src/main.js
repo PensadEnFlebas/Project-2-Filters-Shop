@@ -1,15 +1,24 @@
 //? IMPORTS
 
 import { BANDS, albumsData } from './data/database.js'
-
 import { HEADER } from './layouts/header.js'
-HEADER()
-
 import { mainTitle } from './layouts/body-main/mainTitle.js'
-mainTitle()
 
 import { createButtons } from './components/search-reset-buttons-new.js'
 const main = document.querySelector('main')
+
+import {
+  createCardSection,
+  createBandCard
+} from './components/band-album-cards-new.js'
+import { getRandomCards } from './utils/random-initial-bandSection-new.js'
+
+import { createForm } from './components/search-form-new.js'
+
+import { FOOTER } from './layouts/footer.js'
+
+HEADER()
+mainTitle()
 createButtons(
   main,
   'SEARCH',
@@ -19,14 +28,7 @@ createButtons(
   './src/assets/Reset Button Vinyl.gif',
   'resetButton'
 )
-
-import {
-  createCardSection,
-  createBandCard
-} from './components/band-album-cards-new.js'
-import { getRandomCards } from './utils/random-initial-bandSection-new.js'
 createCardSection()
 createBandCard(getRandomCards(BANDS, 5), albumsData, 3)
-
-import { FOOTER } from './layouts/footer.js'
+createForm()
 FOOTER()

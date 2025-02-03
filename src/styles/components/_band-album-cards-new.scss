@@ -4,6 +4,26 @@
 @use '../global/mixins';
 @use '../global/extends';
 
+.noResultsCard {
+  @include mixins.flex-box();
+
+  width: 60%;
+  margin: auto;
+
+  .noResultsText {
+    font-family: vars.$titles-primary;
+    font-size: vars.$secondary-title-font-size;
+    text-shadow: vars.$text-shadow-noResults;
+    text-align: center;
+  }
+
+  .noResultsGif {
+    width: 200px;
+    transform: translateX(10%);
+    filter: vars.$noResults-img-dropShadow;
+  }
+}
+
 .bandArticle {
   width: 90%;
   margin: 10px auto;
@@ -30,12 +50,19 @@
     position: relative;
     width: 30%;
     max-width: 350px;
-    height: 170px;
+    max-height: 270px;
 
     border-radius: 5px;
     box-shadow: vars.$band-photo-boxShadow;
 
+    transition: all 0.5s ease-in-out;
     filter: grayscale(1);
+    cursor: pointer;
+
+    &.expanded {
+      transform: scale(2);
+      box-shadow: vars.$band-bandPhoto-hover-boxShadow;
+    }
   }
 
   .bandFlag {
@@ -47,39 +74,48 @@
 
 .bandCardBody {
   @include mixins.flex-box($gap: 20px);
+}
 
-  .albumContainer {
+.albumContainer {
+  @include mixins.flex-box($direction: column);
+  transition: all 0.5s ease-in-out;
+
+  width: 200px;
+  height: 300px;
+
+  background-color: vars.$bg-cardAlbum;
+  border-radius: 5px;
+  box-shadow: vars.$band-photo-boxShadow;
+  cursor: pointer;
+}
+
+.albumContainerCover {
+  @include mixins.flex-box($wrap: nowrap);
+
+  .albumCoverImg {
+    width: 70px;
+    height: 70px;
+  }
+
+  .coverDataContainer {
     @include mixins.flex-box($direction: column);
-
-    width: 20%;
-
-    background-color: vars.$bg-cardAlbum;
-    border-radius: 5px;
-    box-shadow: vars.$cardArticle-boxShadow;
   }
+}
 
-  .albumContainerCover {
-    @include mixins.flex-box($wrap: nowrap);
+.albumDataContainer {
+  @include mixins.flex-box($direction: column);
+}
 
-    .albumCoverImg {
-      width: 70px;
-      height: 70px;
-    }
+.rateContainer {
+  @include mixins.flex-box();
 
-    .coverDataContainer {
-      @include mixins.flex-box($direction: column);
-    }
+  .rateImage {
+    width: 20px;
   }
+}
 
-  .albumDataContainer {
-    @include mixins.flex-box($direction: column);
-  }
-
-  .rateContainer {
-    @include mixins.flex-box();
-
-    .rateImage {
-      width: 20px;
-    }
-  }
+.expanded {
+  transform: scale(1.5);
+  z-index: 5;
+  box-shadow: vars.$band-albumCard-hover-boxShadow;
 }

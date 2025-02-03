@@ -4,12 +4,32 @@
 @use '../global/mixins';
 @use '../global/extends';
 
+.buttonsContainer {
+  @include mixins.fixed-tag($fixed-tag-top: 295px, $fixed-tag-bgImage: null);
+  @include mixins.flex-box($jc: space-between, $ai: start, $wrap: nowrap);
+  height: auto;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+  z-index: 3;
+}
+
 .button {
-  width: 200px;
-  height: 100px;
-  cursor: pointer;
+  @extend %buttons;
+}
+
+#resetButton {
+  @include mixins.flex-box(
+    $direction: row-reverse,
+    $jc: start,
+    $gap: vars.$gap-s
+  );
+  padding-left: vars.$padding-l;
+  border-radius: 0;
+  border-top-left-radius: vars.$border-radius-button;
+  border-bottom-left-radius: vars.$border-radius-button;
+  box-shadow: vars.$button-reset-boxShadow;
 
   .buttonIcon {
-    width: 50px;
+    width: 40px;
   }
 }

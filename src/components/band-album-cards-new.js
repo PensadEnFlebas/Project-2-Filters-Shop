@@ -1,6 +1,7 @@
 //* IMPORTS
 
 import { getRandomCards } from '../utils/random-initial-bandSection-new'
+import { expandElement, resetElement } from '../utils/expand-elements'
 
 export function createCardSection() {
   const main = document.querySelector('main')
@@ -57,6 +58,28 @@ export function createBandCard(arrayBands, arrayAlbums, countAlbums = null) {
     bandPhoto.setAttribute('alt', band.bandName + ' band photo')
     bandPhoto.setAttribute('loading', 'lazy')
 
+    bandPhoto.addEventListener('click', (event) => {
+      event.stopPropagation()
+
+      const isExpanded = bandPhoto.classList.contains('expanded')
+
+      document.querySelectorAll('.albumContainer.expanded').forEach((album) => {
+        resetElement(album)
+      })
+
+      document.querySelectorAll('.bandPhoto.expanded').forEach((photo) => {
+        if (photo !== bandPhoto) {
+          resetElement(photo)
+        }
+      })
+
+      if (!isExpanded) {
+        expandElement(bandPhoto)
+      } else {
+        resetElement(bandPhoto)
+      }
+    })
+
     const bandFlag = document.createElement('img')
     bandFlag.className = 'bandFlag'
     bandFlag.setAttribute('src', band.flag)
@@ -74,7 +97,7 @@ export function createBandCard(arrayBands, arrayAlbums, countAlbums = null) {
   bandSection.appendChild(fragment)
 }
 
-function createAlbumCard(arrayAlbums, container) {
+export function createAlbumCard(arrayAlbums, container) {
   container.innerHTML = ''
 
   const fragment = document.createDocumentFragment()
@@ -82,6 +105,7 @@ function createAlbumCard(arrayAlbums, container) {
   arrayAlbums.forEach((album) => {
     const albumContainer = document.createElement('div')
     albumContainer.className = 'albumContainer'
+
     const albumContainerHeader = document.createElement('div')
     albumContainerHeader.className = 'albumContainerHeader'
     const albumTitle = document.createElement('h3')
@@ -150,8 +174,35 @@ function createAlbumCard(arrayAlbums, container) {
       albumDataContainer,
       rateContainer
     )
+
+    albumContainer.addEventListener('click', (event) => {
+      event.stopPropagation()
+
+      const isExpanded = albumContainer.classList.contains('expanded')
+
+      document.querySelectorAll('.bandPhoto.expanded').forEach((photo) => {
+        resetElement(photo)
+      })
+
+      document.querySelectorAll('.albumContainer.expanded').forEach((album) => {
+        if (album !== albumContainer) {
+          resetElement(album)
+        }
+      })
+
+      if (!isExpanded) {
+        expandElement(albumContainer)
+      } else {
+        resetElement(albumContainer)
+      }
+    })
+
     fragment.appendChild(albumContainer)
   })
 
   container.appendChild(fragment)
 }
+
+document.addEventListener('click', () => {
+  document.querySelectorAll('.expanded').forEach(resetElement)
+})
