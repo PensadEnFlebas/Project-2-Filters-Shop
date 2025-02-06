@@ -28,6 +28,12 @@
   max-width: 700px;
   max-height: 95%;
 
+  @media (max-height: 400px) {
+    width: 96%;
+    left: 1%;
+    top: 1%;
+  }
+
   @include mixins.flex-box(
     $direction: column,
     $gap: vars.$gap-xs,
@@ -75,6 +81,22 @@
       }
     }
 
+    @media (max-height: 400px) {
+      .button {
+        width: 100px;
+
+        .buttonIcon {
+          width: 0;
+        }
+      }
+
+      #findItButton {
+        .buttonIcon {
+          width: 0;
+        }
+      }
+    }
+
     @media (max-width: 600px) {
       .button {
         width: 180px;
@@ -105,6 +127,11 @@
     color: vars.$text-secondary-color;
     text-shadow: vars.$text-shadow-label;
 
+    @media (max-height: 400px) {
+      height: 20px !important;
+      font-size: vars.$spacing-s;
+    }
+
     @media (max-width: 600px) {
       height: 20px !important;
       font-size: vars.$spacing-s;
@@ -134,6 +161,16 @@
     &:hover {
       border-color: vars.$border-color-inputs;
       filter: vars.$header-img-dropShadow;
+    }
+
+    @media (max-height: 400px) {
+      height: 20px !important;
+      font-size: vars.$spacing-s;
+      min-width: 100px;
+
+      &::placeholder {
+        font-size: vars.$spacing-xs;
+      }
     }
 
     @media (max-width: 510px) {

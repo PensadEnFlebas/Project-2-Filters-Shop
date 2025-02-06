@@ -20,7 +20,7 @@ function HEADER() {
   explosionGifImg.classList.add('explosionGifImg', 'headerImg')
   explosionGifImg.setAttribute(
     'src',
-    './src/assets/bgImages/Nuclear explosion.gif'
+    'https://res.cloudinary.com/dwjwglwsq/image/upload/v1738855166/Nuclear_explosion_evvcjr.gif'
   )
   explosionGifImg.setAttribute('alt', 'Nuclear explosion')
   explosionGifImg.setAttribute('loading', 'lazy')

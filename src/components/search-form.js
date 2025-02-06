@@ -188,10 +188,10 @@ export function createForm() {
   createButtons(
     form,
     'FIND IT',
-    './src/assets/Metalhead Playmobil.gif',
+    'https://res.cloudinary.com/dwjwglwsq/image/upload/v1738852817/Metalhead_Playmobil_ckgva0.gif',
     'findItButton',
     'EXIT',
-    './src/assets/Exit Animated.gif',
+    'https://res.cloudinary.com/dwjwglwsq/image/upload/v1738852817/Exit_Animated_mvhpod.gif',
     'exitButton'
   )
 

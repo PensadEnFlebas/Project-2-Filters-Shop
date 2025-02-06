@@ -24,10 +24,10 @@ getShoppingBasket()
 createButtons(
   main,
   'SEARCH',
-  './src/assets/Search Menu Eye.gif',
+  'https://res.cloudinary.com/dwjwglwsq/image/upload/v1738852817/Search_Menu_Eye_tqcujy.gif',
   'searchButton',
   'RESET',
-  './src/assets/Reset Button Vinyl.gif',
+  'https://res.cloudinary.com/dwjwglwsq/image/upload/v1738852818/Reset_Button_Vinyl_e3ea0w.gif',
   'resetButton'
 )
 createCardSection()
