@@ -1,6 +1,6 @@
 //* IMPORTS
 
-import { getRandomCards } from '../utils/random-initial-bandSection-new'
+import { getRandomCards } from '../utils/random-initial-bandSection'
 import { expandElement, resetElement } from '../utils/expand-elements'
 
 export function createCardSection() {

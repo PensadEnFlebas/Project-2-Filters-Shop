@@ -72,5 +72,10 @@
     @media (max-width: 500px) {
       font-size: vars.$secondary-title-font-size - 10px;
     }
+
+    @media (max-width: 340px) {
+      font-size: vars.$secondary-title-font-size - 14px;
+      margin-top: 95px;
+    }
   }
 }

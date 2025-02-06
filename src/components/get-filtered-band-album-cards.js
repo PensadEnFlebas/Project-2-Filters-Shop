@@ -1,6 +1,6 @@
 //* IMPORTS
 
-import { createAlbumCard } from './band-album-cards-new'
+import { createAlbumCard } from './band-album-cards'
 import { expandElement, resetElement } from '../utils/expand-elements'
 
 export function createFilteredBandCards(filteredBands, filteredAlbums) {

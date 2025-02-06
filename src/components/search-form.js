@@ -1,7 +1,7 @@
 //* IMPORTS
 
 import { albumsData, albumProperties } from '../data/database'
-import { createButtons } from './search-reset-buttons-new'
+import { createButtons } from './search-reset-buttons'
 
 function createFormFields(albumProperties, albumsData) {
   const calculateRanges = (

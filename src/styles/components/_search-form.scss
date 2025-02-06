@@ -25,7 +25,8 @@
   left: 10%;
 
   width: 70%;
-  max-height: 90%;
+  max-width: 700px;
+  max-height: 95%;
 
   @include mixins.flex-box(
     $direction: column,
@@ -47,9 +48,13 @@
     @include mixins.fixed-tag($fixed-tag-bgImage: null);
     @include mixins.flex-box($jc: space-around, $ai: start);
     position: relative;
-    width: 70%;
+    width: 90%;
     top: 0;
     height: auto;
+
+    @media (max-width: 600px) {
+      margin-top: 30px;
+    }
 
     .button {
       border-radius: vars.$border-radius-button;
@@ -63,14 +68,35 @@
     #findItButton {
       .buttonIcon {
         width: 40px;
+
+        @media (max-width: 600px) {
+          width: 0;
+        }
+      }
+    }
+
+    @media (max-width: 600px) {
+      .button {
+        width: 180px;
+      }
+    }
+
+    @media (max-width: 510px) {
+      .button {
+        width: 100px;
       }
     }
   }
 }
 
 .form-field {
-  @include mixins.flex-box($direction: column, $gap: vars.$gap-xxs);
-  width: vars.$width-per-xxl;
+  @include mixins.flex-box(
+    $direction: row,
+    $jc: space-between,
+    $gap: vars.$gap-xxs,
+    $wrap: nowrap
+  );
+  width: 80%;
 
   label {
     font-family: vars.$text;
@@ -78,11 +104,17 @@
     font-size: vars.$spacing-m;
     color: vars.$text-secondary-color;
     text-shadow: vars.$text-shadow-label;
+
+    @media (max-width: 600px) {
+      height: 20px !important;
+      font-size: vars.$spacing-s;
+    }
   }
 
   input,
   select {
     width: vars.$width-per-m;
+    min-width: 170px;
     height: vars.$input-height;
     text-align: center;
     font-family: vars.$text;
@@ -102,6 +134,16 @@
     &:hover {
       border-color: vars.$border-color-inputs;
       filter: vars.$header-img-dropShadow;
+    }
+
+    @media (max-width: 510px) {
+      height: 20px !important;
+      font-size: vars.$spacing-s;
+      min-width: 100px;
+
+      &::placeholder {
+        font-size: vars.$spacing-xs;
+      }
     }
   }
 }

@@ -48,7 +48,7 @@
   p {
     font-family: vars.$button;
     font-size: vars.$button-font-size;
-    text-shadow: 1px 1px 0px vars.$secondary-dark-color;
+    text-shadow: vars.$text-shadow-button;
     height: 30px;
   }
 

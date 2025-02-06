@@ -4,21 +4,23 @@ import { BANDS, albumsData } from './data/database.js'
 import { HEADER } from './layouts/header.js'
 import { mainTitle } from './layouts/body-main/mainTitle.js'
 
-import { createButtons } from './components/search-reset-buttons-new.js'
+import { getShoppingBasket } from './components/shopping-basket.js'
+import { createButtons } from './components/search-reset-buttons.js'
 const main = document.querySelector('main')
 
 import {
   createCardSection,
   createBandCard
-} from './components/band-album-cards-new.js'
-import { getRandomCards } from './utils/random-initial-bandSection-new.js'
+} from './components/band-album-cards.js'
+import { getRandomCards } from './utils/random-initial-bandSection.js'
 
-import { createForm } from './components/search-form-new.js'
+import { createForm } from './components/search-form.js'
 
 import { FOOTER } from './layouts/footer.js'
 
 HEADER()
 mainTitle()
+getShoppingBasket()
 createButtons(
   main,
   'SEARCH',

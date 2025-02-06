@@ -4,9 +4,10 @@
 @use './styles/layouts/footer';
 @use './styles/layouts/body-main/mainGeneral';
 @use './styles/layouts/body-main/mainTitle';
-@use './styles/components/band-album-cards-new';
-@use './styles/components/search-reset-buttons-new';
-@use './styles/components/search-form-new';
+@use './styles/components/band-album-cards';
+@use './styles/components/shopping-basket';
+@use './styles/components/search-reset-buttons';
+@use './styles/components/search-form';
 
 //* GENERAL */
 * {

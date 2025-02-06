@@ -1,0 +1,220 @@
+//* IMPORTS
+
+@use '../global/vars';
+@use '../global/mixins';
+@use '../global/extends';
+
+//? NO RESULTS MESSAGE
+
+.noResultsCard {
+  @include mixins.flex-box();
+
+  width: 60%;
+  margin: auto;
+
+  .noResultsText {
+    font-family: vars.$titles-primary;
+    font-size: vars.$secondary-title-font-size;
+    text-shadow: vars.$text-shadow-noResults;
+    text-align: center;
+  }
+
+  .noResultsGif {
+    width: 200px;
+    transform: translateX(10%);
+    filter: vars.$noResults-img-dropShadow;
+  }
+}
+
+//? BAND & ALBUM CARDS
+
+.bandArticle {
+  width: 90%;
+  max-width: 1000px;
+  min-width: 280px;
+  margin: 10px auto;
+  padding: 20px 0;
+  margin-bottom: 40px;
+
+  background: rgb(245, 245, 245);
+  background: linear-gradient(
+    153deg,
+    rgba(245, 245, 245, 0.6012998949579832) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+
+  border-radius: 5px;
+  box-shadow: vars.$cardArticle-boxShadow;
+}
+
+.bandCardHeader {
+  @include mixins.flex-box($jc: space-around, $gap: 30px);
+  margin-top: 10px;
+  margin-bottom: 20px;
+
+  padding: 0 30px;
+
+  .bandLogo {
+    width: 30%;
+    min-width: 200px;
+    max-height: 270px;
+
+    filter: vars.$bandCardHeader-img-dropShadow;
+  }
+
+  .bandPhoto {
+    position: relative;
+    width: 30%;
+    min-width: 200px;
+    max-width: 350px;
+    max-height: 270px;
+
+    border-radius: 5px;
+    box-shadow: vars.$band-photo-boxShadow;
+
+    transition: all 0.5s ease-in-out;
+    filter: grayscale(1);
+    cursor: pointer;
+
+    &.expanded {
+      transform: scale(2);
+      box-shadow: vars.$band-bandPhoto-hover-boxShadow;
+    }
+  }
+
+  .bandFlag {
+    width: 70px;
+    max-height: 90px;
+
+    filter: vars.$bandCardHeader-img-dropShadow;
+  }
+}
+
+.bandCardBody {
+  @include mixins.flex-box($gap: 30px);
+  padding: 20px;
+}
+
+.albumContainer {
+  @include mixins.flex-box($direction: column, $jc: space-around);
+  transition: all 0.5s ease-in-out;
+
+  width: 200px;
+  height: 340px;
+  padding: 0 5px;
+
+  background-image: url('https://res.cloudinary.com/dwjwglwsq/image/upload/v1738606509/orange-holi-paint-color-powder-illustration-ai-generative-png_d68ryy.webp');
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  border-radius: 5px;
+  box-shadow: vars.$band-photo-boxShadow;
+  cursor: pointer;
+
+  font-family: vars.$text;
+  text-shadow: vars.$text-shadow-shoppingNum;
+  text-align: center;
+}
+
+.albumContainerCover {
+  @include mixins.flex-box($wrap: nowrap, $jc: space-evenly);
+  width: 100%;
+
+  .albumCoverImg {
+    width: 70px;
+    height: 70px;
+    border-radius: 2px;
+    box-shadow: vars.$albumCover-boxShadow;
+  }
+
+  .coverDataContainer {
+    @include mixins.flex-box($direction: column, $gap: 5px);
+    width: fit-content;
+    padding: 3px;
+
+    background-image: url('https://res.cloudinary.com/dwjwglwsq/image/upload/v1738606509/orange-holi-paint-color-powder-illustration-ai-generative-png_d68ryy.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 30%;
+  }
+}
+
+.albumDataContainer {
+  @include mixins.flex-box($direction: column, $gap: 5px);
+}
+
+.albumBand {
+  color: vars.$secondary-color;
+  text-shadow: vars.$text-shadow-albumBand;
+}
+
+.albumGenreList {
+  text-align: center;
+}
+
+.albumPrice {
+  margin-top: 5px;
+  color: vars.$primary-color;
+}
+
+.rateContainer {
+  @include mixins.flex-box();
+
+  .rateImage {
+    width: 30px;
+  }
+}
+
+//? EXPANDED CARDS
+
+.expanded {
+  transform: scale(1.5);
+  z-index: 5;
+  background-image: none;
+  background-color: vars.$bg-cardArticle;
+  box-shadow: vars.$band-albumCard-hover-boxShadow;
+
+  .albumCoverImg {
+    box-shadow: vars.$albumCover-expanded-boxShadow;
+  }
+
+  .albumBand {
+    font-style: italic;
+    color: vars.$secondary-color;
+    text-shadow: vars.$text-shadow-expanded-albumBand;
+  }
+}
+
+.buyButton {
+  border-radius: vars.$border-radius-button;
+  width: 60%;
+  height: 30px;
+  background-color: vars.$terciary-color-clickActive;
+
+  font-size: 1em;
+  color: vars.$terciary-color;
+  text-shadow: 1px 1px 0px vars.$secondary-dark-color;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  padding-right: 0 !important;
+
+  .buttonIcon {
+    width: 1em;
+
+    @media (max-width: 510px) {
+      width: 1em !important;
+    }
+  }
+}
+
+@media (max-width: 660px) and (min-width: 545px) {
+  .bandLogo {
+    flex: 0 0 80%;
+  }
+
+  .bandPhoto,
+  .bandFlag {
+    flex: 0 0 30%;
+  }
+}

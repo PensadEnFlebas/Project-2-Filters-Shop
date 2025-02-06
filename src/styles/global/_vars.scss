@@ -41,6 +41,8 @@ $primary-title-font-size: 50px;
 $secondary-title-font-size: 30px;
 $button-font-size: 2.5em;
 $button-font-size-small: 1.5em;
+$button-font-size-extraSmall: 1.2em;
+$p-shopping-number: 0.9em;
 $link-font-size: 16px;
 $text-mediaquery-font-size: 12px;
 
@@ -67,8 +69,8 @@ $text-inputs: $primary-color;
 
 $bg-primary: $secondary-color;
 $bg-secondary: $primary-color;
-$bg-cardArticle: $secondary-light-color;
-$bg-cardAlbum: $primary-light-color;
+$bg-cardArticle: $secondary-color;
+$bg-cardAlbum: $primary-mid-color;
 $bg-secondary-clickActive: $primary-color-clickActive;
 
 $border-color-inputs: $primary-color;
@@ -264,18 +266,27 @@ $text-shadow-primary-light: $primary-light-color $spacing-xxs 0px 0px,
 $text-shadow-links: 1px 3px 0 $terciary-color, 1px 13px 5px $primary-light-color;
 
 $text-shadow-label: 3px 3px 6px $primary-mid-color;
-$text-shadow-noResults: 1px 1px 1px$primary-mid-color;
+$text-shadow-noResults: 1px 1px 1px $primary-mid-color;
+
+$text-shadow-albumBand: 3px 3px 6px $primary-mid-color;
+$text-shadow-expanded-albumBand: 0px 0px 3px $terciary-color;
+
+$text-shadow-button: 1px 1px 0px $secondary-dark-color;
+$text-shadow-shoppingNum: 1px 1px 0px $secondary-color;
 
 //? BOX SHADOWS
 $band-photo-boxShadow: -6px 9px 11px 0px $secondary-dark-color;
 $band-bandPhoto-hover-boxShadow: -3px 6px 10px 5px $secondary-color;
 $band-albumCard-hover-boxShadow: 0px 0px 9px 5px $primary-color;
-$cardArticle-boxShadow: 1px 1px 5px $primary-mid-color;
+$cardArticle-boxShadow: 1px 1px 5px $secondary-dark-color;
 
 $button-boxShadow: -6px 9px 11px 0px $secondary-dark-color;
 $button-reset-boxShadow: 6px 9px 11px 0px $primary-color-clickActive;
 $button-form-boxShadow: 6px 9px 11px 0px $primary-color;
 $button-form-hover-boxShadow: 6px 9px 11px 0px $secondary-color;
+
+$albumCover-boxShadow: 1px 2px 4px 0px $secondary-color;
+$albumCover-expanded-boxShadow: 1px 2px 4px 0px $primary-color;
 
 //? DROP SHADOW
 $header-img-dropShadow: drop-shadow(0 0 5px $primary-color)

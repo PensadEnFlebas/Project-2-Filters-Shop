@@ -31,5 +31,31 @@
 
   .buttonIcon {
     width: 40px;
+
+    @media (max-width: 510px) {
+      width: 0;
+    }
+  }
+}
+
+@media (max-width: 510px) {
+  .button {
+    width: 100px;
+    height: 20px;
+    margin-top: 0;
+
+    margin-bottom: 20px;
+    padding-right: vars.$spacing-m;
+
+    .buttonIcon {
+      width: 0;
+    }
+
+    p {
+      font-size: vars.$button-font-size-extraSmall;
+      text-shadow: none;
+      padding-top: 3px;
+      height: 30px;
+    }
   }
 }

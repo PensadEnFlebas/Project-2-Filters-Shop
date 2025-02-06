@@ -1,10 +1,10 @@
 //* IMPORTS
 
-import { createBandCard } from './band-album-cards-new'
-import { getRandomCards } from '../utils/random-initial-bandSection-new'
+import { createBandCard } from './band-album-cards'
+import { getRandomCards } from '../utils/random-initial-bandSection'
 import { BANDS, albumsData } from '../data/database'
-import { filterBandsAndAlbums } from '../utils/get-filtered-form-values-new'
-import { createFilteredBandCards } from './get-filtered-band-album-cards-new'
+import { filterBandsAndAlbums } from '../utils/get-filtered-form-values'
+import { createFilteredBandCards } from './get-filtered-band-album-cards'
 
 export function createButtons(
   container,
