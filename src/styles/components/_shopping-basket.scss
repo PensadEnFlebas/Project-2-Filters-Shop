@@ -15,6 +15,12 @@
   cursor: pointer;
   z-index: 4;
 
+  @media (max-height: 400px) {
+    position: relative;
+
+    top: -15px;
+  }
+
   .shoppingBasketImg {
     width: 60px;
     transition: all 0.3s ease-in-out;

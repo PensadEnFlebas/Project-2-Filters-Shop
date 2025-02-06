@@ -15,6 +15,10 @@ header {
     $fixed-tag-clipPath: polygon(0 0, 100% 0, 100% 100%, 0 85%),
     $fixed-tag-zIndex: 5
   );
+
+  @media (max-height: 400px) {
+    position: relative;
+  }
 }
 
 .headerImg {
